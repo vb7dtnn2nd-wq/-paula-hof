@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#0f0e17"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-title" content="HOF Paula"/>
+<link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjogIlBhdWxhIFx1MDBiNyBQbGFubyBIT0YiLCAic2hvcnRfbmFtZSI6ICJIT0YgUGF1bGEiLCAiZGVzY3JpcHRpb24iOiAiUGxhbm8gZGUgdmVuZGFzIGUgdGFyZWZhcyBkaVx1MDBlMXJpYXMgXHUyMDE0IE1cdTAwZTl0b2RvIEZ1bGwgRmFjZSAzRCIsICJzdGFydF91cmwiOiAiLiIsICJkaXNwbGF5IjogInN0YW5kYWxvbmUiLCAiYmFja2dyb3VuZF9jb2xvciI6ICIjMGYwZTE3IiwgInRoZW1lX2NvbG9yIjogIiMwZjBlMTciLCAib3JpZW50YXRpb24iOiAicG9ydHJhaXQiLCAiaWNvbnMiOiBbeyJzcmMiOiAiZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFNQUFBQURBQ0FZQUFBQlMzR3dIQUFBSXdrbEVRVlI0bk8zZFMyeFVaUmdHNEhjS1drcUdGc1Z5TlJHVkJNVUkzalpDak5HWUFCRmpGQWxiVGRBRjZzWkVkNW9ZallreDBRMWhReURHTGFJbVhsZ29pUmRpTkxvcFlTRkVvTW9kckVwdHk2VzBkVkZQYUd2THpKbjVMOS9sZmRZOTA5UC8rOTd6L2FjenA2MTB0TThiQVpGVExibFBnQ2duQm9CY1l3RElOUWFBWEdNQXlEVUdnRnhqQU1nMUJvQmNZd0RJTlFhQVhHTUF5RFVHZ0Z4akFNZzFCb0JjWXdESU5RYUFYR01BeURVR2dGeWJudnNFTE51OWRVT1ExMW03ZVdlUTE2SC9xL0NaNE9hRmF2U3lHSXptTVFBTnlOWHd0VEFRNVRFQWRaRGE4TFV3RUxVeEFGUFEydlJUWVJnbXh3Qk1ZSzN4SjJJUXhtTUFZTC9wcDhJd09BK0ExOGFmeUhNUVhBYUFqVDg1ajBGd0ZRQTJmbjA4QmNGRkFOajRqZkVRQlBPZkJXTHpOODdEMnBtZEFCNktsNUxWYVdCeUFyRDV3N082cHFZbWdOVWlTV05wR3BnSmdOVG1iN1paclA1Y1VwZ0lnSlFtU2RVVTNuN2VtRlFISUhjalNHa0Fya1BqMUFhQUQ2Rk1qdXRTanNvQXBDNnkxdUp5bldwVEY0Q1VSZFZZME1sd3phYW1LZ0FwQ3FtdGdHVnhEY2RUODBZWUN4ZEdpcDh4OTAxNUdTb21RT3dGOWRENGsrRzZLZ2hBekNKcEtGQUtudGRZOUJiSWMyRlNpcmtXMHJkRFlpZEFySVZqNDErZHQzVVhPUUc4RlVHU1dHc2tkUktJQ3dDYlB6OVBJVEQveDNIWitJMHAxazFpMDRZa2FnS0VYbXcyZi9OQ3I2RzBRSWtKQUp0Zkxzc2hFQkVBTnI5OFZrTWdJZ0Foc2ZuanNiaTIyUU1ROGtwZ3NVRFNoRnhqQ1ZNZ2F3RFkvRHBaQ2tIMkNSQUNtejg5SzJ1ZUxRRDhCM0w2aFZyN25GTWdTd0J5anoyU0oxZFBxTjRDOGVxZm4vWWFKQThBdHo3MmFONEtxWndBYkg1NXROWWthUUM0OTZkYVV2ZUl1Z21nOVVyamdjYmFKQXRBaUdSclhHQnZRdFFvNVJSUU53R0lRa29TQUY3OWZkRTBCVGdCeURVVkFlRFZYeDh0TllzZWdHWkhtWmFGcFAvVDhOOXhWRXdBb2xpaUJvQnZmRkd6WXZlUTZBbkE3WTkrMG1zb09nQkVzVVVMQUc5K3FTRDVacGdUZ0Z4akFNZzFrUUhnOXNjZXFUV05FZ0QrK3BOQ2k5VlRJaWNBVVNyaUFpQjFWRkx6Sk5aV1hBQ0lVZ29lQU83L0taWVl2Y1VKUUs2SkNvREVQU0tGSmEzR29nSkFsSnI1ZjVJWDBzTE9LcmEvdmpiNjk3azhOSXorODRQb0d4aEUzOEFsSERsK0RnZTYvOFNCN2g0Y09YNHUrdmYzaEFFUWFQcTBGblJVVzlGUmJRVUFMRjE4UGRhc3Voa0FjT3owUDlpOTl6QysrcUVidmYyWGNwNm1DVUczUVB3TlVIdzN6cHVGWjlldndQdHZQSXJISGx5Q1NpWDNHYVVWdXNmRTNBTkl1em1Tcm0zR2RHemVlRGZlZWVraHpKbmRsdnQwU3BGVWEyNkJTamh4dG0vUzRxMS9aQ2syUGJtODd0ZFo5OEtIR0JvZUFRQk1hNm1ndmRxS1JYT3J1T2YyK1ZpejZtWmMxejZqN3RlNjQ5WWI4TjdMRCtPVmQ3L0dxWjcrdW8ralVXSW1nRmREd3lQNHEvY0M5di82Qno3NGREK2VlZTBMZkxUbllLblg2THh1SnQ1ODhRRzB6ZUQxckN3R1FKaUxsNGF3YlZjWHR1M3FLblhjb3JtejhOejZ1K0tjbEdFTWdGQWY3VG1JYjM0K1d1cVkxU3NYNDZZRjdaSE95Q1lHUUxBZG4rekQ1YUhodXIrK1VxbGczWU5MSXA2UlBReUFZR2YrSE1CUCswK1dPdWIrNVFzam5ZMU5ESUJ3WFFmUGx2cjZPYlBiTVBmNm1aSE94aDRHUUxqZlQvYVdQbVpCWnpYQ21kakVBQWpYMjMreDlESFZ0bXNpbklsTkRJQndGWlQvck1OLzc3RlJIUmdBNGRxcjE1WStwbStBSDVLckZ3TWczT0tGSGFXUE9YR21MOEtaMk1RQUNMZGk2ZHhTWDMrNnB4ODk1ODVIT2h0N0dBREJGblJXY2QreSthV08rYjdyZUtTenNZa0JFR3pURTh2UjBsTC9UZkRROEFnKy8vWlF4RE95UjB3QStERE5lQnRYMzRhVmR5MHFkY3puM3g3Q2NRWDdmMG0xRGhvQVNRODZhTlhXT3ZxZ3k5T1AzMW5xdU80VDU3RGprMzJSemtxTzBEM0dENUJuTnZhQm1IdVh6Y2VhVmJkZzlxeldVcTl4Nm85K3ZMcmxPMXk4TkJUcExPMWlBREw0Yk10VHdWNnI2K0FadkwzalIvelZleUhZYTNyQ0FDZzFjR0VRMnovZWg5MTdEMk9FNy93MlRGUUFkbS9kd1B1SUdvNmU2c1VYZXcvanF4OStVL21PcjZRYllFQllBR2pVNWFGaERKd2ZSTi81UWZ6VGYrVVBZLzF5cEFmZEovaUhzVUlLSG9DMW0zZUtTN2swWS84cUJOVXZ4dTVBelBzQVJEbUlDd0NuaDEwU2F5c3VBRVFwUlFrQWY1TkRvY1hxS1pFVFFPS29wT1pJcmFuSUFCQ2x3Z0NRYTlFQzBPeWVUZXJJcFBLYXJXWE1lMHBPQUhKTmRBQTRCZlNUWHNPb0FlQ3ZRNmxac1h0STlBUWdpaTE2QUhnejdKZmttOStDaW85RFMzbE9JTlQvQ2I3YUUySFB2L1VsRGgvN3UrbnZrWnVXQ3hlM1FPUmFrZ0NFdUhwcnVhSlFtRnFsbXZpY0FPUmFwYU45WHJKSGt6UmRHYWd4Mm1xc2JnSndLeVNYeHRva0RRQ3YzbFJMNmg1Uk53RUFuVmNhNjdUV0pIa0FRaVZjNjRKYkZLb1dPWFlJS2lkQWdTSElUM3NOc2dTQTl3STBVYTZleURZQnVCWFNUL1BXcDZCNkMxUmdDTkt6c3VaWkF4QXkrVllLb2tISXRjNjlIYzQrQVJnQ1hTdzFQeUFnQUtFeEJQRllYRnNSQVFoOUpiQllxTnhDcjZtRXF6OGdKQUFBUXlDWjFlWUhCQVVBWUFna3N0ejhnSkpISXB0UkZGRGF3a3ZuNWVJaGFnSUE4UnJWUzBGRGlMVldFaTlDNGdJQU1BUTVlV3ArSVBFVFlXWEZiRmlwQmNuRjYxcUxuQUNGbUF2SGFYQ0YxK1lIaEUrQVF1eG1sVjZrV0xpdVNnSUFwTGxpYXloWUNGekxLMFJ2Z2NaS3NhQWV0a1ZzL3ZIVVRJQkN5aWJWVk1pcjRacE5UVjBBZ1BSWGFtMUZMWENkYWxNWkFDRGZka1Y2a2JrdTVhZ05BSkIvenk2bDZGeUh4cWtPUUNGM0F4UlNOWUszbnpjbUV3RUE1RFRGUkZiL1FZaUY1Z2NNQlFDUTJ5eldXR2wrd0ZnQUNneENISllhdjZEbWpiQXlMQllxTjZ0cmFuSUNqTVZwMEJ5cmpWOHdPUUhHc2w3QW1EeXNuZmtKTUJhblFYMDhOSDdCVlFBS0RNTGtQRFYrd1dVQUNnekNLSStOWDNBZGdJTFhJSGh1L0FJRE1JSDFNTERweDJNQXBtQXRDR3o4eVRFQWRkQWFCalo5YlF4QUE2UUdnZzFmSGdNUUFCOUMwWXNCaU1qQy85Q3lqZ0VnMTh4L0Zvam9haGdBY28wQklOY1lBSEtOQVNEWEdBQnlqUUVnMXhnQWNvMEJJTmNZQUhLTkFTRFhHQUJ5alFFZzF4Z0FjbzBCSU5jWUFIS05BU0RYR0FCeTdWK0x6Z2ZRUXZqWTR3QUFBQUJKUlU1RXJrSmdnZz09IiwgInNpemVzIjogIjE5MngxOTIiLCAidHlwZSI6ICJpbWFnZS9wbmciLCAicHVycG9zZSI6ICJhbnkgbWFza2FibGUifSwgeyJzcmMiOiAiZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFnQUFBQUlBQ0FZQUFBRDBlTlQ2QUFBYkFrbEVRVlI0bk8zZGE0eW01WGtmOEd0bWx6MEFYczRMYlNBRUNBY2pjRWdyb3padFhKdkdjWkJpcDA2REZhbXFuYWdmMGlKRlVkUmE2Z2RhcFZXaVZJbGFLYW1MM0NaTjNVUjJvcnFxWE5zeFZ1TVNZa293MUhiQU5zYmdybG5PQWNONlo5bGxEN083MHcvRVdaYWRtWDNmZVovM3VRL1g3L2N4c2V6cnczMzk3Ly9leit6c3dqazdMbDRKQUNDVnhkSURBQURqVXdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlDRUZBQUFTVWdBQUlLSE5wUWNBWm5mWG5iZU4rcjkzNiswZkgvVi9EeGpld2prN0xsNHBQUVJ3cXJFdjlYbFJGcUJPQ2dBVTFNc2x2MUhLQVpTakFNQUlzbC8wMDFJTVlQNFVBQmlZeTM0K2xBSVlsZ0lBTTNMaGw2RVF3R3dVQUppU0M3OU9DZ0ZNUndHQTAzRGh0MGtoZ1BVcEFMQUtsMzVmbEFFNGxRSUE0Y0xQUmlFQUJZREVYUHBFS0FQa3BRQ1Fpa3VmOVNnRFpLSUFrSUtMbjJrb0FtU2dBTkF0bHo1RFVBYm9sUUpBVjF6NnpKTXlRRThVQUxyZzRtZE1pZ0E5VUFCb21vdWZraFFCV3FZQTBCeVhQalZTQm1pTkFrQXpYUHkwUUJHZ0ZRb0ExWFB4MHlKRmdOb3BBRlRMeFU4UEZBRnFwUUJRSFJjL1BWSUVxSTBDUURWYy9HU2dDRkFMQllEaVhQeGtwQWhRbWdKQU1TNStVQVFvUndGZ2RDNStPSlVpd05nVUFFYmo0b2ZUVXdRWXkyTHBBY2pCNVErVHNTdU14UXNBY3lYTVlPTzhCakJQQ2dCejRlS0g0U2dDeklOUEFBek81US9Ec2xQTWd4Y0FCaU9rWVA2OEJqQVVCWUNadWZoaGZJb0FzL0lKZ0ptNC9LRU11OGVzdkFDd0ljSUg2dUUxZ0kzd0FzRFVYUDVRRnp2SlJuZ0JZR0pDQnVybk5ZQkplUUZnSWk1L2FJTmRaVklLQUtjbFVLQXRkcFpKK0FUQW1vUUl0TThuQWRiaUJZQlZ1ZnloRDNhWnRYZ0I0QlFDbzAxai9VblArV2lUbHdEZVNBSGdMd24yZXJVVzNzNVN2Vm83Uzh5UEFrQkVDT3hhOUI3T3psa2RlajluVEVZQlFDZ1hJSUJQNWd5T3p4bEVBVWhNNkk1SDJFN0gyUnlQczVtWEFwQ1VnSjB2b1RvczUzVytuTmVjRklDRWhPbndCT2k0bk9IaE9jUDVLQURKQ003aENNdzZPTlBEY2FaelVRQVNFWlN6RTVCMWM4Wm41NHpub1FBa0lCUm5JeERiNU56UHhybnZud0xRT1NHNE1jS3ZML1pnWSt4QjN4U0FqZ205NlFtOHZ0bUo2ZG1KZmlrQW5SSjBreE53T2RtUnlkbVJQaWtBSFJKc2t4RnFSTmlYU2RtWC9pZ0FuUkZtcHlmSVdJM2RPVDI3MHhjRm9DTUNiSDNDaTBuWW8vWFpvMzRvQUowUVdxc1RWc3pDWHEzT1h2VkJBZWlBa0RxVmdHSklkdXhVZHF4OUNrRGpCTlBKaEJMelpOOU9adC9hdGxoNkFEWk9HSjFNR0RGdnp0akpaRkRidkFBMHl1S2RJSlFwd1E2ZVlBZmJwQUEwU1BDOFJ1aFFBL3Y0R3Z2WUhnV2dNY0pHMEZBbnUyazNXK05uQUJvaVlBUU05WEkyWlZScnZBQTBJdnRpQ1ZkYVlsL3Rhd3NVZ0Faa0RoTkJRc3ZzTGpYekNhQnlBZ1RhbGZrTVo4NnVWbmdCcUZqV0Jjb2NtdlRMUGxNYkx3Q1ZFaGJRbDZ4bk8ydVd0Y0FMUUlVeUxreldjQ1FuTzA0TnZBQlFuR0FnRzJlZUdpZ0FsY24ySndOQlNGYlp6bjYyYkd1QlR3QVZ5YlFnMmNJUDFtUDNLY0VMUUNVRUFPU1ZhU2N5WlYzdEZJQUtaRnFJVEVFSDA4aTBHNWt5cjJZK0FSU1daUkV5aFJ2TVNpNHdCaThBekowbGgrbllHY2FnQUJTVW9lVUxNdGlZREx1VElRTnJwZ0FVa3VIZ1p3Z3dtS2NNTzVRaEMydmxad0FLNlAzQVp3Z3RHSnZjWUdoZUFCaVVKWWI1c0ZzTVRRRVlXYzh0WGtEQmZQVzhZejFuWTYwVWdCSDFmTUI3RGlhb1NjKzcxbk5HMWtnQkdFblBCN3ZuUUlJYTlieHpQV2RsYlJRQVp0SnpFRUhON0I2elVnQkcwR3VqRlVCUVZxODcyR3RtMWtZQm1MTmVEM0t2d1FPdDZYVVhlODNPbWlnQWM5VHJBZTQxY0tCVnZlNWtyeGxhQ3dXQXFmUWFOTkE2dThtMEZJQTU2Ykc1Q2hpb1c0ODcybU9XMWtJQm1JTWVEMnlQd1FJOTZuRlhlOHpVR2lnQW5GYVBnUUk5czdOTVFnRVlXRzlOVlpCQW0zcmIzZDZ5dFFZS3dJQjZPNkM5QlFoazA5c085NWF4cFNrQXJLcTM0SUNzN0RKclVRQUcwbE16RlJqUWw1NTJ1cWVzTFUwQjRDUTlCUVZ3Z3QzbWpSU0FBZlRTU0FVRTlLMlhIZThsYzB0VEFHYmtJQUtNVC9iT1RnRWdJdnI1a3dHd1Bydk9keWtBTStpbGdRb0V5S1dYbmU4bGcwdFJBSkxySlFpQTZkaDlGSUFONnFGNUNnRElyWWNNNkNHTFMxRUFOc0NCQTZpSFRONFlCU0NwSHBvL01EdFprSmNDTUtVZW1xYUZCMTZ2aDB6b0ladkhwZ0FrMDhPaUE4T1REZmtvQUZQUU1BSHFKYU9ub3dBa291RUQ2NUVSdVNnQUUycTlXVnBzWUJLdFowWHJXVDBtQlNDQjFoY2FHSmZNeUVFQm1JQkdDZEFPbVQwWkJhQnptanl3RWJLamZ3ckFhYlRjSkMwd01JdVdNNlRsN0I2TEFnQUFDU2tBNjJpNVFiYmMzSUY2dEp3bExXZjRHQlNBRHJXOHNFQjlaRXFmRklBMWFJNEE3WlBsYTFNQU9xT3BBL01nVy9xakFLeENZd1RvaDB4Zm5RTFFFUTBkbUNjWjB4Y0Y0QTFhYllvV0V4aERxMW5UYXJiUGt3SUFBQWtwQUIxb3RaRURiWkk1ZlZBQVhzY1RFVUMvWlB6SkZJREdhZUpBQ2JLbmZRckFYOUFNQWZvbjYwOVFBQnFtZ1FNbHlhQzJLUURSWmlPMGVFQU5Xc3lpRmpOL0hoUUFBRWhJQVdoUWk0MGI2SmRNYWxQNkF1QXBDQ0FmMmE4QU5FZlRCbW9rbTlxakFBQkFRcWtMZ0NjZ2dMeXkzd0dwQzBCclBMRUJOWk5SYlVsYkFMSTNQd0J5M3dWcEMwQnJOR3VnQmJLcUhRb0FBQ1NVc2dDMDl1U2pVUU10YVMyeldyc1RocEt5QUFCQWRncEE1VnByMGdBUnNxc0Y2UXBBMXFjZUFOYVc4VzVJVndBQUFBV2dhcDdRZ0piSnNMb3BBQUNRVUtvQzBOSTNIczBaNkVGTFdkYlNIVEdFVkFVQUFIaU5BZ0FBQ2FVcEFDMDk3YlQwWkFad09pMWxXa3QzeGF6U0ZBQUE0QVFGQUFBU1VnQXEwOUpUR2NDa1pGdDlVaFNBVE45MEFKaE5sanNqUlFFQUFFNm1BRlRFRXhuUU14bFhGd1VBQUJMcXZnQmsrWllEd0hBeTNCM2RGNEJXZUJvRE1wQjE5VkFBQUNBaEJRQUFFdXE2QUdUNGhnUEFmUFIraDNSZEFGcmhteGlRaWN5cmd3SUFBQWtwQUFDUWtBSUFBQWwxV3dCYStlRU4zOEtBakZySnZsYnVrbzNvdGdBQUFHdFRBQUFnb2MybEI0RGEzWEx6NWZIQm43bTU5QmpWV0ZsWmllV2p4K1BJOHJFNHNudzhqaHc5RnE4ZVhJNDkrdzdGbnFWRHNXZnBZT3haT2hUUHZQQks3SDV1S2I2ejcxRHBrWUZWS0FBRnRmSU5ERjV2WVdFaHRweXhLYmFjc2Vtay8vdVZhL3puOXgwNEVrOCt0eFNQN2Q0VER6LzJZanl5NjZVNGVQam8vQWVsZXJmZS92R3V2N0hYVGdFQTVtckhXVnZpeHFzdmlodXZ2aWgrNnAzWHhySGpLL0g0N2ozeDROZWVqM3UrK0ZUOCtVc0hTbzhJS1hWWkFEUktxTmVteFlWNDg1VVh4SnV2dkNBKzhKNGI0aHRQdkJ6M2ZQSHArTndYZHNlQmc4dWx4NE5UM0hYbmJWMisySFpaQUlCMlhIZkZCWEhkRmErVmdjL2U5NjM0eE4zZmpCZjN2RnA2TE9pZUFnQlVZZnZXemZIZVc2Nko5N3o5NnJqN3dTZmpJLy96cTdGbnlROFF3cno0YTRCQVZUWXRMc1E3LzhiM3hXLy8wcTN4dm5kZEYyZHNGbE13RHphcmtCNi9KOEdRdG0vZEhELzdFemZHaC8vRnUrTGE3enUvOURqTWlTd3NSd0VBcXZaWEx6bzcvdTAvdXlYZTk2N3JZbUdoOURUUUR3VUFxTjZteFlYNDJaKzRNWDdsNTk4V1oyMC9vL1E0MElXRmMzWmN2Rko2aUNHMThsY0FQWHZsY05rbGI0ci85Qzkvck1qLzl1OSs2bXZ4KzNjOXV1NS9abUZoSWJadDJSUmJ0MnlLODNac2kwc3VQRHN1M1hsMlhIL1ZoWEg5bFJmRWpyTzNqalR0NUo1OGZsL2M4ZTgvSHkvdFBWaDZGQVlpdDh2d3R3QWdzWldWbFRoNCtHZ2NQSHcwOXI1eU9KNTRkdW0xLzhjZlBSWUxDd3Z4bHFzdmlyZS85Yko0eDFzdmo2MWJOcTMvWHphU3kvL0tqdmgzSDd3bDd2alF2ZkhVOC90S2p3UE44Z2tBV05YS3lrbzgvUGlMOFJzZi9WSjg0STQvakQvNDdLTnhaUGxZNmJFaUl1S2k4ODZNZi9NTGZ5Y3V1ZUNzMHFOQXN4U0FBbnA3UnFKL1Mvc1B4My85NU5maUgvL3kvNG92UC9wQzZYRWlJdUs4SGR2aWwzLytoMlBIV1Z0S2o4S01aR0laQ2dBd3NlZS92VC91K05EbjQvYysvVWlzVlBEVFE5K3o4MDN4cjI3LzI3SFo3d3FBcWRrYVlDb3JLeEVmKzh6WDQxZi84LzF4N0hqNUZuRGRGUmZFQjk1OVEra3hvRGtLQUxBaDkzNzVtZmpWMzc0L2psZFFBdjcrajF3VGI3bm1vdEpqUUZNVUFHREQ3bnZvMmZpdC8vRnc2VEZpWVdFaC91bjdiNjdtYnlwQUN4UUFZQ2FmdVB1YjhjY1BQbFY2ak5oNS9wbngzbHV1S1QwR05FTUJBR1oyNTMvN3N5cis1YjZmZXVlMS9sWUFURWdCQUdhMi85VWo4Ui8vKzBPbHg0aXp0cDhSdC8zb2RhWEhnQ1owVlFCYStYV1MwS043di94MDdIcDZiK2t4NGtkLzZBci9oREJ6MGRzZFkwdEc1aGRlMEt1VmxZaVBmdWJycGNlSUhXZHRpYi81QTk5VGVneW1KQnZIcHdBQWczbmdxOC9GeTB2bC81R2VkLzNRRmFWSGdPb3BBTUJnamg5ZmlUKzZmM2ZwTWVJSHJ0MFoyN2Y1dDg1Z1BRb0FNS2d2Zk9XNTBpUEVwc1dGZU12Vk8wdVBBVlZUQUlCQlBmN2tkMkxmL3NPbHg0aWJybE1BWUQwS0FEQ29sWldWZU9SYkw1Y2VJMjc0L2d0TGp3QlZVd0NBd2UxNitqdWxSNGhMTDM1VDZSR2dhZ29BTUxodlBiTlVlb1RZdG1WelhIRHU5dEpqUUxVVUFHQnczOTd6YXVrUklpTGkwcDFlQVdBdENnQXd1SmYyMWxFQXpqOTNXK2tSb0ZvS0FEQzRwZjFIU284UUVSSGJ0L3BkQUxBV0JRQVkzTXJLU2l3ZlBWNTZEQVVBMXFFQUFITnhaUGxZNlJGaW13SUFhMUlBZ0xsWVhGZ29QVUljUDc1U2VnU29sZ0lBek1XV0xadEtqeEFIRHg4dFBRSlVTd0VBQnJkcGNTRTJMWlovQVRpa0FNQ2FGQUJnY09lZlU4Y3Y0SG4xa0FJQWExRUFnTUZkZUY0ZEJlRGIzNm5qOXhGQWpSUUFZSEFYbjM5VzZSRWlJdUxaRjE0cFBRSlVTd0VBQm5mVlplZVdIaUZlT1hBazloMm80eGNTUVkwVUFHQndOUlNBSjUvZlYzb0VxSm9DQUF6cWpNMkxjZjJWRjVZZUk3N3krSXVsUjRDcUtRREFvRzY4K3FMWVdzSHZBSGpvTVFVQTFxTUFBSVA2V3pkZFducUVPSHprV0R6NnhNdWx4NENxS1FEQVlMWnUyUlJ2Zit0bHBjZUlCNzc2WEJ5dDRCOGpncG9wQU1CZ2JybjU4amh6MnhtbHg0alAzdmRFNlJHZ2VnckF5TzY2ODdiU0k4QmNiTjY4R0QvOVkyOHVQVWI4K2NzSDRxSEhYaWc5QmxPU2plUHJxZ0RjZXZ2SFM0OEFhZjM0RDE4Vk84OC9zL1FZOGFsNy9sK3MrRWNBbVlQZTdwaXVDZ0JReHM3eno0ejN2K2VHMG1QRVMzc1B4cWMvdjZ2MEdOQUVCUUNZeWVMaVF2emlQM3hyYk4rNnVmUW84WHVmZmlTT0xCOHJQUVkwUVFFQVp2S1AzdnVXdU9uYW5hWEhpRjFQNzQzUGZXRjM2VEdnR1FvQXNHSHZlZnYzeDAvKzNXdEtqeEZIbG8vRnIzM2tnVGgrM01kL21GVDVOenVnU1gvdkhWZkh6OTEyVStreElpTGlkejd4MVhqSzcvNkhxU2dBd0ZRMmIxcU1uN3Z0cHZqeHQxMVZlcFNJaUxqdm9XZmprL2Q4cy9RWTBCd0ZBSmpZbFplZUc3L3dELzU2WEhQNSthVkhpWWlJcis5NktYN3R2enpnci8zQkJ2Z1pnQUw4d2d0YWMrRzUyK09mdk84SDR6Zi8rWTlVYy9rLzg4SXI4VXNmdnM5UC9YZEFKcGJoQlFCWTFhYkZoZmpCNnk2T2Q5ejh2ZkcydjNaWmJONWN6NThYdnZYTTNyampRL2ZHS3dlT2xCNEZtcVVBUUdJTEN4RmJ6OWdjMjdadWl2TjJiSXRMTGp3N3Z2ZVNOOFgxVjEwWTExOTVRWng5NXBiU0k1N2k0Y2RmakgvOTRUK05Wdzh0bHg0Rm10WmRBYmoxOW85N1RvS0llUCs3YjRqM3Y3djhiK2NiMHVlK3NEdCs4Mk5maW1YLzBoOGo2KzNYQUVkMFdBQ0EvaHc4ZkRUK3d4OThPZjczQTArV0hnVzZvUUFBVlh0czk1NzQ5WTg4RU0rK3VMLzBLTkNWZW42cUp4bWZLV0I5ZTE4NUhML3gwUy9HTC83NjNTNy9qc25DY3J3QUFGVTVmT1JZL09HOXUrSmpuL2w2SERqb0IvMWdYaFFBb0FyNzloK09ULzNKcnZqa1BkK01mZjU2SDh5ZEFnQVVzN0t5RWw5NS9OdHg5Lzk5S3Y3a2kwL0Y0U04rcVErTXBjc0M0SzhDUXIyV2p4NlBienp4Y3R6LzhIUHgrUzg5SFM4dkhTdzlFcXlyeDc4Q0dORnBBUURxc2JUL2NPeCtkaW0rc1h0UFBQellpL0hJcnBmOCtsNm9nQUpRMEYxMzN0WnRzNlJmS3lzUnkwZVB4ZkxSNDNGaytWZ2NXVDRXQnc0dXg1NTloMkxQMHFIWXMzUXdYdDU3TUo1KzRaWFkvZXhTTE8wL1hIcGtLdVdsdGl3RkFEcjF1NS82V3Z6K1hZK1dIZ09vbE44REFBQUpLUUFBa0ZDM0JhQ1ZiK3UrZ1FFWnRaSjlyZHdsRzlGdEFRQUExcVlBQUVCQ0NnQUFKS1FBVktDVmIyRUFRNUI1ZGVpNkFQVDh3eHNBekZmdmQwalhCUUFBV0owQ0FBQUpLUUNWOEUwTXlFRFcxYVA3QXREN054d0FocGZoN3VpK0FBQUFwMUlBS3VKcERPaVpqS3VMQWdBQUNhVW9BQm0rNVFBd2pDeDNSb29DMEJKUFpFQ1BaRnQ5RkFBQVNFZ0JBSUNFMGhTQWxyN3BlQ29EZXRKU3ByVjBWOHdxVFFFQUFFNVFBQUFnb1ZRRm9LV25uWmFlekFEVzBsS1d0WFJIRENGVkFRQUFYcU1BVkt5bDVnendSaktzYmdvQUFDU1VyZ0JrKzhZRHdPbGx2QnZTRllEV2VFSURXaVM3NnFjQUFFQkNLUXRBYTA4OW1qVFFrdFl5cTdVN1lTZ3BDd0FBWktjQU5LSzFSZzNrSkt2YWtiWUFaSDN5QWVDRXpIZEIyZ0xRSXMwYXFKbU1ha3ZxQXBDNStRRmtsLzBPU0YwQUFDQXJCYUF4bnRpQUdzbW05cVF2QU5tZmdBQXlrdjBSQytmc3VIaWw5QkNsdGRoY0hkN3gzSEx6NWZIQm43bTU5QmhGL1o4L2V5Wis1YmZ1THowR2xaS2hiVXIvQWdBQUdTa0EwV1lUYkxGeEEvMXBNWXRhelB4NVVBQWExdUxpQWYyUVFXMVRBUDZDUmdqUVAxbC9nZ0xRT0EwY0tFSDJ0RThCZUIzTkVLQmZNdjVrQ2tBSE5IRmdUREtuRHdvQUFDU2tBTHhCcTA5RUdqa3dobGF6cHRWc242Zk5wUWRnT0hmZGVadERQZ2QzUC9oazNQM2drNlhIZ09KYXZmeFpuUmVBVmJoRUFmb2gwMWVuQUhSR1F3Zm1RYmIwUndGWWc4WUkwRDVadmpZRm9FT2FPakFrbWRJbkJXQWRMVGRIQ3dzTW9lVXNhVG5EeDZBQUFFQkNDc0JwdE53Z1cyN3VRSGt0WjBqTDJUMFdCYUJ6TFM4d1VJN3M2SjhDTUFGTkVxQWRNbnN5Q2tBQ21qd3dEWm1SZ3dJd29kWWJwWVVHSnRGNlZyU2UxV05TQUJKcGZiR0IrWklSdVNnQVU5QXNBZW9sbzZlakFDU2o0UU9ya1EzNUtBQlQ2cUZoV25UZzlYckloQjZ5ZVd3S1FGSTlMRHd3TzFtUWx3S3dBWm9tUUQxazhzWW9BQnZVdzRIVC9DRzNIaktnaHl3dVJRRklyb2NBQUtabjkxRUFadEJMOHhRRWtFc3ZPOTlMQnBlaUFCQVIvUVFDc0Q2N3puY3BBRFBTUUFIR0ozdG5wd0FNb0plRDZFOEcwTGRlZHJ5WHpDMU5BZUFrdlFRRWNESzd6UnNwQUFQcHFaRUtDdWhMVHp2ZFU5YVdwZ0N3cXA0Q0F6S3p5NnhGQVJoUWI4MVVjRURiZXR2aDNqSzJOQVZnWUwwZDBONENCTExvYlhkN3k5WWFLQUNjVm05QkFyMnpzMHhDQVppREhwdXFRSUUyOUxpclBXWnFEUlNBT2VueHdQWVlMTkNUSG5lMHh5eXRoUUxBVkhvTUdPaUIzV1JhQ3NBYzlkcGNCUTNVcGRlZDdEVkRhNkVBekZtdkI3alh3SUhXOUxxTHZXWm5UUlNBRWZSNmtIc05IbWhGcnp2WWEyYldSZ0ZnSnIwR0VOVE83akVyQldBa1BUZGFRUVRqNm5ubmVzN0syaWdBSStyNVlQY2NTRkNUbm5ldDU0eXNrUUl3c3A0UGVNL0JCRFhvZWNkNnpzWmFLUUFNcXVlQWdwTHNGa05iT0dmSHhTdWxoOGdvd3pKcjlEQTdXY0c4ZUFFb0pNT0J6eEJjTUU4WmRpaERGdFpLQVNnb3c4SFBFR0F3RHhsMkowTUcxa3dCWU80eUJCa015YzR3Qmo4RFVJRk15Njd4dzlwa0FXUHlBbENCVEl1UUtlQmdHcGwySTFQbTFVd0JxRVNtaGNnVWREQ0pURHVSS2V0cTV4TkFaVElGUVlRd0lEZjdUa2xlQUNxVGJVR3lCU0I4Vjdhem55M2JXcUFBVUZ5MklBUm5uaHI0QkZDcHJBSGhUd24wekY1VEV5OEFsY3E2TUZrRGt2NWxQZHRaczZ3RlhnQXFselUwSWdRSGZiREQxTW9MUU9VeUwxRG00S1FQbWM5dzV1eHFoUmVBUm1RT2tnaGhRbHZzcTMxdGdRTFFrT3loRWlGWXFKc2R0YU10OFFtZ0lSWkx3Rkl2WjFOR3RjWUxRSU1Feld1RURUV3dqNit4aisxUkFCb2xkRTRRUEpSZ0IwK3dnMjFTQUJvbWdFNG1oQmlEdlR1WnZXdVhud0ZvbU1VN21XQm0zcHl4azhtZ3Rua0I2SUJRT3BWZ1lraDI3RlIyckgwS1FDY0UxT3FFRkxPd1Y2dXpWMzFRQURvaXJOWW50SmlFUFZxZlBlcUhBdEFaNFhWNkFvelYySjNUc3p0OVVRQTZKTWdtSTh5SXNDK1RzaS85VVFBNkpkUW1KOWh5c2lPVHN5TjlVZ0E2SnVDbUorajZaaWVtWnlmNnBRQjBUdUJ0ak5Ecml6M1lHSHZRTndVZ0FlRTNHeUhZSnVkK05zNTkveFNBUkFUaTdJUmkzWnp4MlRuamVTZ0F5UWpJNFFqS09qalR3M0dtYzFFQUVoS1l3eE9jNDNLR2grY001Nk1BSkNWQTUwdVlEc3Q1blMvbk5TY0ZJREdoT2g0Qk94MW5jenpPWmw0S0FNSzJBS0Y3TW1kd2ZNNGdDZ0FSSVlCcjBYc29PMmQxNlAyY01Sa0ZnTDhrbk92VldtQTdTL1ZxN1N3eFB3b0FweERlYlJvcjJKMlBOcm40ZVNNRmdGVUplZWlIeTUvVkxKWWVnRG9KRE9pRFhXWXRYZ0E0TGE4QjBCNFhQNmZqQllEVEVpVFFGanZMSkJRQUppSlFvQTEybFVuNUJNRFVmQktBK3JqNG1aWVhBS1ltYUtBdWRwS044QUxBVEx3R1FEa3VmbWJoQllDWkNDQW93KzR4S3k4QURNWnJBTXlmaTUraEtBQU1UaEdBNGJuNEdacFBBQXhPVU1HdzdCVHo0QVdBdWZJYUFCdm40bWVlRkFCR29RakE1Rno4ak1FbkFFWWgwR0F5ZG9XeGVBRmdkRjRENEZRdWZzYW1BRkNNSWdBdWZzcFJBQ2hPRVNBakZ6K2xLUUJVUXhFZ0F4Yy90VkFBcUk0aVFJOWMvTlJHQWFCYWlnQTljUEZUS3dXQTZpa0N0TWpGVCswVUFKcWhDTkFDRnordFVBQm9qaUpBalZ6OHRFWUJvR25LQUNXNTlHbVpBa0FYRkFIRzVPS25Cd29BWFZFRW1DY1hQejFSQU9pV01zQVFYUHIwU2dFZ0JXV0FhYmoweVVBQklCVkZnUFc0K01sRUFTQXRaWUFJbHo1NUtRQVF5a0EyTG4xUUFHQlZDa0ZmWFBod0tnVUFUa01aYUpOTEg5YW5BTUNVRklJNnVmQmhPZ29BekVnaEtNT0ZEN05SQUdCZ0NzRjh1UEJoV0FvQWpFQXBtSTdMSHVaUEFZQ0NzaGNERnoyVW93QkFwWG9wQnk1NXFKTUNBQjBZdXl5NDFLRjlDZ0FBSkxSWWVnQUFZSHdLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBa3BBQUFRRUlLQUFBazlQOEIyK3dBMjVrQ2hFQUFBQUFBU1VWT1JLNUNZSUk9IiwgInNpemVzIjogIjUxMng1MTIiLCAidHlwZSI6ICJpbWFnZS9wbmciLCAicHVycG9zZSI6ICJhbnkgbWFza2FibGUifV19"/>
+<link rel="apple-touch-icon" href="data:image/png;base64,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"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<title>Paula · Plano HOF</title>
+<style>
+:root {
+  --gold: #C6A46C;
+  --gold-light: #D4B882;
+  --gold-dim: rgba(198,164,108,0.18);
+  --gold-border: rgba(198,164,108,0.28);
+  --bg: #0f0e17;
+  --bg2: #16151f;
+  --bg3: #1e1d2a;
+  --bg4: #252433;
+  --text: #f0ede6;
+  --text2: #a09d96;
+  --text3: #6b6862;
+  --danger: #e05c5c;
+  --success: #5cba8a;
+  --radius: 14px;
+  --radius-sm: 8px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+html, body {
+  height: 100%; overflow: hidden;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Jost', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* APP SHELL */
+.app {
+  display: flex; flex-direction: column;
+  height: 100%;
+  padding-top: var(--safe-top);
+  padding-bottom: var(--safe-bottom);
+}
+
+/* HEADER */
+.topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 20px 10px;
+  background: var(--bg);
+  border-bottom: 0.5px solid rgba(198,164,108,0.1);
+  flex-shrink: 0;
+}
+
+.topbar-left { display: flex; flex-direction: column; }
+.topbar-greeting { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--gold); }
+.topbar-name { font-family: 'Playfair Display', serif; font-size: 18px; color: var(--text); margin-top: 1px; }
+
+.notif-btn {
+  width: 40px; height: 40px; border-radius: 50%;
+  background: var(--bg3); border: 0.5px solid var(--gold-border);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; position: relative;
+  font-size: 18px;
+}
+.notif-dot {
+  position: absolute; top: 7px; right: 7px;
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--gold); border: 2px solid var(--bg);
+}
+
+/* SCROLL AREA */
+.scroll {
+  flex: 1; overflow-y: auto; overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 100px;
+}
+
+/* BOTTOM NAV */
+.nav {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  padding-bottom: var(--safe-bottom);
+  background: var(--bg2);
+  border-top: 0.5px solid rgba(198,164,108,0.12);
+  display: flex;
+  z-index: 100;
+}
+
+.nav-item {
+  flex: 1; display: flex; flex-direction: column;
+  align-items: center; gap: 3px;
+  padding: 10px 4px 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.nav-icon { font-size: 22px; }
+.nav-label { font-size: 10px; letter-spacing: 0.5px; text-transform: uppercase; color: var(--text3); }
+.nav-item.active .nav-icon { filter: drop-shadow(0 0 4px var(--gold)); }
+.nav-item.active .nav-label { color: var(--gold); }
+
+/* PAGES */
+.page { display: none; padding: 0; }
+.page.active { display: block; }
+
+/* ============ HOME PAGE ============ */
+.hero {
+  background: linear-gradient(160deg, #1a1828 0%, #0f0e17 60%);
+  padding: 20px 20px 16px;
+  border-bottom: 0.5px solid rgba(198,164,108,0.1);
+  position: relative; overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute; top: -40px; right: -40px;
+  width: 180px; height: 180px;
+  border-radius: 50%;
+  border: 1px solid rgba(198,164,108,0.08);
+}
+
+.hero::after {
+  content: '';
+  position: absolute; top: -10px; right: -10px;
+  width: 100px; height: 100px;
+  border-radius: 50%;
+  border: 1px solid rgba(198,164,108,0.06);
+}
+
+.hero-date { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text3); margin-bottom: 6px; }
+.hero-title { font-family: 'Playfair Display', serif; font-size: 20px; color: var(--text); line-height: 1.3; }
+.hero-title span { color: var(--gold); font-style: italic; }
+
+.progress-wrap { margin-top: 16px; }
+.progress-label { display: flex; justify-content: space-between; margin-bottom: 6px; font-size: 12px; color: var(--text3); }
+.progress-bar { height: 4px; background: var(--bg4); border-radius: 2px; overflow: hidden; }
+.progress-fill { height: 100%; background: linear-gradient(90deg, var(--gold), var(--gold-light)); border-radius: 2px; transition: width 0.5s ease; }
+
+/* Alert banner */
+.alert-banner {
+  margin: 16px 16px 0;
+  background: rgba(198,164,108,0.08);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  display: flex; gap: 10px; align-items: flex-start;
+}
+
+.alert-icon { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+.alert-text { font-size: 13px; line-height: 1.6; color: var(--text2); }
+.alert-text strong { color: var(--gold); font-weight: 500; }
+
+/* Section header */
+.sec-hd {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 20px 16px 10px;
+}
+
+.sec-title { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--text3); }
+.sec-link { font-size: 12px; color: var(--gold); cursor: pointer; }
+
+/* Daily tasks */
+.task-list { padding: 0 16px; display: flex; flex-direction: column; gap: 8px; }
+
+.task-item {
+  display: flex; gap: 12px; align-items: flex-start;
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius-sm);
+  padding: 13px 14px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.task-item:active { background: var(--bg3); }
+
+.task-check {
+  width: 22px; height: 22px; border-radius: 50%;
+  border: 1.5px solid var(--text3);
+  flex-shrink: 0; margin-top: 1px;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.2s;
+  font-size: 12px;
+}
+
+.task-item.done .task-check {
+  background: var(--gold); border-color: var(--gold);
+  color: var(--bg);
+}
+
+.task-item.done { opacity: 0.5; }
+
+.task-body { flex: 1; }
+.task-cat { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: var(--gold); margin-bottom: 2px; }
+.task-txt { font-size: 14px; color: var(--text); line-height: 1.4; }
+.task-item.done .task-txt { text-decoration: line-through; color: var(--text3); }
+
+/* Stats row */
+.stats-row {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 8px; padding: 0 16px;
+}
+
+.stat-card {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius-sm);
+  padding: 13px 10px;
+  text-align: center;
+}
+
+.stat-val { font-family: 'Playfair Display', serif; font-size: 22px; color: var(--gold); }
+.stat-lbl { font-size: 10px; color: var(--text3); margin-top: 2px; line-height: 1.3; }
+
+/* ============ DIAGNÓSTICO PAGE ============ */
+.page-pad { padding: 16px; }
+
+.diag-header {
+  background: linear-gradient(135deg, #1a1828, #0f1a2e);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin-bottom: 14px;
+  border: 0.5px solid var(--gold-border);
+}
+
+.diag-tag { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); margin-bottom: 6px; }
+.diag-title { font-family: 'Playfair Display', serif; font-size: 18px; color: var(--text); margin-bottom: 10px; }
+
+.badge-row { display: flex; gap: 6px; flex-wrap: wrap; }
+.badge {
+  background: var(--gold-dim);
+  border: 1px solid var(--gold-border);
+  border-radius: 20px; padding: 4px 12px;
+  font-size: 11px; color: var(--gold);
+}
+
+.card-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 14px; }
+
+.info-card {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius-sm);
+  padding: 13px;
+}
+
+.info-card.full { grid-column: 1/-1; }
+.info-card.highlight { border-left: 2.5px solid var(--gold); }
+
+.info-lbl { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: var(--text3); margin-bottom: 5px; }
+.info-val { font-size: 13px; color: var(--text); line-height: 1.5; }
+.info-val.gold { color: var(--gold); font-weight: 500; }
+
+.insight-box {
+  background: rgba(198,164,108,0.06);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  margin-bottom: 14px;
+}
+
+.insight-title { font-size: 12px; letter-spacing: 1px; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; }
+.insight-text { font-size: 14px; color: var(--text2); line-height: 1.7; }
+.insight-text em { color: var(--gold); font-style: normal; font-weight: 500; }
+
+/* ============ FLUXOGRAMA PAGE ============ */
+.fluxo-container {
+  padding: 16px;
+  overflow-x: auto;
+}
+
+.fluxo-card {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius);
+  padding: 16px;
+  min-width: 300px;
+}
+
+/* Flowchart vertical */
+.flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.flow-step {
+  width: 100%;
+  max-width: 320px;
+  background: var(--bg3);
+  border: 0.5px solid rgba(255,255,255,0.07);
+  border-radius: var(--radius-sm);
+  padding: 13px 16px;
+  position: relative;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.flow-step:active { border-color: var(--gold); }
+.flow-step.active-step { border-color: var(--gold); background: rgba(198,164,108,0.07); }
+
+.flow-num { font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--gold); margin-bottom: 3px; }
+.flow-title { font-size: 14px; font-weight: 500; color: var(--text); }
+.flow-sub { font-size: 12px; color: var(--text3); margin-top: 2px; line-height: 1.4; }
+
+.flow-arrow {
+  width: 1px; height: 28px;
+  background: rgba(198,164,108,0.3);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.flow-arrow::after {
+  content: '▾';
+  position: absolute; bottom: -3px; left: 50%; transform: translateX(-50%);
+  color: var(--gold); font-size: 10px;
+}
+
+/* Split arrow */
+.flow-split {
+  display: flex;
+  width: 100%;
+  max-width: 320px;
+  gap: 10px;
+}
+
+.flow-branch {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.flow-branch-line {
+  width: 1px; height: 20px;
+  background: rgba(198,164,108,0.3);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.flow-step.green { border-color: rgba(92,186,138,0.3); }
+.flow-step.green .flow-num { color: var(--success); }
+
+.flow-step.red { border-color: rgba(224,92,92,0.3); }
+.flow-step.red .flow-num { color: var(--danger); }
+
+.flow-split-bar {
+  width: 100%;
+  max-width: 320px;
+  height: 1px;
+  background: rgba(198,164,108,0.3);
+  position: relative;
+}
+
+/* ============ PLANO PAGE ============ */
+.plano-pad { padding: 16px; }
+
+.plano-item {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.plano-header {
+  display: flex; gap: 12px; align-items: center;
+  padding: 14px 16px;
+  cursor: pointer;
+}
+
+.plano-num {
+  width: 34px; height: 34px; border-radius: 50%;
+  background: var(--bg4);
+  border: 1px solid var(--gold-border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 500; color: var(--gold);
+  flex-shrink: 0;
+}
+
+.plano-meta { flex: 1; }
+.plano-prazo { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: var(--gold); margin-bottom: 2px; }
+.plano-title { font-size: 14px; font-weight: 500; color: var(--text); }
+
+.plano-chevron { font-size: 12px; color: var(--text3); transition: transform 0.2s; }
+.plano-item.open .plano-chevron { transform: rotate(180deg); }
+
+.plano-body {
+  display: none;
+  padding: 0 16px 14px;
+  border-top: 0.5px solid rgba(255,255,255,0.04);
+}
+
+.plano-item.open .plano-body { display: block; }
+
+.plano-desc { font-size: 13px; color: var(--text2); line-height: 1.6; margin: 10px 0 12px; }
+
+.plano-actions { display: flex; flex-direction: column; gap: 7px; }
+
+.plano-action {
+  display: flex; gap: 8px; align-items: flex-start;
+  font-size: 13px; color: var(--text2); line-height: 1.5;
+}
+
+.plano-action::before {
+  content: '→';
+  color: var(--gold); font-size: 11px; flex-shrink: 0; margin-top: 2px;
+}
+
+/* ============ SCRIPTS PAGE ============ */
+.script-pad { padding: 16px; }
+
+.script-item {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.script-header {
+  padding: 14px 16px;
+  cursor: pointer;
+  display: flex; gap: 12px; align-items: flex-start;
+}
+
+.script-tag-wrap { flex-shrink: 0; margin-top: 2px; }
+.script-tag {
+  background: var(--gold-dim);
+  border: 1px solid var(--gold-border);
+  border-radius: 20px; padding: 3px 10px;
+  font-size: 10px; color: var(--gold);
+}
+
+.script-meta { flex: 1; }
+.script-objecao { font-size: 13px; font-weight: 500; color: var(--text); margin-bottom: 2px; line-height: 1.4; }
+.script-preview { font-size: 12px; color: var(--text3); }
+
+.script-body {
+  display: none;
+  padding: 0 16px 16px;
+  border-top: 0.5px solid rgba(255,255,255,0.04);
+}
+
+.script-item.open .script-body { display: block; }
+
+.script-label { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: var(--text3); margin: 12px 0 6px; }
+
+.script-text {
+  background: rgba(198,164,108,0.05);
+  border-left: 2px solid var(--gold);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 12px;
+  font-size: 13px; color: var(--text); line-height: 1.7;
+  font-style: italic;
+}
+
+.copy-btn {
+  display: flex; align-items: center; gap: 6px;
+  margin-top: 10px;
+  background: var(--gold-dim); border: 1px solid var(--gold-border);
+  border-radius: var(--radius-sm);
+  padding: 8px 14px;
+  font-size: 12px; color: var(--gold);
+  cursor: pointer; width: 100%; justify-content: center;
+  transition: background 0.2s;
+}
+
+.copy-btn:active { background: rgba(198,164,108,0.3); }
+
+/* ============ NOTIFICATION SETUP ============ */
+.notif-panel {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(15,14,23,0.95);
+  z-index: 999;
+  display: none;
+  flex-direction: column;
+  padding: 40px 20px 20px;
+}
+
+.notif-panel.open { display: flex; }
+
+.notif-close {
+  position: absolute; top: 16px; right: 20px;
+  font-size: 24px; color: var(--text2);
+  cursor: pointer;
+  padding: 8px;
+}
+
+.notif-title { font-family: 'Playfair Display', serif; font-size: 22px; color: var(--text); margin-bottom: 6px; }
+.notif-sub { font-size: 13px; color: var(--text2); margin-bottom: 30px; line-height: 1.6; }
+
+.notif-time-label { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text3); margin-bottom: 10px; }
+
+.time-presets { display: grid; grid-template-columns: repeat(2,1fr); gap: 8px; margin-bottom: 20px; }
+
+.time-preset {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.07);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.time-preset:active,
+.time-preset.selected { border-color: var(--gold); background: var(--gold-dim); }
+
+.time-val { font-family: 'Playfair Display', serif; font-size: 20px; color: var(--gold); }
+.time-lbl { font-size: 11px; color: var(--text3); margin-top: 2px; }
+
+.notif-btn-activate {
+  background: var(--gold);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  font-family: 'Jost', sans-serif;
+  font-size: 14px; font-weight: 500;
+  color: var(--bg);
+  cursor: pointer;
+  width: 100%;
+  margin-top: auto;
+  letter-spacing: 0.5px;
+}
+
+/* Toast */
+.toast {
+  position: fixed; bottom: 90px; left: 50%; transform: translateX(-50%);
+  background: var(--bg3); border: 1px solid var(--gold-border);
+  border-radius: 20px; padding: 10px 20px;
+  font-size: 13px; color: var(--gold);
+  z-index: 9999;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.3s;
+  white-space: nowrap;
+}
+
+.toast.show { opacity: 1; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 2px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--text3); border-radius: 1px; }
+
+/* Animations */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.page.active > * { animation: fadeUp 0.3s ease forwards; }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="topbar-left">
+      <div class="topbar-greeting" id="greeting">Bom dia</div>
+      <div class="topbar-name">Paula Cardoso</div>
+    </div>
+    <div class="notif-btn" onclick="openNotif()">
+      🔔
+      <div class="notif-dot" id="notif-dot"></div>
+    </div>
+  </div>
+
+  <!-- SCROLL AREA -->
+  <div class="scroll" id="scroll">
+
+    <!-- HOME -->
+    <div class="page active" id="page-home">
+      <div class="hero">
+        <div class="hero-date" id="hero-date"></div>
+        <div class="hero-title">Seu <span>plano HOF</span><br/>de hoje</div>
+        <div class="progress-wrap">
+          <div class="progress-label">
+            <span>Tarefas concluídas</span>
+            <span id="progress-pct">0%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="alert-banner">
+        <div class="alert-icon">⚠️</div>
+        <div class="alert-text">
+          <strong>Gargalo identificado:</strong> O problema não é o fechamento — é quem chega até você. Reposicione seu conteúdo e filtre antes da consulta.
+        </div>
+      </div>
+
+      <div class="sec-hd">
+        <div class="sec-title">Tarefas de hoje</div>
+        <div class="sec-link" onclick="resetTasks()">Reiniciar</div>
+      </div>
+
+      <div class="task-list" id="task-list"></div>
+
+      <div class="sec-hd" style="margin-top:10px">
+        <div class="sec-title">Suas metas</div>
+      </div>
+
+      <div class="stats-row">
+        <div class="stat-card">
+          <div class="stat-val">≥60%</div>
+          <div class="stat-lbl">Taxa conversão em consulta</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">≤2x</div>
+          <div class="stat-lbl">Sessões até fechar</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">30%</div>
+          <div class="stat-lbl">Pacientes por indicação</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DIAGNÓSTICO -->
+    <div class="page" id="page-diag">
+      <div class="page-pad">
+        <div class="diag-header">
+          <div class="diag-tag">Diagnóstico · Clínica &amp; Vendas</div>
+          <div class="diag-title">Onde está o erro real</div>
+          <div class="badge-row">
+            <span class="badge">Atrair &amp; Converter</span>
+            <span class="badge">Prioridade: Alta</span>
+          </div>
+        </div>
+
+        <div class="insight-box">
+          <div class="insight-title">⚡ Insight principal</div>
+          <div class="insight-text">
+            A Paula não tem problema de <em>fechamento</em> — ela tem problema de <em>posicionamento e captação</em>. O paciente errado entra no consultório, recebe um diagnóstico completo e já chega ao orçamento sem percepção de valor nem capacidade financeira. O fechamento quebra porque o <em>funil começa errado</em>.
+          </div>
+        </div>
+
+        <div class="card-grid">
+          <div class="info-card highlight">
+            <div class="info-lbl">Objetivos</div>
+            <div class="info-val">Aumentar faturamento + nº de pacientes</div>
+          </div>
+          <div class="info-card highlight">
+            <div class="info-lbl">Gargalo real</div>
+            <div class="info-val gold">Atração de perfil financeiro errado</div>
+          </div>
+          <div class="info-card">
+            <div class="info-lbl">Dificuldades</div>
+            <div class="info-val">Apresentação do orçamento + Fechamento</div>
+          </div>
+          <div class="info-card">
+            <div class="info-lbl">Estrutura</div>
+            <div class="info-val">Trabalha sozinha — sem equipe comercial</div>
+          </div>
+          <div class="info-card full">
+            <div class="info-lbl">Objeção dominante</div>
+            <div class="info-val">"Muita coisa para fazer" + "Valor alto" — paciente quer resultado de cirurgia pelo preço estético</div>
+          </div>
+        </div>
+
+        <div class="sec-hd" style="padding: 4px 0 12px">
+          <div class="sec-title">Os 3 erros críticos</div>
+        </div>
+
+        <div class="insight-box" style="margin-bottom:8px">
+          <div class="insight-title">01 · Conteúdo atrai o perfil errado</div>
+          <div class="insight-text">Sem filtro de ICP no Instagram, qualquer pessoa agenda. Quem tem intenção mas não tem renda chega na consulta e quebra no orçamento.</div>
+        </div>
+        <div class="insight-box" style="margin-bottom:8px">
+          <div class="insight-title">02 · Orçamento é lista, não plano</div>
+          <div class="insight-text">Apresentar tudo de uma vez como lista de procedimentos + preços gera choque de valor. O paciente não vê a transformação — só o número total.</div>
+        </div>
+        <div class="insight-box" style="margin-bottom:14px">
+          <div class="insight-title">03 · Sem pré-qualificação antes da consulta</div>
+          <div class="insight-text">A Paula investe o mesmo tempo e energia em quem pode pagar e em quem não pode. Filtrar antes poupa energia e aumenta taxa de conversão.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FLUXOGRAMA -->
+    <div class="page" id="page-fluxo">
+      <div class="fluxo-container">
+        <div style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--text3); margin-bottom:14px;">Jornada do paciente ideal</div>
+
+        <div class="flow">
+
+          <div class="flow-step active-step" onclick="showFlowDetail(0)">
+            <div class="flow-num">01 · Ponto de partida</div>
+            <div class="flow-title">Atração qualificada</div>
+            <div class="flow-sub">Conteúdo para paciente com renda e intenção</div>
+          </div>
+
+          <div class="flow-arrow"></div>
+
+          <div class="flow-step" onclick="showFlowDetail(1)">
+            <div class="flow-num">02 · Antes da consulta</div>
+            <div class="flow-title">Pré-qualificação</div>
+            <div class="flow-sub">Formulário + filtro financeiro e de intenção</div>
+          </div>
+
+          <div class="flow-arrow"></div>
+
+          <div class="flow-step" onclick="showFlowDetail(2)">
+            <div class="flow-num">03 · Na consulta</div>
+            <div class="flow-title">Diagnóstico Full Face 3D</div>
+            <div class="flow-sub">Vende a transformação, não o procedimento</div>
+          </div>
+
+          <div class="flow-arrow"></div>
+
+          <div class="flow-step" onclick="showFlowDetail(3)">
+            <div class="flow-num">04 · Apresentação</div>
+            <div class="flow-title">Plano de transformação por fases</div>
+            <div class="flow-sub">Pacote, não lista de procedimentos</div>
+          </div>
+
+          <div class="flow-arrow" style="height:16px;"></div>
+
+          <!-- Split -->
+          <div class="flow-split-bar"></div>
+          <div class="flow-split">
+            <div class="flow-branch">
+              <div class="flow-branch-line"></div>
+              <div class="flow-step green">
+                <div class="flow-num">✓ SIM</div>
+                <div class="flow-title">Fechamento</div>
+                <div class="flow-sub">Entrada + plano parcelado</div>
+              </div>
+            </div>
+            <div class="flow-branch">
+              <div class="flow-branch-line"></div>
+              <div class="flow-step red" onclick="showFlowDetail(4)">
+                <div class="flow-num">⚠ Objeção</div>
+                <div class="flow-title">Quebra de objeção</div>
+                <div class="flow-sub">Script valor vs. preço — toque aqui</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flow-arrow"></div>
+
+          <div class="flow-step" onclick="showFlowDetail(5)">
+            <div class="flow-num">05 · Pós-venda</div>
+            <div class="flow-title">Fidelização e indicação</div>
+            <div class="flow-sub">Paciente feliz traz o perfil certo</div>
+          </div>
+
+        </div>
+
+        <!-- Flow detail -->
+        <div id="flow-detail" style="display:none; margin-top:16px; background:var(--gold-dim); border:1px solid var(--gold-border); border-radius:var(--radius-sm); padding:14px;">
+          <div style="font-size:10px; letter-spacing:1.5px; text-transform:uppercase; color:var(--gold); margin-bottom:6px;" id="fd-title"></div>
+          <div style="font-size:13px; color:var(--text); line-height:1.7;" id="fd-text"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PLANO 30 DIAS -->
+    <div class="page" id="page-plano">
+      <div class="plano-pad">
+        <div style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--text3); margin-bottom:14px;">Plano de ação · 30 dias</div>
+
+        <div class="plano-item" id="pi-0">
+          <div class="plano-header" onclick="togglePlano(0)">
+            <div class="plano-num">1</div>
+            <div class="plano-meta">
+              <div class="plano-prazo">Semana 1 · Urgente</div>
+              <div class="plano-title">Reposicionamento de conteúdo</div>
+            </div>
+            <div class="plano-chevron">▾</div>
+          </div>
+          <div class="plano-body">
+            <div class="plano-desc">Definir e comunicar quem é o paciente ideal (ICP) para atrair quem tem capacidade de investimento real.</div>
+            <div class="plano-actions">
+              <div class="plano-action">Criar post/stories sobre "o que é harmonização Full Face 3D" — educando o valor antes do preço</div>
+              <div class="plano-action">Parar de mostrar procedimentos isolados; mostrar transformações completas com storytelling</div>
+              <div class="plano-action">Usar linguagem aspiracional: "invista", "transformação", "diagnóstico exclusivo"</div>
+              <div class="plano-action">Revisar bio do Instagram: está clara para o paciente de alto ticket?</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="plano-item" id="pi-1">
+          <div class="plano-header" onclick="togglePlano(1)">
+            <div class="plano-num">2</div>
+            <div class="plano-meta">
+              <div class="plano-prazo">Semana 1–2 · Crítico</div>
+              <div class="plano-title">Criar filtro de pré-qualificação</div>
+            </div>
+            <div class="plano-chevron">▾</div>
+          </div>
+          <div class="plano-body">
+            <div class="plano-desc">Implementar um passo antes da consulta que selecione pacientes com perfil financeiro adequado.</div>
+            <div class="plano-actions">
+              <div class="plano-action">Formulário de agendamento com perguntas sobre objetivo (e subtexto financeiro)</div>
+              <div class="plano-action">Nunca informar preços por WhatsApp antes da consulta</div>
+              <div class="plano-action">Mensagem de boas-vindas que posiciona: "Trabalho com planos a partir de R$ X"</div>
+              <div class="plano-action">Consulta diagnóstica pode ter valor simbólico — filtra quem não valoriza</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="plano-item" id="pi-2">
+          <div class="plano-header" onclick="togglePlano(2)">
+            <div class="plano-num">3</div>
+            <div class="plano-meta">
+              <div class="plano-prazo">Semana 2 · Alta prioridade</div>
+              <div class="plano-title">Reestruturar apresentação do orçamento</div>
+            </div>
+            <div class="plano-chevron">▾</div>
+          </div>
+          <div class="plano-body">
+            <div class="plano-desc">Deixar de apresentar lista de procedimentos e começar a apresentar um plano de transformação.</div>
+            <div class="plano-actions">
+              <div class="plano-action">Organizar o orçamento em Fase 1, Fase 2 — não jogar tudo de uma vez</div>
+              <div class="plano-action">Começar pelo que gera mais resultado visível ao paciente</div>
+              <div class="plano-action">Usar antes e depois de pacientes semelhantes no momento da apresentação</div>
+              <div class="plano-action">Orçamento deve ser documento visual, não papel com números</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="plano-item" id="pi-3">
+          <div class="plano-header" onclick="togglePlano(3)">
+            <div class="plano-num">4</div>
+            <div class="plano-meta">
+              <div class="plano-prazo">Semana 2–3 · Importante</div>
+              <div class="plano-title">Script de quebra de objeção</div>
+            </div>
+            <div class="plano-chevron">▾</div>
+          </div>
+          <div class="plano-body">
+            <div class="plano-desc">Treinar resposta específica para "está caro" e "quero fazer tudo gastando pouco".</div>
+            <div class="plano-actions">
+              <div class="plano-action">Nunca discutir preço — sempre redirecionar para resultado e transformação</div>
+              <div class="plano-action">Ter oferta de entrada (Fase 1 estratégica) que cria resultado visível</div>
+              <div class="plano-action">Treinar os scripts da aba "Scripts" diariamente em voz alta</div>
+              <div class="plano-action">Simular objeções com colega ou na frente do espelho</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="plano-item" id="pi-4">
+          <div class="plano-header" onclick="togglePlano(4)">
+            <div class="plano-num">5</div>
+            <div class="plano-meta">
+              <div class="plano-prazo">Semana 3–4 · Estrutural</div>
+              <div class="plano-title">Implementar pós-venda ativo</div>
+            </div>
+            <div class="plano-chevron">▾</div>
+          </div>
+          <div class="plano-body">
+            <div class="plano-desc">Transformar cada paciente fechado em fonte de indicação qualificada — que traz gente do mesmo perfil.</div>
+            <div class="plano-actions">
+              <div class="plano-action">Contato 7 dias após o procedimento: resultado, foto, feedback</div>
+              <div class="plano-action">Protocolo de indicação com incentivo para a paciente que indicar</div>
+              <div class="plano-action">Criar grupo VIP no WhatsApp para pacientes recorrentes</div>
+              <div class="plano-action">Documentar todos os resultados para usar como prova social no conteúdo</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <div class="page" id="page-scripts">
+      <div class="script-pad">
+        <div style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--text3); margin-bottom:14px;">Scripts prontos para usar</div>
+
+        <div class="script-item" id="si-0">
+          <div class="script-header" onclick="toggleScript(0)">
+            <div class="script-tag-wrap"><div class="script-tag">Objeção 01</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">"Tem muita coisa pra fazer..."</div>
+              <div class="script-preview">Toque para ver o script completo</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-label">Como responder</div>
+            <div class="script-text">"Sim, porque seu rosto merece atenção completa — e é por isso que fazemos por etapas. Você não precisa fazer tudo agora. Me conta: qual é o resultado que mais te incomoda hoje? Vamos começar por lá."</div>
+            <button class="copy-btn" onclick="copyScript(0)">📋 Copiar script</button>
+          </div>
+        </div>
+
+        <div class="script-item" id="si-1">
+          <div class="script-header" onclick="toggleScript(1)">
+            <div class="script-tag-wrap"><div class="script-tag">Objeção 02</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">"Achei o valor muito alto..."</div>
+              <div class="script-preview">Toque para ver o script completo</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-label">Como responder</div>
+            <div class="script-text">"Entendo. Posso te mostrar por que esse investimento faz sentido — não estamos falando de um procedimento, estamos falando de uma transformação que dura e que você vai ver no espelho todo dia. Me fala: qual parte do plano mais te interessou? Posso estruturar uma fase inicial que já entrega muito resultado."</div>
+            <button class="copy-btn" onclick="copyScript(1)">📋 Copiar script</button>
+          </div>
+        </div>
+
+        <div class="script-item" id="si-2">
+          <div class="script-header" onclick="toggleScript(2)">
+            <div class="script-tag-wrap"><div class="script-tag">Objeção 03</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">"Quero resultado de cirurgia pelo preço estético..."</div>
+              <div class="script-preview">Toque para ver o script completo</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-label">Como responder</div>
+            <div class="script-text">"Esse é exatamente o ponto — a harmonização bem feita entrega o que a cirurgia entregaria, mas sem os riscos, sem o pós-operatório e com naturalidade. E é por isso que o investimento é proporcional à qualidade do resultado. O que posso te garantir é que o método que uso foi desenvolvido para isso."</div>
+            <button class="copy-btn" onclick="copyScript(2)">📋 Copiar script</button>
+          </div>
+        </div>
+
+        <div class="script-item" id="si-3">
+          <div class="script-header" onclick="toggleScript(3)">
+            <div class="script-tag-wrap"><div class="script-tag">Script de abertura</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">Resposta ao "quanto custa?" no WhatsApp</div>
+              <div class="script-preview">Toque para ver o script completo</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-label">Como responder</div>
+            <div class="script-text">"Oi [nome]! Fico feliz com o seu interesse 🤍 O valor do seu tratamento depende do que vamos encontrar no seu diagnóstico — cada rosto é único e merece um plano personalizado. Por isso trabalho com consultas de diagnóstico, onde entendo o que você precisa e te apresento um plano completo. Posso te agender para uma consulta?"</div>
+            <button class="copy-btn" onclick="copyScript(3)">📋 Copiar script</button>
+          </div>
+        </div>
+
+        <div style="background: var(--bg2); border-radius: var(--radius); padding: 16px; margin-top: 6px; border: 0.5px solid rgba(255,255,255,0.05);">
+          <div style="font-size:12px; color:var(--gold); font-weight:500; margin-bottom:8px;">💡 Regra de ouro</div>
+          <div style="font-size:13px; color:var(--text2); line-height:1.7;">
+            Nunca discuta preço. Sempre redirecione para <strong style="color:var(--text)">resultado</strong> e <strong style="color:var(--text)">transformação</strong>. O paciente que foca no preço ainda não viu o valor — sua função é mostrar o valor antes de qualquer número.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /scroll -->
+
+  <!-- BOTTOM NAV -->
+  <div class="nav">
+    <div class="nav-item active" id="nav-home" onclick="goPage('home')">
+      <div class="nav-icon">🏠</div>
+      <div class="nav-label">Início</div>
+    </div>
+    <div class="nav-item" id="nav-diag" onclick="goPage('diag')">
+      <div class="nav-icon">🔍</div>
+      <div class="nav-label">Diagnóstico</div>
+    </div>
+    <div class="nav-item" id="nav-fluxo" onclick="goPage('fluxo')">
+      <div class="nav-icon">🗺️</div>
+      <div class="nav-label">Fluxo</div>
+    </div>
+    <div class="nav-item" id="nav-plano" onclick="goPage('plano')">
+      <div class="nav-icon">📋</div>
+      <div class="nav-label">Plano</div>
+    </div>
+    <div class="nav-item" id="nav-scripts" onclick="goPage('scripts')">
+      <div class="nav-icon">💬</div>
+      <div class="nav-label">Scripts</div>
+    </div>
+  </div>
+</div>
+
+<!-- NOTIFICATION PANEL -->
+<div class="notif-panel" id="notif-panel">
+  <div class="notif-close" onclick="closeNotif()">✕</div>
+  <div class="notif-title">Lembrete diário 🔔</div>
+  <div class="notif-sub">Escolha o horário para ser lembrada de revisar seu plano e tarefas do dia.</div>
+
+  <div class="notif-time-label">Selecione o horário</div>
+  <div class="time-presets">
+    <div class="time-preset" onclick="selectTime('07:00', this)">
+      <div class="time-val">07:00</div>
+      <div class="time-lbl">Manhã cedo</div>
+    </div>
+    <div class="time-preset" onclick="selectTime('08:30', this)">
+      <div class="time-val">08:30</div>
+      <div class="time-lbl">Antes do consultório</div>
+    </div>
+    <div class="time-preset selected" onclick="selectTime('09:00', this)">
+      <div class="time-val">09:00</div>
+      <div class="time-lbl">Início do dia</div>
+    </div>
+    <div class="time-preset" onclick="selectTime('12:00', this)">
+      <div class="time-val">12:00</div>
+      <div class="time-lbl">Intervalo do almoço</div>
+    </div>
+  </div>
+
+  <div id="notif-status" style="font-size:13px; color:var(--text2); margin-bottom:16px; line-height:1.6; min-height:40px;"></div>
+
+  <button class="notif-btn-activate" onclick="activateNotif()">
+    Ativar lembretes diários
+  </button>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ============ DATA ============
+const TASKS_KEY = 'paula_tasks_' + new Date().toDateString();
+const NOTIF_KEY = 'paula_notif_time';
+
+const DAILY_TASKS = [
+  { cat: 'Conteúdo', txt: 'Publicar 1 story mostrando transformação (não procedimento isolado)' },
+  { cat: 'Captação', txt: 'Revisar 3 DMs/mensagens de WhatsApp: estou respondendo com valor ou com preço?' },
+  { cat: 'Qualificação', txt: 'Verificar se o formulário de agendamento está filtrando o perfil certo' },
+  { cat: 'Orçamento', txt: 'Preparar próximo orçamento como "Plano por Fases", não como lista' },
+  { cat: 'Script', txt: 'Treinar 1 script de objeção em voz alta — 2 minutos' },
+  { cat: 'Pós-venda', txt: 'Enviar mensagem de acompanhamento para paciente da semana passada' },
+];
+
+const FLOW_DETAILS = [
+  { t: '01 · Atração qualificada', d: 'Seu conteúdo precisa falar PARA o paciente que tem renda para investir. Mostre transformações completas, storytelling de resultado, linguagem aspiracional. Evite posts de procedimentos isolados ou promoções de preço.' },
+  { t: '02 · Pré-qualificação', d: 'Antes da consulta, use um formulário simples que filtra intenção e perfil. Nunca informe preços no WhatsApp — responda sempre com o valor da transformação e direcione para a consulta diagnóstica.' },
+  { t: '03 · Consulta diagnóstica', d: 'Aqui você vende a TRANSFORMAÇÃO, não o procedimento. Use o Método Full Face 3D para mostrar ao paciente o potencial do resultado. O paciente deve sair da consulta querendo a mudança — não pensando em procedimentos.' },
+  { t: '04 · Plano por fases', d: 'Nunca apresente tudo de uma vez como uma lista de itens com preços. Divida em Fase 1 (resultado imediato e marcante) e Fase 2 (complementar). Apresente como um plano de investimento na transformação.' },
+  { t: '⚠ Quebra de objeção', d: 'Quando ouvir "está caro" ou "tem muita coisa": nunca discuta preço. Pergunte qual resultado mais interessa, ofereça a Fase 1 como entrada. Vá para a aba Scripts para os textos prontos.' },
+  { t: '05 · Pós-venda ativo', d: 'Contato 7 dias após o procedimento. Perguntar sobre resultado, pedir foto, pedir indicação com incentivo. Paciente satisfeita do perfil certo sempre indica quem tem o mesmo perfil.' },
+];
+
+// ============ INIT ============
+window.addEventListener('load', () => {
+  setGreeting();
+  setDate();
+  loadTasks();
+  updateProgress();
+  registerSW();
+});
+
+function setGreeting() {
+  const h = new Date().getHours();
+  const el = document.getElementById('greeting');
+  if (h < 12) el.textContent = 'Bom dia';
+  else if (h < 18) el.textContent = 'Boa tarde';
+  else el.textContent = 'Boa noite';
+}
+
+function setDate() {
+  const d = new Date();
+  const opts = { weekday:'long', day:'numeric', month:'long' };
+  document.getElementById('hero-date').textContent = d.toLocaleDateString('pt-BR', opts);
+}
+
+// ============ TASKS ============
+function loadTasks() {
+  const saved = JSON.parse(localStorage.getItem(TASKS_KEY) || '[]');
+  const list = document.getElementById('task-list');
+  list.innerHTML = '';
+  DAILY_TASKS.forEach((t, i) => {
+    const done = saved.includes(i);
+    const el = document.createElement('div');
+    el.className = 'task-item' + (done ? ' done' : '');
+    el.id = 'task-' + i;
+    el.onclick = () => toggleTask(i);
+    el.innerHTML = `
+      <div class="task-check">${done ? '✓' : ''}</div>
+      <div class="task-body">
+        <div class="task-cat">${t.cat}</div>
+        <div class="task-txt">${t.txt}</div>
+      </div>
+    `;
+    list.appendChild(el);
+  });
+}
+
+function toggleTask(i) {
+  const saved = JSON.parse(localStorage.getItem(TASKS_KEY) || '[]');
+  const idx = saved.indexOf(i);
+  if (idx === -1) saved.push(i);
+  else saved.splice(idx, 1);
+  localStorage.setItem(TASKS_KEY, JSON.stringify(saved));
+  loadTasks();
+  updateProgress();
+}
+
+function resetTasks() {
+  localStorage.removeItem(TASKS_KEY);
+  loadTasks();
+  updateProgress();
+  showToast('Tarefas reiniciadas ✓');
+}
+
+function updateProgress() {
+  const saved = JSON.parse(localStorage.getItem(TASKS_KEY) || '[]');
+  const pct = Math.round((saved.length / DAILY_TASKS.length) * 100);
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('progress-pct').textContent = pct + '%';
+}
+
+// ============ NAVIGATION ============
+function goPage(id) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  document.getElementById('page-' + id).classList.add('active');
+  document.getElementById('nav-' + id).classList.add('active');
+  document.getElementById('scroll').scrollTop = 0;
+}
+
+// ============ ACCORDIONS ============
+function togglePlano(i) {
+  const el = document.getElementById('pi-' + i);
+  el.classList.toggle('open');
+}
+
+function toggleScript(i) {
+  const el = document.getElementById('si-' + i);
+  el.classList.toggle('open');
+}
+
+// ============ FLOW DETAIL ============
+function showFlowDetail(i) {
+  const d = FLOW_DETAILS[i];
+  document.getElementById('fd-title').textContent = d.t;
+  document.getElementById('fd-text').textContent = d.d;
+  const box = document.getElementById('flow-detail');
+  box.style.display = 'block';
+  box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+// ============ COPY SCRIPTS ============
+const SCRIPTS = [
+  '"Sim, porque seu rosto merece atenção completa — e é por isso que fazemos por etapas. Você não precisa fazer tudo agora. Me conta: qual é o resultado que mais te incomoda hoje? Vamos começar por lá."',
+  '"Entendo. Posso te mostrar por que esse investimento faz sentido — não estamos falando de um procedimento, estamos falando de uma transformação que dura e que você vai ver no espelho todo dia. Me fala: qual parte do plano mais te interessou? Posso estruturar uma fase inicial que já entrega muito resultado."',
+  '"Esse é exatamente o ponto — a harmonização bem feita entrega o que a cirurgia entregaria, mas sem os riscos, sem o pós-operatório e com naturalidade. E é por isso que o investimento é proporcional à qualidade do resultado. O que posso te garantir é que o método que uso foi desenvolvido para isso."',
+  '"Oi [nome]! Fico feliz com o seu interesse 🤍 O valor do seu tratamento depende do que vamos encontrar no seu diagnóstico — cada rosto é único e merece um plano personalizado. Por isso trabalho com consultas de diagnóstico, onde entendo o que você precisa e te apresento um plano completo. Posso te agender para uma consulta?"',
+];
+
+function copyScript(i) {
+  navigator.clipboard.writeText(SCRIPTS[i]).then(() => {
+    showToast('Script copiado! ✓');
+  }).catch(() => {
+    showToast('Copie manualmente o texto acima');
+  });
+}
+
+// ============ NOTIFICATIONS ============
+let selectedTime = '09:00';
+
+function openNotif() {
+  document.getElementById('notif-panel').classList.add('open');
+  const saved = localStorage.getItem(NOTIF_KEY);
+  if (saved) {
+    document.getElementById('notif-status').textContent = '✅ Lembretes ativos para ' + saved + ' todos os dias.';
+    selectedTime = saved;
+  }
+}
+
+function closeNotif() {
+  document.getElementById('notif-panel').classList.remove('open');
+}
+
+function selectTime(t, el) {
+  selectedTime = t;
+  document.querySelectorAll('.time-preset').forEach(p => p.classList.remove('selected'));
+  el.classList.add('selected');
+}
+
+async function activateNotif() {
+  if (!('Notification' in window)) {
+    document.getElementById('notif-status').textContent = '⚠️ Seu navegador não suporta notificações. Adicione o app à tela inicial para ativar.';
+    return;
+  }
+
+  const perm = await Notification.requestPermission();
+
+  if (perm === 'granted') {
+    localStorage.setItem(NOTIF_KEY, selectedTime);
+    document.getElementById('notif-dot').style.display = 'block';
+    document.getElementById('notif-status').textContent = '✅ Lembretes ativados para ' + selectedTime + ' todos os dias!';
+    scheduleDaily(selectedTime);
+    showToast('Lembrete ativado para ' + selectedTime + ' ✓');
+    setTimeout(closeNotif, 1500);
+  } else {
+    document.getElementById('notif-status').textContent = '⚠️ Permissão negada. Ative as notificações nas configurações do celular.';
+  }
+}
+
+function scheduleDaily(timeStr) {
+  if (!navigator.serviceWorker.controller) return;
+  const [h, m] = timeStr.split(':').map(Number);
+  const now = new Date();
+  const target = new Date();
+  target.setHours(h, m, 0, 0);
+  if (target <= now) target.setDate(target.getDate() + 1);
+  const delay = target - now;
+
+  navigator.serviceWorker.controller.postMessage({
+    type: 'SCHEDULE_NOTIFICATION',
+    title: '✨ Seu plano HOF te espera',
+    body: 'Bom dia, Paula! Revise suas tarefas e scripts de hoje.',
+    delay
+  });
+}
+
+// ============ SERVICE WORKER ============
+
+const swCode = `
+self.addEventListener('install', e => self.skipWaiting());
+self.addEventListener('activate', e => self.clients.claim());
+self.addEventListener('notificationclick', e => {
+  e.notification.close();
+  e.waitUntil(clients.matchAll({type:'window'}).then(cl => {
+    for (const c of cl) { if ('focus' in c) return c.focus(); }
+    if (clients.openWindow) return clients.openWindow('./');
+  }));
+});
+self.addEventListener('message', e => {
+  if (e.data && e.data.type === 'SCHEDULE_NOTIFICATION') {
+    const { title, body, delay } = e.data;
+    setTimeout(() => {
+      self.registration.showNotification(title, {
+        body, vibrate:[200,100,200], tag:'paula-daily', renotify:true
+      });
+    }, delay || 0);
+  }
+});
+`;
+
+function registerSW() {
+  if ('serviceWorker' in navigator) {
+    const blob = new Blob([swCode], {type:'application/javascript'});
+    const url = URL.createObjectURL(blob);
+    navigator.serviceWorker.register(url).then(reg => {
+      console.log('SW registered');
+      const saved = localStorage.getItem(NOTIF_KEY);
+      if (saved && Notification.permission === 'granted') {
+        document.getElementById('notif-dot').style.display = 'block';
+      }
+    }).catch(err => console.log('SW error', err));
+  }
+}
+
+// ============ TOAST ============
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+</script>
+</body>
+</html>
