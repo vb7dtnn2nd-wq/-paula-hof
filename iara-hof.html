@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#0f0e17"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-title" content="HOF Iara"/>
+<link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjogIklhcmEgXHUwMGI3IFBsYW5vIEhPRiIsICJzaG9ydF9uYW1lIjogIkhPRiBJYXJhIiwgImRlc2NyaXB0aW9uIjogIlBsYW5vIGRlIHZlbmRhcyBlIHRhcmVmYXMgZGlcdTAwZTFyaWFzIFx1MjAxNCBNXHUwMGU5dG9kbyBGdWxsIEZhY2UgM0QiLCAic3RhcnRfdXJsIjogIi4iLCAiZGlzcGxheSI6ICJzdGFuZGFsb25lIiwgImJhY2tncm91bmRfY29sb3IiOiAiIzBmMGUxNyIsICJ0aGVtZV9jb2xvciI6ICIjMGYwZTE3IiwgIm9yaWVudGF0aW9uIjogInBvcnRyYWl0IiwgImljb25zIjogW3sic3JjIjogImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBTUFBQUFEQUNBWUFBQUJTM0d3SEFBQUdSMGxFUVZSNG5PM2RQNDVjVlJERjRScmtFTmtSc3NRR3lGZ0ZpU1Vpd0RzZ1F0NEFJVXRBUXM1WUFZUklqcjBEVWpaQWdGT25ZQUxyYW1aNnVxZjc5YnQvVHRYNWZhRmxqYnFyNnJ5NmIyWjYzczJ6cDg4L0JHRHFrOVV2QUZpSkFNQWFBWUExQWdCckJBRFdDQUNzRVFCWUl3Q3dSZ0JnalFEQUdnR0FOUUlBYXdRQTFnZ0FyQkVBV0NNQXNFWUFZSTBBd05xVDFTK2dzamV2WDNiNU9pOSsrSzNMMThGRE4zd21lTDllZzc0VndkaVBBRnhoMWNDZlF5QzJJd0FYVUIzNGN3akVlUVRnaEt4RGZ3cGhPSTRBSEtnMitJY0l3bjBFSU9vUC9TbUV3VHdBcm9OL3lEa0lsZ0ZnOEk5ekRJSlZBQmo4eXpnRndTSUFEUDUxSElKUS9uZUJHUDdyT2RTdTdBWndhTjVNVmJkQnlRM0E4UGRYdGFhbE5rRFZKcW1wdEEzS0JFQjErUGNPUzlYM3BhSkVBRlNHWk5aUXVMM2ZrVklIWVBVZ3FBd0FkYmhlMmdEd0laVGpxTXMyS1FNd3U4bFptMHVkemtzWGdKbE56ZGpRWTZqWmFha0NNS09SMlJxNEZUVzhMODBQd21oY0h6UGU0K3FiOGkxU2JJRFJCWFVZL0dPb2E0SUFqR3hTaGdiTjRGeGo2U09RYzJObUdsa0w5ZU9RN0FZWVZUZ0cvM0Z1ZFpmY0FHNU5VREtxUnFxYlFDNEFEUDk2VGlFby84ZHhHZnpydExvcERtMVBVaHVnZDdFWi92MTYxMUF0VURJQllQaDFWUTZCUkFBWWZuMVZReUFSZ0o0WS9uRXExblo1QUhwZUNTbzJTRTNQR2l0c2dhVUJZUGh6cWhTQzVSdWdCNFovdmlvMVh4WUFIaUNYWDYvYXI5d0NTd0t3ZXUxQno2cVpTSDBFNHVxL1h2WWVUQThBUjU5Nk1oK0ZVbTRBaGw5UDFwNU1EUUJuZjV3emUwYlNiWUNzVnhvSEdYc3pMUUE5a3AyeHdHNTY5R2ptRmtpM0FZQ2VwZ1NBcTcrWFRGdUFEUUJyS1FMQTFUK2ZMRDBiSG9DOXF5eExJZkZRaHFmanBOZ0F3Q2hEQThBUHZyRFg2Qm1TM2dBY2YvSlQ3NkYwQUlEUmh2MXRVTWViMzg4Lyt6UisvZW5Ga0svOTUxLy94STgvdngzeXRXZFFuUWMyQUt3UkFGaVRERURHNHc4ZXA5clRJZmNBcXVlOVZiNzk2b3Y0L3BzdkwvNy9YNy82UGY3OVQvS3hEYnNvem9Ya0JnQm1rUXRBdGFzL2JpbjJWaTRBd0V6ZEE4Q3ZQMkNVRWJQRkJvQTFxUUFvbmhIUmwxcVBwUUlBekVZQVlJMEF3RnJYQVBBZElJeldlOFprTm9EYXpSSEdVZXExVEFDQUZRZ0FyQkVBV0NNQXNFWUFZSTBBd0JvQmdEVUNBR3NFQU5ZSUFLd1JBRmdqQUxCR0FHQ05BTUFhQVlBMW1RRHdZUm9mU3IzdUdnQ2xEenFncHQ0ekpyTUJnQlVJQUt3UkFGaVRDb0RTelJIR1VPdXhWQUNBMmJvSGdPOEVZUlNlRUFOMDltVDFDemowNXZYTHRGdWsxM09DLy9qbHV3Zi9sdjA1d1JGNjUvOElOZ0RNRFFsQTFpczRkRms5S1Y1eFZXSWYxWjdLM1FOazl2ZTc5MnkvWkNRM0FERExzQURzdlJLcXJreHNwL2lFK0lZTkFHdlNBV0FMNUtmZXc2RUI0SVlRZTQyZUlla05BSXcyUEFEY0RQdFN2dmx0VW13QVFwQlBscDZsQ0FBd3lwUUE5RmhsV2E0bzZOT3JXZDlBWVFQQTJyUUFzQVU4WkxyNlJ5VGNBSVJBVjhiZVRBMEFQeGpET2JObkpOMEdpTWg1cGFrdWEwK21CNkJYd3JNV3ZLSmV2Vmh4UWtpNUFScENzRjcySGl3SkFQY0NPTFJxSnBadEFJNUMrV1UrK2pTcGowQU5JWml2U3MyWEJxQm44cXMwSklPZXRWNTlIRjYrQVFoQkxwV0dQMElnQUwwUmduRXExbFlpQUwydkJCVWJ0VnJ2bWlwYy9TTkVBaEJCQ0pSVkhmNElvUUJFRUFKRmxZYy93dUJQSTdZR3FoVmVuY3ZGUTJvRFJJd2JWSmVHOWpDcVZvb1hJYmtBUkJDQ2xaeUdQeUxpNXRuVDV4OVd2NGhUUmc2c2FrTldjYTIxNUFab1JoYU9iWERMZGZnanhEZEFNM3BZMVpzMENuVk5Fb0NJT1Zmc0RBM3JnVnJla2o0QzNUV2pvQTdISW9iL3ZqUWJvSms1cEprYStSaHFkbHE2QUVUTXYxSm5hMnBEbmM1TEdZQ0lkY2NWOVNaVGwyM1NCaUJpL1psZHBlblU0WHFwQTlDc0hvQm0xaUM0dmQrUlNnUWdRbWNvRGxWOVFFaUY0WThvRklBSTNXR3Bwc3J3UnhRTFFFTVF4cWcwK0UyYUg0UnRVYkZScTFXdGFja05jQmZiWUorcWc5K1UzQUIzVlcvZ1NBNjFLNzhCN21JYlhNWmg4QnVyQURRRTRUaW53VzhzQTlBUWhJOGNCNyt4RGtEakdnVG53VzhJd0lIcVlXRG83eU1BSjFRTEFvTi9IQUc0UU5Zd01QVG5FWUFycUFhQ2dkK09BSFRBaDFEeUlnQURWWGlHVm5VRUFOYksveTRROEJnQ0FHc0VBTllJQUt3UkFGZ2pBTEJHQUdDTkFNQWFBWUExQWdCckJBRFdDQUNzRVFCWUl3Q3dSZ0JnalFEQUdnR0FOUUlBYS84RDh0dEY0cW1VeFZjQUFBQUFTVVZPUks1Q1lJST0iLCAic2l6ZXMiOiAiMTkyeDE5MiIsICJ0eXBlIjogImltYWdlL3BuZyIsICJwdXJwb3NlIjogImFueSBtYXNrYWJsZSJ9LCB7InNyYyI6ICJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQWdBQUFBSUFDQVlBQUFEMGVOVDZBQUFUVlVsRVFWUjRuTzNjcjdKa1Z4bkc0WjJwV0JJWkRNVU5vSE1CS0JDUnNSUWFTMkc1QXl3Q2lVRWdFWEhFUjFPZ0l2RGNReEJET0RseitwemV1L2VmdGI3dmZSNmZtaFo3dmVzM3V6dnowYWVmZlBiZEFnQkVlVGY2QXdBQTF4TUFBQkJJQUFCQUlBRUFBSUVFQUFBRUVnQUFFRWdBQUVBZ0FRQUFnUVFBQUFRU0FBQVFTQUFBUUNBQkFBQ0JCQUFBQkJJQUFCQklBQUJBSUFFQUFJRUVBQUFFRWdBQUVFZ0FBRUFnQVFBQWdRUUFBQVFTQUFBUVNBQUFRQ0FCQUFDQkJBQUFCQklBQUJCSUFBQkFJQUVBQUlFRUFBQUVFZ0FBRUVnQUFFQWdBUUFBZ1FRQUFBUVNBQUFRU0FBQVFDQUJBQUNCQkFBQUJCSUFBQkJJQUFCQUlBRUFBSUVFQUFBRUVnQUFFRWdBQUVBZ0FRQUFnUVFBQUFRU0FBQVFTQUFBUUNBQkFBQ0JCQUFBQkJJQUFCRG80OUVmQU5qdnF6OStlZW1mOTh2Zi9QWFNQdzg0M2tlZmZ2TFpkNk0vQlBEUzFaZjZXY1FDekVrQXdFQmRMdmxIaVFNWVJ3REFCZEl2K3EyRUFaeFBBTURCWFBibkVBVndMQUVBTzdud3h4QUVzSThBZ0kxYytITVNCTENOQUlBN1hQZzFDUUo0bXdDQUcxejZ2WWdCZUVrQXdPTENUeU1JUUFBUXpLWFBzb2dCY2drQW9yajBlWXNZSUlrQUlJS0xueTJFQUFrRUFHMjU5RG1DR0tBckFVQXJMbjNPSkFib1JBRFFnb3VmS3drQk9oQUFsT2JpWnlRaFFHVUNnSEpjK3N4SURGQ05BS0FNRno4VkNBR3FFQUJNejhWUFJVS0EyUWtBcHVYaXB3TWh3S3dFQU5OeDhkT1JFR0EyQW9CcHVQaEpJQVNZaFFCZ09CYy9pWVFBb3drQWhuSHhneEJnSEFIQTVWejg4SklRNEdvQ2dNdTQrT0UrSWNCVjNvMytBR1J3K2NNNnpncFg4UWFBVXhremVKeTNBWnhKQUhBS0Z6OGNSd2h3Qmw4QmNEaVhQeHpMbWVJTTNnQndHQ01GNS9NMmdLTUlBSFp6OGNQMWhBQjcrUXFBWFZ6K01JYXp4MTdlQVBBUTR3UHo4RGFBUjNnRHdHWXVmNWlMTThranZBRmdOU01EOC9NMmdMVzhBV0FWbHovVTRLeXlsZ0RnTG9NQ3RUaXpyT0VyQUY1bFJLQStYd253R204QXVNbmxEejA0eTd6R0d3QmVNQmcxWGZVM1BjOUhUZDRFOENFQndQOFo5bmxWRzIvUDByeXFQVXVjUndDd0xJdkJua1gzY2ZhY3phSDdjOFk2QWdDalBJQUJmczR6ZUQzUElBSWdtTkc5anJIZHhyTjVIYzltTGdFUXlzQ2V5NmdleS9ONkxzOXJKZ0VReUpnZXo0QmV5ek44UE05d0hnRVF4bkFleDJET3dUTjlITTkwRmdFUXhGRHVaeURuNWhuZnp6T2VRd0FFTUlyN0dNU2FQUGY3ZU83N0V3RE5HY0hIR0w5ZW5JUEhPQWU5Q1lER2pONTJCcTgzWjJJN1o2SXZBZENVb1Z2UHdHVnlSdFp6Um5vU0FBMFp0bldNR3N2aXZLemx2UFFqQUpveFp2Y1pNbTV4ZHU1emRub1JBSTBZc0xjWkw5WndqdDdtSFBVaEFKb3dXcmNaSy9ad3JtNXpybm9RQUEwWXFaY01GRWR5eGw1eXh1b1RBTVVacHVlTUVtZHkzcDV6M21wN04vb0Q4RGhqOUp3eDRteWVzZWRzVUczZUFCVGw0RDB4eW96Z0RENXhCbXNTQUFVWm52ZU1Eak53SHQ5ekh1c1JBTVVZRzBQRG5KeE5aN01hdndFb3hNQVlHT2JsMmJSUjFYZ0RVRVQ2d1RLdVZPSzhPcThWQ0lBQ2tzZkVrRkNaczh2TWZBVXdPUU1DZFNVL3c4bmJWWVUzQUJOTFBVREpvMGxmempPejhRWmdVc1lDZWtsOXRsTzNyQUp2QUNhVWVHQlN4NUZNempnejhBYUE0UXdEYVR6enpFQUFUQ2J0YndhR2tGUnB6MzdhdGxYZ0s0Q0pKQjJRdFBHRHR6ajdqT0FOd0NRTUFPUktPaE5KV3pjN0FUQ0JwQU9STkhTd1JkTFpTTnE4bWZrS1lMQ1VnNUEwYnJDWFhlQUszZ0J3T29jY3RuRm11SUlBR0NpaDhnMFpQQ2JoN0NSczRNd0V3Q0FKRDM3Q2dNR1pFczVRd2hiT3ltOEFCdWord0NlTUZsek5ibkEwYndBNGxFTU01M0MyT0pvQXVGam5pamRRY0s3T1o2enpOczVLQUZ5bzh3UGVlWmhnSnAzUFd1ZU5uSkVBdUVqbkI3dnpJTUdNT3ArNXpsczVHd0hBTHAySENHYm03TEdYQUxoQTE2STFRREJXMXpQWWRUTm5Jd0JPMXZWQjdqbzhVRTNYczloMU8yY2lBRTdVOVFIdU9qaFFWZGN6MlhWRFp5RUEyS1RyMEVCMXppWmJDWUNUZEN4WEF3Tno2M2hHTzI3cExBVEFDVG8rc0IySEJUcnFlRlk3YnVvTUJBQjNkUndVNk15WlpRMEJjTEJ1cFdwSW9LWnVaN2ZidHM1QUFCeW8yd1BhYlVBZ1RiY3ozRzFqUnhNQTNOUnRPQ0NWczh4ckJNQkJPcFdwd1lCZU9wM3BUbHM3bWdEZ21VNURBVHh4dHZtUUFEaEFseUkxRU5CYmx6UGVaWE5IRXdBN2VSQUJybWQ3OXhNQUxNdlM1MjhHd051Y2RiNG5BSGJvVXFBR0FiSjBPZk5kTm5nVUFSQ3V5eEFBMnpqN0NJQUhkU2hQQXdEWk9teEFoeTBlUlFBOHdBTUhNQStiL0JnQkVLcEQrUVA3MllKY0FtQ2pEcVhwd0FNLzFHRVRPbXp6MVFSQW1BNEhIVGllYmNnakFEWlFtQUR6c3RIYkNJQWdDaDk0aTQzSUlnQldxbDZXRGphd1J2V3RxTDdWVnhJQUFhb2ZhT0JhTmlPREFGaEJVUUxVWWJQWEVRRE5LWG5nRWJhalB3RndSK1dTZElDQlBTcHZTT1h0dm9vQUFJQkFBdUFObFF1eWNya0Q4Nmk4SlpVMy9Bb0NvS0hLQnhhWWowM3BTUUM4UWprQzFHZkxYeWNBbWxIcXdCbHNTejhDNEFiRkNOQ0hUYjlOQURTaTBJRXoyWmhlQk1BSHFwYWlnd2xjb2VyV1ZOMzJNd2tBQUFna0FCcW9XdVJBVFRhbkJ3SHdBMTRSQWZSbDQ1OFRBTVVwY1dBRTIxT2ZBUGdmWlFqUW42MS9JZ0FLVStEQVNEYW9OZ0d3MUN4Q0J3K1lRY1V0cXJqNVp4QUFBQkJJQUJSVXNiaUJ2bXhTVGZFQjRGVVFRQjdiTHdES1VkckFqR3hUUFFJQUFBSkZCNEJYUUFDNTB1K0E2QUNveGlzMllHWTJxcGJZQUVndlB3Q3k3NExZQUtoR1dRTVYyS282QkFBQUJQcm8wMDgrKzI3MGg3aGF0VmMraXJxM24zLyswK1Yzdi81ODlNZTQxRCsvL2MveTJ6OThQZnBqY0NJN096OXZBQUFna0FDWVhHS1ZBdlhacnZuRkJVQzExMUlBbkMveGJvZ0xBQUJBQUV6Tkt6U2dNaHMyTndFQUFJR2lBcURTZHp6S0dlaWcwcFpWdWlPT0VCVUFBTUI3QWdBQUFzWDhTNENWWHUxVWVtWEdXRC81OFkrV1AvMytGMFArN0QvLzdSL0xYNzc2MTVBL20zcHM4SHk4QVFDQVFBSUFBQUlKZ01ta3ZIb0NzdGkyK1VRRVFLWHZuZ0FZSytYT2lBZ0FBT0E1QVRBUnI4aUF6bXpjWEFRQUFBUnFId0FwMytVQWNKeUV1Nk45QUZUaDFSaVF3TmJOUXdBQVFDQUJBQUNCV2dkQXduYzRBSnlqK3gzU09nQ3E4SjBZa01UbXpVRUFBRUFnQVFBQWdRUUFBQVJxR3dCVmZyemh1ekFnVVpYdHEzS1hQS0p0QUFBQXJ4TUFBQkJJQUFCQUlBRXdVSlh2d0FET1lBUEhFZ0FBRUtobEFIVCsxU1lBMStwNnA3UU1BQURnYlFJQUFBSUpBQUFJSkFBRzhldFhBRnM0a2dBQWdFQUNBQUFDdFF1QXJ2KzdCZ0RqZEx4YjJnVUFBSENmQUFDQVFBSmdBTDk2QlhoaUU4Y1FBQUFRU0FBQVFDQUJBQUNCQkFBQUJCSUFBQkJJQUFCQUlBRUFBSUZhQlVESGY2b1JnRGwwdTJOYUJVQUYvc0VMZ0pkczQvVUVBQUFFRWdBQUVFZ0FBRUFnQVFBQWdRUUFBQVFTQUFBUVNBQUFRQ0FCQUFDQkJBQUFCQklBQUJCSUFBQkFJQUVBQUlFRUFBQUVFZ0FBRUVnQUFFQWdBUUFBZ1FRQUFBUVNBQUFRU0FBQVFDQUJBQUNCQkFBQUJCSUFBQkJJQUFCQUlBRUFBSUVFQUFBRUVnQVgrK3FQWDQ3K0NBRFRzWTNYYXhVQXYvek5YMGQvQkFDYTZuYkh0QW9BQUdBZEFRQUFnUVFBQUFRU0FBQVFTQUFBUUNBQkFBQ0JCQUFBQkJJQUEvZ0hMd0NlMk1ReEJBQUFCQklBQUJDb1hRQjArNmNhQVJpdjQ5M1NMZ0FBZ1BzRUFBQUVFZ0NEK05VcmdDMGNTUUFBUUNBQkFBQ0JCQUFBQkdvWkFCMy9kdzBBeHVoNnA3UU1BQURnYlFKZ0lMOStCWkxad0xFRUFBQUVFZ0FBRUVnQUFFQ2d0Z0ZRNVZlYnZnTURFbFhadmlwM3lTUGFCZ0FBOERvQkFBQ0JCQUFBQkJJQUU2anlYUmpBRVd6ZUhGb0hRT2NmYndCd3J1NTN5TWVqUHdDaysvbm5QMTErOSt2UFIzK016WDcxeGMrV1gzM3hzNGYrMjM5Kys1L2x0My80K3VCUEJHelIrZzBBQUhDYkFKaUU3OFNBQkxadUh1MERvUHQzT0FBY0wrSHVhQjhBQU1CTEFtQWlYbzBCbmRtNHVRZ0FBQWdVRVFBSjMrVUFjSXlVT3lNaUFDcnhpZ3pveUxiTlJ3QUFRQ0QvRWlBTTl2ZHYvcjM4L1p0L2ovNFlRSmlZTndDVnZ0UHhxZ3pvcE5LbVZib3I5b29KQUFEZ2lRQUFnRUJSQVZEcDFVNmxWMllBcjZtMFpaWHVpQ05FQlFBQThKNEFtRmlsY2diNGtBMmJtd0FBZ0VCeEFaRDJIUThBOXlYZURYRUJVSTFYYUVCRnRtdCtBZ0FBQWtVR1FMVlhQVW9hcUtUYVpsVzdFNDRTR1FBQWtFNEFGRkd0cUlGTXRxcU8yQUJJZmVVRHdKUGt1eUEyQUNwUzFzRE1iRlF0MFFHUVhINEE2ZEx2Z09nQUFJQlVBcUFZcjlpQUdkbW1ldUlESVAwVkVFQWkyeThBU2xMYXdFeHNVazBDQUFBQ0NZQ2w1cXNneFEzTW9PSVdWZHo4TXdpQXdpb2VQS0FQRzFTYkFQZ2ZSUWpRbjYxL0lnQ0tVK0RBQ0xhblBnSHdBOG9Rb0M4Yi81d0FhRUNKQTFleU9UMElBQUFJSkFBK1VQVVZrU0lIcmxCMWE2cHUrNWtFUUNOVkR5WlFnNDNwUlFEY29CUUIrckRwdHdtQVpoUTZjQWJiMG84QWVJVmlCS2pQbHI5T0FEU2sxSUVqMlpTZUJNQWJLcGVqQXdzY29mS1dWTjd3S3dnQUFBZ2tBTzZvWEpDVnl4MFlyL0tHVk43dXF3aUE1aW9mWUdBYzI5R2ZBRmhCU1FMVVliUFhFUUFCbER5d2hjM0lJQUJXcWw2VURqU3dSdld0cUw3VlZ4SUFRYW9mYk9CY05pS0xBTmhBV1FMTXkwWnZJd0RDS0h6Z0Z0dVFSd0JzMUtFd0hYVGdoenBzUW9kdHZwb0FDTlhod0FQNzJZSmNBdUFCU2hOZ0hqYjVNUUxnUVIwZU9PVVAyVHBzUUljdEhrVUFoT3N3QU1CMnpqNENZSWN1NVdrSUlFdVhNOTlsZzBjUkFDekwwbWNRZ0xjNTYzeFBBT3lrUUFHdVozdjNFd0FINlBJZytwc0I5TmJsakhmWjNORUVBTTkwR1FqZ09XZWJEd21BZzNRcVVrTUJ2WFE2MDUyMmRqUUJ3RTJkQmdPU09jdThSZ0FjcUZ1WkdnNm9yZHNaN3JheG93bUFnM1Y3UUxzTkNLVG9kbmE3YmVzTUJBQjNkUnNTNk02WlpRMEJjSUtPcFdwUW9JYU9aN1hqcHM1QUFKeWs0d1BiY1ZpZ2s0NW50T09XemtJQXNFbkhnWUVPbkUyMkVnQW42bHF1aGdibTB2Vk1kdDNRV1FpQWszVjlnTHNPRGxUVDlTeDIzYzZaQ0lBTGRIMlF1dzRQVk5IMURIYmR6TmtJQUhicE9rQXdPMmVQdlFUQVJUb1hyU0dDYTNVK2M1MjNjallDNEVLZEgrek9nd1F6Nlh6V09tL2tqQVRBeFRvLzRKMkhDV2JRK1l4MTNzWlpDUUFPMVhtZ1lDUm5pNk45OU9rbm4zMDMra01rU2pqTWloNzJzeFdjeFJ1QVFSSWUrSVRoZ2pNbG5LR0VMWnlWQUJnbzRjRlBHREE0UThMWlNkakFtUWtBVHBjd1pIQWtaNFlyK0EzQUJKSU91K0tIMTlrQ3J1UU53QVNTRGtMU3dNRVdTV2NqYWZObUpnQW1rWFFna29ZTzFrZzZFMGxiTnp0ZkFVd21hUWlXeFJpUXpYbG5KRzhBSnBOMlFOSUdFTDZYOXV5bmJWc0ZBb0RoMG9ZUVBQUE13RmNBazBvZENIOUxvRFBubXBsNEF6Q3AxQU9UT3BEMGwvcHNwMjVaQmQ0QVRDNTFOSmJGY05DRE04eXN2QUdZWFBJQlNoNU9la2graHBPM3F3cHZBSXBJSHBKbE1TYlU0cnc2cnhVSWdFTFNSMlZaREF0emMwYWQwVXA4QlZDSWcyVmdtWmRuMDBaVjR3MUFRWWJtUFdQRERKekg5NXpIZWdSQVVVYm5pZUZoQkdmd2lUTllrd0FvekFBOVo0UzRnblAzbkhOWGw5OEFGT2JnUFdlWU9adG43RGtiVkpzM0FBMFlwWmNNRTBkeXhsNXl4dW9UQUUwWXFOdU1GSHM0VjdjNVZ6MElnRWFNMWR1TUZtczRSMjl6anZvUUFNMFlyL3NNR0xjNE8vYzVPNzBJZ0lZTTJUckdqR1Z4WHRaeVh2b1JBRTBadGZVTVd5Wm5aRDFucENjQjBKaUIyODdROWVaTWJPZE05Q1VBbWpONGp6RjZ2VGdIajNFT2VoTUFBWXpmUGthd0pzLzlQcDc3L2dSQUVJTzRuMUdjbTJkOFA4OTREZ0VReGtBZXgxRE93VE45SE05MEZnRVF5R0FlejNCZXl6TjhQTTl3SGdFUXlvQ2V5NWdleS9ONkxzOXJKZ0VRektoZXg4QnU0OW04am1jemx3REEyQTVnZEovekRGN1BNNGdBWUZrV0F6eUw3cVBzT1p0RDkrZU1kUVFBLzJlYzUxVnRzRDFMODZyMkxIRWVBY0FMeHJ1bXE0YmQ4MUdUaTU4UENRQnVNdkxRaDh1Zlc5Nk4vZ0RNeVdCQUQ4NHlyL0VHZ0x1OERZQjZYUHpjNHcwQWR4a1NxTVdaWlEwQndDb0dCV3B3VmxuTFZ3QnM1aXNCbUkrTG42MjhBV0F6UXdOemNTWjVoRGNBN09KdEFJemo0bWNQYndEWXhRREJHTTRlZTNrRHdHRzhEWUR6dWZnNWlnRGdjRUlBanVmaTUyaStBdUJ3aGdxTzVVeHhCbThBT0pXM0FmQTRGejluRWdCY1FnakFlaTUrcnVBckFDNWgwR0FkWjRXcmVBUEE1YndOZ0pkYy9GeE5BRENNRUFBWFArTUlBSVlUQWlSeThUT2FBR0FhUW9BRUxuNW1JUUNZamhDZ0l4Yy9zeEVBVEVzSTBJR0xuMWtKQUtZbkJLakl4Yy9zQkFCbENBRXFjUEZUaFFDZ0hDSEFqRno4VkNNQUtFME1NSkpMbjhvRUFDMElBYTdrNHFjREFVQXJRb0F6dWZqcFJBRFFsaGpnQ0M1OXVoSUFSQkFEYk9IU0o0RUFJSW9RNEMwdWZwSUlBR0tKQVpiRnBVOHVBUUNMR0VqajBnY0JBRGNKZ2w1YytQQ1NBSUE3eEVCTkxuMTRtd0NBalFUQm5GejRzSTBBZ0owRXdSZ3VmTmhIQU1EQkJNRTVYUGh3TEFFQUZ4QUYyN2pzNFh3Q0FBWktEd01YUFl3akFHQlNYZUxBSlE5ekVnRFF3Tld4NEZLSCtnUUFBQVI2Ti9vREFBRFhFd0FBRUVnQUFFQWdBUUFBZ1FRQUFBUVNBQUFRU0FBQVFDQUJBQUNCQkFBQUJCSUFBQkJJQUFCQUlBRUFBSUVFQUFBRUVnQUFFRWdBQUVBZ0FRQUFnUVFBQUFRU0FBQVFTQUFBUUNBQkFBQ0JCQUFBQkJJQUFCQklBQUJBSUFFQUFJRUVBQUFFRWdBQUVFZ0FBRUFnQVFBQWdRUUFBQVFTQUFBUVNBQUFRQ0FCQUFDQkJBQUFCQklBQUJCSUFBQkFJQUVBQUlFRUFBQUVFZ0FBRUVnQUFFQWdBUUFBZ1FRQUFBUVNBQUFRU0FBQVFDQUJBQUNCQkFBQUJCSUFBQkJJQUFCQUlBRUFBSUVFQUFBRUVnQUFFT2kvZ1dUTDBsSFp1V0VBQUFBQVNVVk9SSzVDWUlJPSIsICJzaXplcyI6ICI1MTJ4NTEyIiwgInR5cGUiOiAiaW1hZ2UvcG5nIiwgInB1cnBvc2UiOiAiYW55IG1hc2thYmxlIn1dfQ=="/>
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAGR0lEQVR4nO3dP45cVRDF4RrkENkRssQGyFgFiSUiwDsgQt4AIUtAQs5YAYRIjr0DUjZAgFOnYALramZ6uqf79bt/TtX5faFljbqr6ry6b2Z63s2zp88/BGDqk9UvAFiJAMAaAYA1AgBrBADWCACsEQBYIwCwRgBgjQDAGgGANQIAawQA1ggArBEAWCMAsEYAYI0AwNqT1S+gsjevX3b5Oi9++K3L18FDN3wmeL9eg74VwdiPAFxh1cCfQyC2IwAXUB34cwjEeQTghKxDfwphOI4AHKg2+IcIwn0EIOoP/SmEwTwAroN/yDkIlgFg8I9zDIJVABj8yzgFwSIADP51HIJQ/neBGP7rOdSu7AZwaN5MVbdByQ3A8PdXtaalNkDVJqmptA3KBEB1+PcOS9X3paJEAFSGZNZQuL3fkVIHYPUgqAwAdbhe2gDwIZTjqMs2KQMwu8lZm0udzksXgJlNzdjQY6jZaakCMKOR2Rq4FTW8L80PwmhcHzPe4+qb8i1SbIDRBXUY/GOoa4IAjGxShgbN4Fxj6SOQc2NmGlkL9eOQ7AYYVTgG/3FudZfcAG5NUDKqRqqbQC4ADP96TiEo/8dxGfzrtLopDm1PUhugd7EZ/v1611AtUDIBYPh1VQ6BRAAYfn1VQyARgJ4Y/nEq1nZ5AHpeCSo2SE3PGitsgaUBYPhzqhSC5RugB4Z/vio1XxYAHiCXX6/ar9wCSwKweu1Bz6qZSH0E4uq/XvYeTA8AR596Mh+FUm4Ahl9P1p5MDQBnf5wze0bSbYCsVxoHGXszLQA9kp2xwG569GjmFki3AYCepgSAq7+XTFuADQBrKQLA1T+fLD0bHoC9qyxLIfFQhqfjpNgAwChDA8APvrDX6BmS3gAcf/JT76F0AIDRhv1tUMeb388/+zR+/enFkK/951//xI8/vx3ytWdQnQc2AKwRAFiTDEDG4w8ep9rTIfcAque9Vb796ov4/psvL/7/X7/6Pf79T/KxDbsozoXkBgBmkQtAtas/bin2Vi4AwEzdA8CvP2CUEbPFBoA1qQAonhHRl1qPpQIAzEYAYI0AwFrXAPAdIIzWe8ZkNoDazRHGUeq1TACAFQgArBEAWCMAsEYAYI0AwBoBgDUCAGsEANYIAKwRAFgjALBGAGCNAMAaAYA1mQDwYRofSr3uGgClDzqgpt4zJrMBgBUIAKwRAFiTCoDSzRHGUOuxVACA2boHgO8EYRSeEAN09mT1Czj05vXLtFuk13OC//jluwf/lv05wRF65/8INgDMDQlA1is4dFk9KV5xVWIf1Z7K3QNk9ve792y/ZCQ3ADDLsADsvRKqrkxsp/iE+IYNAGvSAWAL5Kfew6EB4IYQe42eIekNAIw2PADcDPtSvvltUmwAQpBPlp6lCAAwypQA9FhlWa4o6NOrWd9AYQPA2rQAsAU8ZLr6RyTcAIRAV8beTA0APxjDObNnJN0GiMh5pakua0+mB6BXwrMWvKJevVhxQki5ARpCsF72HiwJAPcCOLRqJpZtAI5C+WU++jSpj0ANIZivSs2XBqBn8qs0JIOetV59HF6+AQhBLpWGP0IgAL0RgnEq1lYiAL2vBBUbtVrvmipc/SNEAhBBCJRVHf4IoQBEEAJFlYc/wuBPI7YGqhVencvFQ2oDRIwbVJeG9jCqVooXIbkARBCClZyGPyLi5tnT5x9Wv4hTRg6sakNWca215AZoRhaObXDLdfgjxDdAM3pY1Zs0CnVNEoCIOVfsDA3rgVrekj4C3TWjoA7HIob/vjQboJk5pJka+Rhqdlq6AETMv1Jna2pDnc5LGYCIdccV9SZTl23SBiBi/ZldpenU4XqpA9CsHoBm1iC4vd+RSgQgQmcoDlV9QEiF4Y8oFIAI3WGppsrwRxQLQEMQxqg0+E2aH4RtUbFRq1WtackNcBfbYJ+qg9+U3AB3VW/gSA61K78B7mIbXMZh8BurADQE4TinwW8sA9AQhI8cB7+xDkDjGgTnwW8IwIHqYWDo7yMAJ1QLAoN/HAG4QNYwMPTnEYArqAaCgd+OAHTAh1DyIgADVXiGVnUEANbK/y4Q8BgCAGsEANYIAKwRAFgjALBGAGCNAMAaAYA1AgBrBADWCACsEQBYIwCwRgBgjQDAGgGANQIAa/8D8ttF4qmUxVcAAAAASUVORK5CYII="/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<title>Iara · Plano HOF</title>
+<style>
+:root {
+  --gold: #C6A46C;
+  --gold-light: #D4B882;
+  --gold-dim: rgba(198,164,108,0.18);
+  --gold-border: rgba(198,164,108,0.28);
+  --bg: #0f0e17;
+  --bg2: #16151f;
+  --bg3: #1e1d2a;
+  --bg4: #252433;
+  --text: #f0ede6;
+  --text2: #a09d96;
+  --text3: #6b6862;
+  --danger: #e05c5c;
+  --success: #5cba8a;
+  --radius: 14px;
+  --radius-sm: 8px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+html, body {
+  height: 100%; overflow: hidden;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Jost', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* APP SHELL */
+.app {
+  display: flex; flex-direction: column;
+  height: 100%;
+  padding-top: var(--safe-top);
+  padding-bottom: var(--safe-bottom);
+}
+
+/* HEADER */
+.topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 20px 10px;
+  background: var(--bg);
+  border-bottom: 0.5px solid rgba(198,164,108,0.1);
+  flex-shrink: 0;
+}
+
+.topbar-left { display: flex; flex-direction: column; }
+.topbar-greeting { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--gold); }
+.topbar-name { font-family: 'Playfair Display', serif; font-size: 18px; color: var(--text); margin-top: 1px; }
+
+.notif-btn {
+  width: 40px; height: 40px; border-radius: 50%;
+  background: var(--bg3); border: 0.5px solid var(--gold-border);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; position: relative;
+  font-size: 18px;
+}
+.notif-dot {
+  position: absolute; top: 7px; right: 7px;
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--gold); border: 2px solid var(--bg);
+}
+
+/* SCROLL AREA */
+.scroll {
+  flex: 1; overflow-y: auto; overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 100px;
+}
+
+/* BOTTOM NAV */
+.nav {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  padding-bottom: var(--safe-bottom);
+  background: var(--bg2);
+  border-top: 0.5px solid rgba(198,164,108,0.12);
+  display: flex;
+  z-index: 100;
+}
+
+.nav-item {
+  flex: 1; display: flex; flex-direction: column;
+  align-items: center; gap: 3px;
+  padding: 10px 4px 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.nav-icon { font-size: 22px; }
+.nav-label { font-size: 10px; letter-spacing: 0.5px; text-transform: uppercase; color: var(--text3); }
+.nav-item.active .nav-icon { filter: drop-shadow(0 0 4px var(--gold)); }
+.nav-item.active .nav-label { color: var(--gold); }
+
+/* PAGES */
+.page { display: none; padding: 0; }
+.page.active { display: block; }
+
+/* ============ HOME PAGE ============ */
+.hero {
+  background: linear-gradient(160deg, #1a1828 0%, #0f0e17 60%);
+  padding: 20px 20px 16px;
+  border-bottom: 0.5px solid rgba(198,164,108,0.1);
+  position: relative; overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute; top: -40px; right: -40px;
+  width: 180px; height: 180px;
+  border-radius: 50%;
+  border: 1px solid rgba(198,164,108,0.08);
+}
+
+.hero::after {
+  content: '';
+  position: absolute; top: -10px; right: -10px;
+  width: 100px; height: 100px;
+  border-radius: 50%;
+  border: 1px solid rgba(198,164,108,0.06);
+}
+
+.hero-date { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text3); margin-bottom: 6px; }
+.hero-title { font-family: 'Playfair Display', serif; font-size: 20px; color: var(--text); line-height: 1.3; }
+.hero-title span { color: var(--gold); font-style: italic; }
+
+.progress-wrap { margin-top: 16px; }
+.progress-label { display: flex; justify-content: space-between; margin-bottom: 6px; font-size: 12px; color: var(--text3); }
+.progress-bar { height: 4px; background: var(--bg4); border-radius: 2px; overflow: hidden; }
+.progress-fill { height: 100%; background: linear-gradient(90deg, var(--gold), var(--gold-light)); border-radius: 2px; transition: width 0.5s ease; }
+
+/* Alert banner */
+.alert-banner {
+  margin: 16px 16px 0;
+  background: rgba(198,164,108,0.08);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  display: flex; gap: 10px; align-items: flex-start;
+}
+
+.alert-icon { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+.alert-text { font-size: 13px; line-height: 1.6; color: var(--text2); }
+.alert-text strong { color: var(--gold); font-weight: 500; }
+
+/* Section header */
+.sec-hd {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 20px 16px 10px;
+}
+
+.sec-title { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--text3); }
+.sec-link { font-size: 12px; color: var(--gold); cursor: pointer; }
+
+/* Daily tasks */
+.task-list { padding: 0 16px; display: flex; flex-direction: column; gap: 8px; }
+
+.task-item {
+  display: flex; gap: 12px; align-items: flex-start;
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius-sm);
+  padding: 13px 14px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.task-item:active { background: var(--bg3); }
+
+.task-check {
+  width: 22px; height: 22px; border-radius: 50%;
+  border: 1.5px solid var(--text3);
+  flex-shrink: 0; margin-top: 1px;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.2s;
+  font-size: 12px;
+}
+
+.task-item.done .task-check {
+  background: var(--gold); border-color: var(--gold);
+  color: var(--bg);
+}
+
+.task-item.done { opacity: 0.5; }
+
+.task-body { flex: 1; }
+.task-cat { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: var(--gold); margin-bottom: 2px; }
+.task-txt { font-size: 14px; color: var(--text); line-height: 1.4; }
+.task-item.done .task-txt { text-decoration: line-through; color: var(--text3); }
+
+/* Stats row */
+.stats-row {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 8px; padding: 0 16px;
+}
+
+.stat-card {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius-sm);
+  padding: 13px 10px;
+  text-align: center;
+}
+
+.stat-val { font-family: 'Playfair Display', serif; font-size: 22px; color: var(--gold); }
+.stat-lbl { font-size: 10px; color: var(--text3); margin-top: 2px; line-height: 1.3; }
+
+/* ============ DIAGNÓSTICO PAGE ============ */
+.page-pad { padding: 16px; }
+
+.diag-header {
+  background: linear-gradient(135deg, #1a1828, #0f1a2e);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin-bottom: 14px;
+  border: 0.5px solid var(--gold-border);
+}
+
+.diag-tag { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); margin-bottom: 6px; }
+.diag-title { font-family: 'Playfair Display', serif; font-size: 18px; color: var(--text); margin-bottom: 10px; }
+
+.badge-row { display: flex; gap: 6px; flex-wrap: wrap; }
+.badge {
+  background: var(--gold-dim);
+  border: 1px solid var(--gold-border);
+  border-radius: 20px; padding: 4px 12px;
+  font-size: 11px; color: var(--gold);
+}
+
+.card-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 14px; }
+
+.info-card {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius-sm);
+  padding: 13px;
+}
+
+.info-card.full { grid-column: 1/-1; }
+.info-card.highlight { border-left: 2.5px solid var(--gold); }
+
+.info-lbl { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: var(--text3); margin-bottom: 5px; }
+.info-val { font-size: 13px; color: var(--text); line-height: 1.5; }
+.info-val.gold { color: var(--gold); font-weight: 500; }
+
+.insight-box {
+  background: rgba(198,164,108,0.06);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  margin-bottom: 14px;
+}
+
+.insight-title { font-size: 12px; letter-spacing: 1px; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; }
+.insight-text { font-size: 14px; color: var(--text2); line-height: 1.7; }
+.insight-text em { color: var(--gold); font-style: normal; font-weight: 500; }
+
+/* ============ FLUXOGRAMA PAGE ============ */
+.fluxo-container {
+  padding: 16px;
+  overflow-x: auto;
+}
+
+.fluxo-card {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius);
+  padding: 16px;
+  min-width: 300px;
+}
+
+/* Flowchart vertical */
+.flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.flow-step {
+  width: 100%;
+  max-width: 320px;
+  background: var(--bg3);
+  border: 0.5px solid rgba(255,255,255,0.07);
+  border-radius: var(--radius-sm);
+  padding: 13px 16px;
+  position: relative;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.flow-step:active { border-color: var(--gold); }
+.flow-step.active-step { border-color: var(--gold); background: rgba(198,164,108,0.07); }
+
+.flow-num { font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--gold); margin-bottom: 3px; }
+.flow-title { font-size: 14px; font-weight: 500; color: var(--text); }
+.flow-sub { font-size: 12px; color: var(--text3); margin-top: 2px; line-height: 1.4; }
+
+.flow-arrow {
+  width: 1px; height: 28px;
+  background: rgba(198,164,108,0.3);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.flow-arrow::after {
+  content: '▾';
+  position: absolute; bottom: -3px; left: 50%; transform: translateX(-50%);
+  color: var(--gold); font-size: 10px;
+}
+
+/* Split arrow */
+.flow-split {
+  display: flex;
+  width: 100%;
+  max-width: 320px;
+  gap: 10px;
+}
+
+.flow-branch {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.flow-branch-line {
+  width: 1px; height: 20px;
+  background: rgba(198,164,108,0.3);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.flow-step.green { border-color: rgba(92,186,138,0.3); }
+.flow-step.green .flow-num { color: var(--success); }
+
+.flow-step.red { border-color: rgba(224,92,92,0.3); }
+.flow-step.red .flow-num { color: var(--danger); }
+
+.flow-split-bar {
+  width: 100%;
+  max-width: 320px;
+  height: 1px;
+  background: rgba(198,164,108,0.3);
+  position: relative;
+}
+
+/* ============ PLANO PAGE ============ */
+.plano-pad { padding: 16px; }
+
+.plano-item {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.plano-header {
+  display: flex; gap: 12px; align-items: center;
+  padding: 14px 16px;
+  cursor: pointer;
+}
+
+.plano-num {
+  width: 34px; height: 34px; border-radius: 50%;
+  background: var(--bg4);
+  border: 1px solid var(--gold-border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 500; color: var(--gold);
+  flex-shrink: 0;
+}
+
+.plano-meta { flex: 1; }
+.plano-prazo { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: var(--gold); margin-bottom: 2px; }
+.plano-title { font-size: 14px; font-weight: 500; color: var(--text); }
+
+.plano-chevron { font-size: 12px; color: var(--text3); transition: transform 0.2s; }
+.plano-item.open .plano-chevron { transform: rotate(180deg); }
+
+.plano-body {
+  display: none;
+  padding: 0 16px 14px;
+  border-top: 0.5px solid rgba(255,255,255,0.04);
+}
+
+.plano-item.open .plano-body { display: block; }
+
+.plano-desc { font-size: 13px; color: var(--text2); line-height: 1.6; margin: 10px 0 12px; }
+
+.plano-actions { display: flex; flex-direction: column; gap: 7px; }
+
+.plano-action {
+  display: flex; gap: 8px; align-items: flex-start;
+  font-size: 13px; color: var(--text2); line-height: 1.5;
+}
+
+.plano-action::before {
+  content: '→';
+  color: var(--gold); font-size: 11px; flex-shrink: 0; margin-top: 2px;
+}
+
+/* ============ SCRIPTS PAGE ============ */
+.script-pad { padding: 16px; }
+
+.script-item {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.script-header {
+  padding: 14px 16px;
+  cursor: pointer;
+  display: flex; gap: 12px; align-items: flex-start;
+}
+
+.script-tag-wrap { flex-shrink: 0; margin-top: 2px; }
+.script-tag {
+  background: var(--gold-dim);
+  border: 1px solid var(--gold-border);
+  border-radius: 20px; padding: 3px 10px;
+  font-size: 10px; color: var(--gold);
+}
+
+.script-meta { flex: 1; }
+.script-objecao { font-size: 13px; font-weight: 500; color: var(--text); margin-bottom: 2px; line-height: 1.4; }
+.script-preview { font-size: 12px; color: var(--text3); }
+
+.script-body {
+  display: none;
+  padding: 0 16px 16px;
+  border-top: 0.5px solid rgba(255,255,255,0.04);
+}
+
+.script-item.open .script-body { display: block; }
+
+.script-label { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: var(--text3); margin: 12px 0 6px; }
+
+.script-text {
+  background: rgba(198,164,108,0.05);
+  border-left: 2px solid var(--gold);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 12px;
+  font-size: 13px; color: var(--text); line-height: 1.7;
+  font-style: italic;
+}
+
+.copy-btn {
+  display: flex; align-items: center; gap: 6px;
+  margin-top: 10px;
+  background: var(--gold-dim); border: 1px solid var(--gold-border);
+  border-radius: var(--radius-sm);
+  padding: 8px 14px;
+  font-size: 12px; color: var(--gold);
+  cursor: pointer; width: 100%; justify-content: center;
+  transition: background 0.2s;
+}
+
+.copy-btn:active { background: rgba(198,164,108,0.3); }
+
+/* ============ NOTIFICATION SETUP ============ */
+.notif-panel {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(15,14,23,0.95);
+  z-index: 999;
+  display: none;
+  flex-direction: column;
+  padding: 40px 20px 20px;
+}
+
+.notif-panel.open { display: flex; }
+
+.notif-close {
+  position: absolute; top: 16px; right: 20px;
+  font-size: 24px; color: var(--text2);
+  cursor: pointer;
+  padding: 8px;
+}
+
+.notif-title { font-family: 'Playfair Display', serif; font-size: 22px; color: var(--text); margin-bottom: 6px; }
+.notif-sub { font-size: 13px; color: var(--text2); margin-bottom: 30px; line-height: 1.6; }
+
+.notif-time-label { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text3); margin-bottom: 10px; }
+
+.time-presets { display: grid; grid-template-columns: repeat(2,1fr); gap: 8px; margin-bottom: 20px; }
+
+.time-preset {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.07);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.time-preset:active,
+.time-preset.selected { border-color: var(--gold); background: var(--gold-dim); }
+
+.time-val { font-family: 'Playfair Display', serif; font-size: 20px; color: var(--gold); }
+.time-lbl { font-size: 11px; color: var(--text3); margin-top: 2px; }
+
+.notif-btn-activate {
+  background: var(--gold);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  font-family: 'Jost', sans-serif;
+  font-size: 14px; font-weight: 500;
+  color: var(--bg);
+  cursor: pointer;
+  width: 100%;
+  margin-top: auto;
+  letter-spacing: 0.5px;
+}
+
+/* Toast */
+.toast {
+  position: fixed; bottom: 90px; left: 50%; transform: translateX(-50%);
+  background: var(--bg3); border: 1px solid var(--gold-border);
+  border-radius: 20px; padding: 10px 20px;
+  font-size: 13px; color: var(--gold);
+  z-index: 9999;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.3s;
+  white-space: nowrap;
+}
+
+.toast.show { opacity: 1; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 2px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--text3); border-radius: 1px; }
+
+/* Animations */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.page.active > * { animation: fadeUp 0.3s ease forwards; }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="topbar-left">
+      <div class="topbar-greeting" id="greeting">Bom dia</div>
+      <div class="topbar-name">Iara Roberta</div>
+    </div>
+    <div class="notif-btn" onclick="openNotif()">
+      🔔
+      <div class="notif-dot" id="notif-dot"></div>
+    </div>
+  </div>
+
+  <!-- SCROLL AREA -->
+  <div class="scroll" id="scroll">
+
+    <!-- HOME -->
+    <div class="page active" id="page-home">
+      <div class="hero">
+        <div class="hero-date" id="hero-date"></div>
+        <div class="hero-title">Seu <span>plano HOF</span><br/>de hoje</div>
+        <div class="progress-wrap">
+          <div class="progress-label">
+            <span>Tarefas concluídas</span>
+            <span id="progress-pct">0%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="alert-banner">
+        <div class="alert-icon">⚠️</div>
+        <div class="alert-text">
+          <strong>Gargalo identificado:</strong> O "acham caro" nasce da falta de autoridade percebida. Sem referência de valor, o paciente ancora no preço. Construa autoridade primeiro — o resto vem.
+        </div>
+      </div>
+
+      <div class="sec-hd">
+        <div class="sec-title">Tarefas de hoje</div>
+        <div class="sec-link" onclick="resetTasks()">Reiniciar</div>
+      </div>
+
+      <div class="task-list" id="task-list"></div>
+
+      <div class="sec-hd" style="margin-top:10px">
+        <div class="sec-title">Suas metas</div>
+      </div>
+
+      <div class="stats-row">
+        <div class="stat-card">
+          <div class="stat-val">↑</div>
+          <div class="stat-lbl">Conteúdos de autoridade/semana</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">↑</div>
+          <div class="stat-lbl">Pacientes captados (orgânico)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">↓</div>
+          <div class="stat-lbl">Objeções de "tá caro"</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DIAGNÓSTICO -->
+    <div class="page" id="page-diag">
+      <div class="page-pad">
+        <div class="diag-header">
+          <div class="diag-tag">Diagnóstico · Clínica &amp; Vendas</div>
+          <div class="diag-title">Onde está o erro real</div>
+          <div class="badge-row">
+            <span class="badge">Autoridade &amp; Captação</span>
+            <span class="badge">Prioridade: Alta</span>
+          </div>
+        </div>
+
+        <div class="insight-box">
+          <div class="insight-title">⚡ Insight principal</div>
+          <div class="insight-text">
+            O "acham caro" da Iara nasce da falta de <em>autoridade percebida</em>. Sem uma referência clara de valor, o paciente ancora tudo no preço. Forma-se um ciclo: pouca autoridade → paciente acha caro → pouco faturamento → medo de investir em marketing → pouca autoridade. A solução é <em>quebrar o ciclo construindo autoridade e captação orgânica primeiro</em> — antes de escalar com investimento pago.
+          </div>
+        </div>
+
+        <div class="card-grid">
+          <div class="info-card highlight">
+            <div class="info-lbl">Objetivo</div>
+            <div class="info-val">Aumentar número de pacientes</div>
+          </div>
+          <div class="info-card highlight">
+            <div class="info-lbl">Gargalo real</div>
+            <div class="info-val gold">Falta de autoridade + captação</div>
+          </div>
+          <div class="info-card">
+            <div class="info-lbl">Dificuldades</div>
+            <div class="info-val">Quebra de objeções (preço)</div>
+          </div>
+          <div class="info-card">
+            <div class="info-lbl">Estrutura</div>
+            <div class="info-val">Trabalha sozinha — sem equipe comercial</div>
+          </div>
+          <div class="info-card full">
+            <div class="info-lbl">Objeção dominante</div>
+            <div class="info-val">"Acham caro" — sintoma de autoridade ainda não construída</div>
+          </div>
+        </div>
+
+        <div class="sec-hd" style="padding: 4px 0 12px">
+          <div class="sec-title">Os 3 erros críticos</div>
+        </div>
+
+        <div class="insight-box" style="margin-bottom:8px">
+          <div class="insight-title">01 · Autoridade ainda não construída</div>
+          <div class="insight-text">Sem presença e posicionamento que mostrem competência, o paciente não tem referência de valor — então ancora no preço. Autoridade é o que justifica o investimento.</div>
+        </div>
+        <div class="insight-box" style="margin-bottom:8px">
+          <div class="insight-title">02 · Insegurança no atendimento</div>
+          <div class="insight-text">A dificuldade de transmitir segurança aparece na hora da venda. Quando a profissional hesita, o paciente sente e duvida — e a dúvida vira "tá caro".</div>
+        </div>
+        <div class="insight-box" style="margin-bottom:14px">
+          <div class="insight-title">03 · Captação travada por orçamento</div>
+          <div class="insight-text">Sem condições de investir em marketing pago, falta movimento de novos pacientes. A saída é captação orgânica — relacionamento e conteúdo, que custam tempo, não dinheiro.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FLUXOGRAMA -->
+    <div class="page" id="page-fluxo">
+      <div class="fluxo-container">
+        <div style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--text3); margin-bottom:14px;">Da autoridade à captação que se multiplica</div>
+
+        <div class="flow">
+
+          <div class="flow-step active-step" onclick="showFlowDetail(0)">
+            <div class="flow-num">01 · Base</div>
+            <div class="flow-title">Construir autoridade</div>
+            <div class="flow-sub">Conteúdo que ensina e mostra resultado</div>
+          </div>
+
+          <div class="flow-arrow"></div>
+
+          <div class="flow-step" onclick="showFlowDetail(1)">
+            <div class="flow-num">02 · Atrair</div>
+            <div class="flow-title">Captação orgânica</div>
+            <div class="flow-sub">Relacionamento e conteúdo, sem custo de anúncio</div>
+          </div>
+
+          <div class="flow-arrow"></div>
+
+          <div class="flow-step" onclick="showFlowDetail(2)">
+            <div class="flow-num">03 · Na consulta</div>
+            <div class="flow-title">Atender com segurança</div>
+            <div class="flow-sub">Autoridade e firmeza transmitem confiança</div>
+          </div>
+
+          <div class="flow-arrow"></div>
+
+          <div class="flow-step" onclick="showFlowDetail(3)">
+            <div class="flow-num">04 · Apresentação</div>
+            <div class="flow-title">Apresentar valor</div>
+            <div class="flow-sub">Transformação antes de qualquer número</div>
+          </div>
+
+          <div class="flow-arrow" style="height:16px;"></div>
+
+          <!-- Split -->
+          <div class="flow-split-bar"></div>
+          <div class="flow-split">
+            <div class="flow-branch">
+              <div class="flow-branch-line"></div>
+              <div class="flow-step green">
+                <div class="flow-num">✓ CONFIA</div>
+                <div class="flow-title">Fecha</div>
+                <div class="flow-sub">Autoridade venceu o preço</div>
+              </div>
+            </div>
+            <div class="flow-branch">
+              <div class="flow-branch-line"></div>
+              <div class="flow-step red" onclick="showFlowDetail(4)">
+                <div class="flow-num">⚠ "Acham caro"</div>
+                <div class="flow-title">Valor + autoridade</div>
+                <div class="flow-sub">Nunca desconto — toque</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flow-arrow"></div>
+
+          <div class="flow-step" onclick="showFlowDetail(5)">
+            <div class="flow-num">05 · Multiplicar</div>
+            <div class="flow-title">Fidelizar e multiplicar</div>
+            <div class="flow-sub">Paciente feliz vira prova e indicação</div>
+          </div>
+
+        </div>
+
+        <!-- Flow detail -->
+        <div id="flow-detail" style="display:none; margin-top:16px; background:var(--gold-dim); border:1px solid var(--gold-border); border-radius:var(--radius-sm); padding:14px;">
+          <div style="font-size:10px; letter-spacing:1.5px; text-transform:uppercase; color:var(--gold); margin-bottom:6px;" id="fd-title"></div>
+          <div style="font-size:13px; color:var(--text); line-height:1.7;" id="fd-text"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PLANO 30 DIAS -->
+    <div class="page" id="page-plano">
+      <div class="plano-pad">
+        <div style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--text3); margin-bottom:14px;">Plano de ação · 30 dias</div>
+
+        <div class="plano-item" id="pi-0">
+          <div class="plano-header" onclick="togglePlano(0)">
+            <div class="plano-num">1</div>
+            <div class="plano-meta">
+              <div class="plano-prazo">Semana 1 · Fundamental</div>
+              <div class="plano-title">Começar a construir autoridade</div>
+            </div>
+            <div class="plano-chevron">▾</div>
+          </div>
+          <div class="plano-body">
+            <div class="plano-desc">Autoridade é o que faz o paciente parar de questionar o preço. E ela se constrói com consistência, não com dinheiro.</div>
+            <div class="plano-actions">
+              <div class="plano-action">Publicar conteúdo que ensina: dicas, mitos, antes/depois, explicações sobre os tratamentos</div>
+              <div class="plano-action">Mostrar os bastidores e os resultados — pessoas confiam em quem elas veem trabalhando</div>
+              <div class="plano-action">Definir um posicionamento claro: do que você é especialista, qual seu diferencial</div>
+              <div class="plano-action">Manter constância — autoridade vem da repetição, não de um post isolado</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="plano-item" id="pi-1">
+          <div class="plano-header" onclick="togglePlano(1)">
+            <div class="plano-num">2</div>
+            <div class="plano-meta">
+              <div class="plano-prazo">Semana 1–2 · Crítico</div>
+              <div class="plano-title">Captar sem gastar (orgânico)</div>
+            </div>
+            <div class="plano-chevron">▾</div>
+          </div>
+          <div class="plano-body">
+            <div class="plano-desc">Você não precisa de orçamento de marketing para captar agora. Relacionamento e indicação trazem pacientes de graça.</div>
+            <div class="plano-actions">
+              <div class="plano-action">Interagir todo dia com pacientes potenciais: responder stories, comentar, conversar nas DMs</div>
+              <div class="plano-action">Pedir indicação às pacientes atuais satisfeitas — a captação mais barata e eficaz</div>
+              <div class="plano-action">Usar depoimentos e resultados reais como prova social no perfil</div>
+              <div class="plano-action">Fazer parcerias com profissionais complementares (cabeleireiro, dermato, etc.)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="plano-item" id="pi-2">
+          <div class="plano-header" onclick="togglePlano(2)">
+            <div class="plano-num">3</div>
+            <div class="plano-meta">
+              <div class="plano-prazo">Semana 2 · Alta prioridade</div>
+              <div class="plano-title">Transmitir segurança no atendimento</div>
+            </div>
+            <div class="plano-chevron">▾</div>
+          </div>
+          <div class="plano-body">
+            <div class="plano-desc">A autoridade que você constrói por fora precisa aparecer na consulta. Segurança no atendimento fecha a venda.</div>
+            <div class="plano-actions">
+              <div class="plano-action">Dominar o diagnóstico e falar com firmeza — sem hesitar na hora do valor</div>
+              <div class="plano-action">Apresentar o valor e a transformação antes de qualquer preço</div>
+              <div class="plano-action">Usar seus próprios resultados como prova durante o atendimento</div>
+              <div class="plano-action">Praticar a postura: nada de baixar a voz ou pedir desculpa pelo preço</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="plano-item" id="pi-3">
+          <div class="plano-header" onclick="togglePlano(3)">
+            <div class="plano-num">4</div>
+            <div class="plano-meta">
+              <div class="plano-prazo">Semana 2–3 · Importante</div>
+              <div class="plano-title">Responder "acham caro" com valor</div>
+            </div>
+            <div class="plano-chevron">▾</div>
+          </div>
+          <div class="plano-body">
+            <div class="plano-desc">"Acham caro" geralmente significa "ainda não vi valor". A resposta é autoridade e comunicação — nunca desconto.</div>
+            <div class="plano-actions">
+              <div class="plano-action">Nunca baixar o preço — ancorar no valor, na segurança e na qualidade</div>
+              <div class="plano-action">Explicar o que está incluso antes de falar o número</div>
+              <div class="plano-action">Treinar os scripts da aba "Scripts" em voz alta, todos os dias</div>
+              <div class="plano-action">Oferecer formas de pagamento que facilitem, sem desvalorizar o trabalho</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="plano-item" id="pi-4">
+          <div class="plano-header" onclick="togglePlano(4)">
+            <div class="plano-num">5</div>
+            <div class="plano-meta">
+              <div class="plano-prazo">Semana 3–4 · Estrutural</div>
+              <div class="plano-title">Multiplicar com pós-venda e prova</div>
+            </div>
+            <div class="plano-chevron">▾</div>
+          </div>
+          <div class="plano-body">
+            <div class="plano-desc">Cada paciente satisfeita alimenta sua autoridade e traz outras. É o ciclo virtuoso que substitui o marketing pago.</div>
+            <div class="plano-actions">
+              <div class="plano-action">Contato 7 dias após o procedimento: resultado, foto, feedback</div>
+              <div class="plano-action">Pedir depoimento e autorização para usar o antes/depois como conteúdo</div>
+              <div class="plano-action">Protocolo de indicação — paciente feliz é sua melhor propaganda</div>
+              <div class="plano-action">Reinvestir o faturamento que cresce em marketing pago, quando fizer sentido</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <div class="page" id="page-scripts">
+      <div class="script-pad">
+        <div style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--text3); margin-bottom:14px;">Scripts prontos para usar</div>
+
+        <div class="script-item" id="si-0">
+          <div class="script-header" onclick="toggleScript(0)">
+            <div class="script-tag-wrap"><div class="script-tag">Objeção 01</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">"Acham caro"</div>
+              <div class="script-preview">Toque para ver o script completo</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-label">Como responder</div>
+            <div class="script-text">"Eu entendo. E olha, eu prefiro ser transparente com você: o meu trabalho tem um valor porque ele entrega segurança, qualidade e resultado de verdade. Não é o mais barato — é o que vai te dar tranquilidade. Me conta, o que pesa mais pra você: o valor em si ou a forma de pagamento? Vamos achar o melhor caminho."</div>
+            <button class="copy-btn" onclick="copyScript(0)">📋 Copiar script</button>
+          </div>
+        </div>
+
+        <div class="script-item" id="si-1">
+          <div class="script-header" onclick="toggleScript(1)">
+            <div class="script-tag-wrap"><div class="script-tag">Objeção 02</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">"Por que vale esse valor?"</div>
+              <div class="script-preview">Toque para ver o script completo</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-label">Como responder</div>
+            <div class="script-text">"Posso te mostrar por que vale cada centavo? Não estamos falando só de um procedimento, mas de quem está cuidando de você, da qualidade dos produtos e do resultado que você vai ver todo dia no espelho. Eu me dedico pra entregar o melhor — e é isso que faz a diferença."</div>
+            <button class="copy-btn" onclick="copyScript(1)">📋 Copiar script</button>
+          </div>
+        </div>
+
+        <div class="script-item" id="si-2">
+          <div class="script-header" onclick="toggleScript(2)">
+            <div class="script-tag-wrap"><div class="script-tag">Objeção 03</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">"Em outro lugar é mais barato"</div>
+              <div class="script-preview">Toque para ver o script completo</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-label">Como responder</div>
+            <div class="script-text">"Olha, eu entendo a comparação de preço. Mas no rosto, eu não recomendaria que você economizasse com a sua segurança. O que eu te entrego é técnica, cuidado e um resultado natural e seguro. Posso te explicar exatamente o que está incluso?"</div>
+            <button class="copy-btn" onclick="copyScript(2)">📋 Copiar script</button>
+          </div>
+        </div>
+
+        <div class="script-item" id="si-3">
+          <div class="script-header" onclick="toggleScript(3)">
+            <div class="script-tag-wrap"><div class="script-tag">Primeiro contato</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">Primeiro contato no WhatsApp</div>
+              <div class="script-preview">Toque para ver o script completo</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-label">Como responder</div>
+            <div class="script-text">"Oi [nome]! Que alegria seu interesse 🤍 Cada rosto é único, então eu faço uma avaliação personalizada pra entender exatamente o que vai te dar o melhor resultado. Vamos marcar sua avaliação pra eu te mostrar tudo com calma e você decidir com segurança?"</div>
+            <button class="copy-btn" onclick="copyScript(3)">📋 Copiar script</button>
+          </div>
+        </div>
+
+        <div style="background: var(--bg2); border-radius: var(--radius); padding: 16px; margin-top: 6px; border: 0.5px solid rgba(255,255,255,0.05);">
+          <div style="font-size:12px; color:var(--gold); font-weight:500; margin-bottom:8px;">💡 Regra de ouro</div>
+          <div style="font-size:13px; color:var(--text2); line-height:1.7;">
+            <strong style="color:var(--text)">Autoridade</strong> é o melhor argumento de venda. Quando o paciente confia em você, o preço deixa de ser o centro. Construa autoridade com conteúdo, transmita segurança no atendimento, e o "acham caro" vai <strong style="color:var(--text)">desaparecendo</strong> sozinho.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /scroll -->
+
+  <!-- BOTTOM NAV -->
+  <div class="nav">
+    <div class="nav-item active" id="nav-home" onclick="goPage('home')">
+      <div class="nav-icon">🏠</div>
+      <div class="nav-label">Início</div>
+    </div>
+    <div class="nav-item" id="nav-diag" onclick="goPage('diag')">
+      <div class="nav-icon">🔍</div>
+      <div class="nav-label">Diagnóstico</div>
+    </div>
+    <div class="nav-item" id="nav-fluxo" onclick="goPage('fluxo')">
+      <div class="nav-icon">🗺️</div>
+      <div class="nav-label">Fluxo</div>
+    </div>
+    <div class="nav-item" id="nav-plano" onclick="goPage('plano')">
+      <div class="nav-icon">📋</div>
+      <div class="nav-label">Plano</div>
+    </div>
+    <div class="nav-item" id="nav-scripts" onclick="goPage('scripts')">
+      <div class="nav-icon">💬</div>
+      <div class="nav-label">Scripts</div>
+    </div>
+  </div>
+</div>
+
+<!-- NOTIFICATION PANEL -->
+<div class="notif-panel" id="notif-panel">
+  <div class="notif-close" onclick="closeNotif()">✕</div>
+  <div class="notif-title">Lembrete diário 🔔</div>
+  <div class="notif-sub">Escolha o horário para ser lembrada de revisar seu plano e tarefas do dia.</div>
+
+  <div class="notif-time-label">Selecione o horário</div>
+  <div class="time-presets">
+    <div class="time-preset" onclick="selectTime('07:00', this)">
+      <div class="time-val">07:00</div>
+      <div class="time-lbl">Manhã cedo</div>
+    </div>
+    <div class="time-preset" onclick="selectTime('08:30', this)">
+      <div class="time-val">08:30</div>
+      <div class="time-lbl">Antes do consultório</div>
+    </div>
+    <div class="time-preset selected" onclick="selectTime('09:00', this)">
+      <div class="time-val">09:00</div>
+      <div class="time-lbl">Início do dia</div>
+    </div>
+    <div class="time-preset" onclick="selectTime('12:00', this)">
+      <div class="time-val">12:00</div>
+      <div class="time-lbl">Intervalo do almoço</div>
+    </div>
+  </div>
+
+  <div id="notif-status" style="font-size:13px; color:var(--text2); margin-bottom:16px; line-height:1.6; min-height:40px;"></div>
+
+  <button class="notif-btn-activate" onclick="activateNotif()">
+    Ativar lembretes diários
+  </button>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ============ DATA ============
+const TASKS_KEY = 'iara_tasks_' + new Date().toDateString();
+const NOTIF_KEY = 'iara_notif_time';
+
+const DAILY_TASKS = [
+  { cat: 'Autoridade', txt: 'Publicar 1 conteúdo que mostre conhecimento e gere confiança (dica, mito, resultado)' },
+  { cat: 'Captação', txt: 'Interagir com 10 pacientes potenciais nos stories/DMs — relacionamento gera consulta' },
+  { cat: 'Postura', txt: 'Em cada atendimento, falar com segurança — sem hesitar no valor' },
+  { cat: 'Prova social', txt: 'Documentar 1 resultado (antes/depois ou depoimento) para usar como conteúdo' },
+  { cat: 'Script', txt: 'Treinar o script de "acham caro" em voz alta — 2 minutos' },
+  { cat: 'Marketing', txt: 'Dedicar 20 min a melhorar 1 ponto do perfil (bio, destaque, foto, descrição)' },
+];
+
+const FLOW_DETAILS = [
+  { t: '01 · Construir autoridade', d: 'A base de tudo. Antes de captar, você precisa ser percebida como referência. Conteúdo que ensina, mostra resultados e demonstra conhecimento constrói autoridade. Quanto mais autoridade, menos o paciente questiona o preço — porque ele confia em você.' },
+  { t: '02 · Captação orgânica', d: 'Você não precisa de muito dinheiro para captar. Relacionamento nos stories, interação genuína, conteúdo de valor e indicação de pacientes atuais trazem gente sem custo de anúncio. Comece orgânico, e invista em tráfego pago só quando o caixa permitir.' },
+  { t: '03 · Atendimento com segurança', d: 'Na consulta, transmita autoridade: domine o diagnóstico, fale com firmeza, mostre que você sabe o que faz. A segurança que você passa é o que faz o paciente confiar e aceitar o investimento. Insegurança contagia; confiança também.' },
+  { t: '04 · Apresentar valor', d: 'Mostre a transformação e o que está incluso antes de qualquer número. Quando o paciente entende o valor e confia na sua autoridade, o preço deixa de ser o centro. Use seus resultados como prova.' },
+  { t: '⚠ "Acham caro"', d: 'Essa objeção quase sempre significa "ainda não vi valor suficiente" ou "não confio o bastante ainda". A resposta é autoridade + comunicação de valor, nunca desconto. Veja os scripts prontos na aba Scripts.' },
+  { t: '05 · Fidelizar e multiplicar', d: 'Cada paciente satisfeita vira prova de autoridade e fonte de indicação — a captação orgânica mais poderosa que existe. Pós-venda ativo, resultado documentado e relacionamento transformam uma paciente em várias.' },
+];
+
+// ============ INIT ============
+window.addEventListener('load', () => {
+  setGreeting();
+  setDate();
+  loadTasks();
+  updateProgress();
+  registerSW();
+});
+
+function setGreeting() {
+  const h = new Date().getHours();
+  const el = document.getElementById('greeting');
+  if (h < 12) el.textContent = 'Bom dia';
+  else if (h < 18) el.textContent = 'Boa tarde';
+  else el.textContent = 'Boa noite';
+}
+
+function setDate() {
+  const d = new Date();
+  const opts = { weekday:'long', day:'numeric', month:'long' };
+  document.getElementById('hero-date').textContent = d.toLocaleDateString('pt-BR', opts);
+}
+
+// ============ TASKS ============
+function loadTasks() {
+  const saved = JSON.parse(localStorage.getItem(TASKS_KEY) || '[]');
+  const list = document.getElementById('task-list');
+  list.innerHTML = '';
+  DAILY_TASKS.forEach((t, i) => {
+    const done = saved.includes(i);
+    const el = document.createElement('div');
+    el.className = 'task-item' + (done ? ' done' : '');
+    el.id = 'task-' + i;
+    el.onclick = () => toggleTask(i);
+    el.innerHTML = `
+      <div class="task-check">${done ? '✓' : ''}</div>
+      <div class="task-body">
+        <div class="task-cat">${t.cat}</div>
+        <div class="task-txt">${t.txt}</div>
+      </div>
+    `;
+    list.appendChild(el);
+  });
+}
+
+function toggleTask(i) {
+  const saved = JSON.parse(localStorage.getItem(TASKS_KEY) || '[]');
+  const idx = saved.indexOf(i);
+  if (idx === -1) saved.push(i);
+  else saved.splice(idx, 1);
+  localStorage.setItem(TASKS_KEY, JSON.stringify(saved));
+  loadTasks();
+  updateProgress();
+}
+
+function resetTasks() {
+  localStorage.removeItem(TASKS_KEY);
+  loadTasks();
+  updateProgress();
+  showToast('Tarefas reiniciadas ✓');
+}
+
+function updateProgress() {
+  const saved = JSON.parse(localStorage.getItem(TASKS_KEY) || '[]');
+  const pct = Math.round((saved.length / DAILY_TASKS.length) * 100);
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('progress-pct').textContent = pct + '%';
+}
+
+// ============ NAVIGATION ============
+function goPage(id) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  document.getElementById('page-' + id).classList.add('active');
+  document.getElementById('nav-' + id).classList.add('active');
+  document.getElementById('scroll').scrollTop = 0;
+}
+
+// ============ ACCORDIONS ============
+function togglePlano(i) {
+  const el = document.getElementById('pi-' + i);
+  el.classList.toggle('open');
+}
+
+function toggleScript(i) {
+  const el = document.getElementById('si-' + i);
+  el.classList.toggle('open');
+}
+
+// ============ FLOW DETAIL ============
+function showFlowDetail(i) {
+  const d = FLOW_DETAILS[i];
+  document.getElementById('fd-title').textContent = d.t;
+  document.getElementById('fd-text').textContent = d.d;
+  const box = document.getElementById('flow-detail');
+  box.style.display = 'block';
+  box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+// ============ COPY SCRIPTS ============
+const SCRIPTS = [
+  '"Eu entendo. E olha, eu prefiro ser transparente com você: o meu trabalho tem um valor porque ele entrega segurança, qualidade e resultado de verdade. Não é o mais barato — é o que vai te dar tranquilidade. Me conta, o que pesa mais pra você: o valor em si ou a forma de pagamento? Vamos achar o melhor caminho."',
+  '"Posso te mostrar por que vale cada centavo? Não estamos falando só de um procedimento, mas de quem está cuidando de você, da qualidade dos produtos e do resultado que você vai ver todo dia no espelho. Eu me dedico pra entregar o melhor — e é isso que faz a diferença."',
+  '"Olha, eu entendo a comparação de preço. Mas no rosto, eu não recomendaria que você economizasse com a sua segurança. O que eu te entrego é técnica, cuidado e um resultado natural e seguro. Posso te explicar exatamente o que está incluso?"',
+  '"Oi [nome]! Que alegria seu interesse 🤍 Cada rosto é único, então eu faço uma avaliação personalizada pra entender exatamente o que vai te dar o melhor resultado. Vamos marcar sua avaliação pra eu te mostrar tudo com calma e você decidir com segurança?"',
+];
+
+function copyScript(i) {
+  navigator.clipboard.writeText(SCRIPTS[i]).then(() => {
+    showToast('Script copiado! ✓');
+  }).catch(() => {
+    showToast('Copie manualmente o texto acima');
+  });
+}
+
+// ============ NOTIFICATIONS ============
+let selectedTime = '09:00';
+
+function openNotif() {
+  document.getElementById('notif-panel').classList.add('open');
+  const saved = localStorage.getItem(NOTIF_KEY);
+  if (saved) {
+    document.getElementById('notif-status').textContent = '✅ Lembretes ativos para ' + saved + ' todos os dias.';
+    selectedTime = saved;
+  }
+}
+
+function closeNotif() {
+  document.getElementById('notif-panel').classList.remove('open');
+}
+
+function selectTime(t, el) {
+  selectedTime = t;
+  document.querySelectorAll('.time-preset').forEach(p => p.classList.remove('selected'));
+  el.classList.add('selected');
+}
+
+async function activateNotif() {
+  if (!('Notification' in window)) {
+    document.getElementById('notif-status').textContent = '⚠️ Seu navegador não suporta notificações. Adicione o app à tela inicial para ativar.';
+    return;
+  }
+
+  const perm = await Notification.requestPermission();
+
+  if (perm === 'granted') {
+    localStorage.setItem(NOTIF_KEY, selectedTime);
+    document.getElementById('notif-dot').style.display = 'block';
+    document.getElementById('notif-status').textContent = '✅ Lembretes ativados para ' + selectedTime + ' todos os dias!';
+    scheduleDaily(selectedTime);
+    showToast('Lembrete ativado para ' + selectedTime + ' ✓');
+    setTimeout(closeNotif, 1500);
+  } else {
+    document.getElementById('notif-status').textContent = '⚠️ Permissão negada. Ative as notificações nas configurações do celular.';
+  }
+}
+
+function scheduleDaily(timeStr) {
+  if (!navigator.serviceWorker.controller) return;
+  const [h, m] = timeStr.split(':').map(Number);
+  const now = new Date();
+  const target = new Date();
+  target.setHours(h, m, 0, 0);
+  if (target <= now) target.setDate(target.getDate() + 1);
+  const delay = target - now;
+
+  navigator.serviceWorker.controller.postMessage({
+    type: 'SCHEDULE_NOTIFICATION',
+    title: '✨ Seu plano HOF te espera',
+    body: 'Bom dia, Iara! Revise suas tarefas e scripts de hoje.',
+    delay
+  });
+}
+
+// ============ SERVICE WORKER ============
+
+const swCode = `
+self.addEventListener('install', e => self.skipWaiting());
+self.addEventListener('activate', e => self.clients.claim());
+self.addEventListener('notificationclick', e => {
+  e.notification.close();
+  e.waitUntil(clients.matchAll({type:'window'}).then(cl => {
+    for (const c of cl) { if ('focus' in c) return c.focus(); }
+    if (clients.openWindow) return clients.openWindow('./');
+  }));
+});
+self.addEventListener('message', e => {
+  if (e.data && e.data.type === 'SCHEDULE_NOTIFICATION') {
+    const { title, body, delay } = e.data;
+    setTimeout(() => {
+      self.registration.showNotification(title, { body, vibrate:[200,100,200], tag:'iara-daily', renotify:true });
+    }, delay || 0);
+  }
+});
+`;
+
+function registerSW() {
+  if ('serviceWorker' in navigator) {
+    const blob = new Blob([swCode], {type:'application/javascript'});
+    const url = URL.createObjectURL(blob);
+    navigator.serviceWorker.register(url).then(reg => {
+      const saved = localStorage.getItem(NOTIF_KEY);
+      if (saved && Notification.permission === 'granted') {
+        document.getElementById('notif-dot').style.display = 'block';
+      }
+    }).catch(err => console.log('SW error', err));
+  }
+}
+
+// ============ TOAST ============
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+</script>
+</body>
+</html>

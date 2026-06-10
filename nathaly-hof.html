@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#0f0e17"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-title" content="HOF Náthaly"/>
+<link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjogIk5cdTAwZTF0aGFseSBcdTAwYjcgUGxhbm8gSE9GIiwgInNob3J0X25hbWUiOiAiSE9GIE5cdTAwZTF0aGFseSIsICJkZXNjcmlwdGlvbiI6ICJQbGFubyBkZSB2ZW5kYXMgZSB0YXJlZmFzIGRpXHUwMGUxcmlhcyBcdTIwMTQgTVx1MDBlOXRvZG8gRnVsbCBGYWNlIDNEIiwgInN0YXJ0X3VybCI6ICIuIiwgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIsICJiYWNrZ3JvdW5kX2NvbG9yIjogIiMwZjBlMTciLCAidGhlbWVfY29sb3IiOiAiIzBmMGUxNyIsICJvcmllbnRhdGlvbiI6ICJwb3J0cmFpdCIsICJpY29ucyI6IFt7InNyYyI6ICJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQU1BQUFBREFDQVlBQUFCUzNHd0hBQUFKdUVsRVFWUjRuTzNkYld4VzVSa0g4UDlEeTRzU3E4VUpRekpyTWd2SldLaUxLQVV4aXU3TDRqWkpsUGdCWEtJZllHQmlTRnlpSHdTa3hzV1lFWkpGRURVdXBrM1V6SDFZMUF3MEdueWhGcTFzWTRDWWlCTkhxQk1SWWdXc0xmRHNnenRhSHAveTlKem5mcm11Ky9yL3ZwRnc0TzU5WGY5em5hYzlQYWQwZnRPVU1vaU1HaE43QVVReE1RQmtHZ05BcGpFQVpCb0RRS1l4QUdRYUEwQ21NUUJrR2dOQXBqRUFaQm9EUUtZeEFHUWFBMENtTVFCa0dnTkFwakVBWkJvRFFLWXhBR1JhWSt3RnBHenp4a1ZPL3AxZnJIak95YjlEMzFmaTd3VFh6MVdqNThWZzFJOEJLQ0JXdzlmQ1FPVEhBSXlDMUlhdmhZR29qUUVZZ2RhbUh3bkRVQjBEVUNHMXhxL0VJSnlKQVVENlRUOFNoc0Y0QUt3MmZpWExRVEFaQURaK2RSYURZQ29BYlB6UnNSUUVFd0ZnNHhkaklRakozd3ZFNWkvT3d0NGxPd0VzRkMra1ZLZEJraE9BemU5ZXFudWExQVJJdFVqU3BEUU5rZ21BMU9hdnQxbFMvYnFrU0NJQVVwb2tWRk5ZKzNwOVVoMkEySTBncFFHNEQ4V3BEUUIvQ2FVNjdrcytLZ01RdXNoYWk4dDlxazFkQUVJV1ZXTkJxK0dlalV4VkFFSVVVbHNCOCtJZW5rbk5EOEpZT0RkQ2ZJMnhQNVRub1dJQytONVFDNDFmRGZkVlFRQjhGa2xEZ1VLd3ZNZWlMNEVzRnlZa24zc2gvWEpJN0FUd3RYRnMvTE96dHU4aUo0QzFJa2ppYTQra1RnSnhBV0R6eDJjcEJNay9ISmVOWDB5MmJ4S2IxaVZSRThEMVpyUDU2K2Q2RDZVRlNrd0EyUHh5cFJ3Q0VRRmc4OHVYYWdoRUJNQWxOcjgvS2U1dDlBQzRQQk9rV0NCcFhPNnhoQ2tRTlFCc2ZwMVNDa0gwQ2VBQ216KzhWUFk4V2dENEFqbjlYTzE5ekNrUUpRQ3h4eDdKRTZzblZGOEM4ZXdmbi9ZYUJBOEFMMzNTby9sU1NPVUVZUFBMbzdVbVFRUEFhMytxSlhTUHFKc0FXczgwRm1pc1RiQUF1RWkyeGcyMnhrV05RazRCZFJPQXlLVWdBZURaM3haTlU0QVRnRXhURVFDZS9mWFJValB2QWFoM2xHblpTUG8rRFcvSFVURUJpSHp4R2dEKzRJdnE1YnVIUkU4QVh2N29KNzJHb2dOQTVKdTNaNE5xLy9BN3QyMGFWaStibC91NG8vMERXUG53cXpoMDVJU3p0Y3o4OFEvd2g3c1hGRDYrNDdHMzBMUHpvTFAxRkNHMUh6Z0JIR3R1bW9DT082L0J4SFBHeGw0S2pRSUQ0RUhMMUNiY3QzUWVHaHU0dmRLSnJGRHN5eDhYTHA4eEdYY3R2aUwyTXNTUVdsTXZud0drWHUrNWNQZHZyc1RQMnk4ZDlkL3ZlbkVQbnY3YmUxN1dzdUxXbitGWDExNzI3WjlmMmI0ZjZ6cDd2ZnhmTGtqc0M1RVRJQ1czL1hJbWJwalRFbnNaTkFKeEFaQjg5aTlxNWVMWm1EWDlvdGpMaUU1aWJjVUZJRVdOaldPd2V0blYrTkVQbTJJdmhTbzREd0J2ZjZodTRqbGo4Y0NkODlIY05DSDJVdFR5MFZ1Y0FBRk51WEFpN2w5K05jYVBhNGk5RlBvL1VRR1FlSTNvMnZTV1Niam45amtvbFVxeGx4S0Z0QnFMQ29BVmM5dW1ZZWt0YmJHWFFXQUE2dmJmdzhjTEhiZHdRU3R1V3REcWVEV1VGd05RcCsyNyt2RHNscjJGamwxMlN4dmFaMTNzZUVXVWg5TUFXUDBPVU9jTHUvSDZ1d2R5SDFjcWxYRHZIZTFvYlduMnNLbzB1ZTR4TVJOQTJvZWpQTXBsWUYzbk85ano0ZUhjeDQ0ZjE0QzF5K2RqeW9VVFBheE1Ka20xRmhNQTdZWk9ua2JIcG03MGZYWXM5N0hOVFJQUXNXSStiNkdPZ0FGd3FQLzRJRlp2ZUJQOXh3ZHpIM3ZKMUNhc1dzWmJxRVBqYmp0MjhOQXhkR3pxeHRESjA3bVBiWnMrR1N1WHpQYXdLaG9KQStEQm5nOFBZMTNuT3lnWHVOSDhoamt0V0hMalRQZUxvcW9ZQUU5ZWYvY0FPbC9ZWGVqWXhUZitoTGRRQjhJQWVQVHNscjE0K2EyUENoMjdjc2xzdE0yWTdIaEZWSWtCOE95UFQrL0FQOTcvTlBkeGpRMWpzR3JwUEZ3eWxiZFErOFFBZUhicWRCa1BQdEdEanovcHozM3NON2RRWDhOYnFEMWlBQUk0L3RVUVZtOTRFMGY3QjNJZk8zblN1Vmk3ZkQ1dm9mYUVBUWprMEpFVFdQUG9Obnc5ZUNyM3NhMHR6Ymozam5henQxRDd4QUFFOU1ISFIvSFFuN2FqWE9EN28rMnpMc1p2RjEzdWZsSEdNUUNCYmY5WEh4Ny95ODVDeC83NnVzdXc4SHJlUXUwU0F4REJYN2QrZ09kZjIxZm8yS1UzdDJGdTJ6VEhLN0tMQVloazAzUC94TnU3K25JZlZ5cVZjTS90Y3pEajBra2VWbVVQQXhCSnVWekdRMCsralgwSGp1WStkdnk0QnR4djdCWnFYOFFFd09JdjB3d01uc1NhamRzS1BVcjlndlBHNDZxZlR2V3dLdjhrMWRwcEFDVDlvb01XUjc0WXdKcU4yM0JpWUNqMlVsUnczV05pSm9CbCsvdSt3SU5QOU9EVWFTL3ZLcUd6WUFDRStQdmVUL0hJTXp0aUw4TWNCa0NRTGQwZjRjOHZ2Ujk3R2FhSUNvQ2tEMGV4UFBYOExyeXhJLzhUSnJTUVZtTlJBYURzQ1JPOWVPL2ZuOGRlaWduT0E4RHZCTlZ2Y09nVTFtN3F4aWNGbmpDUk1yNGh4cEQrWTE5ajFZWnQrTExBRXlabzlCcGpMNkRTNW8yTFJFeVIwYjRuZU9HQ1ZpeXM4b3pQMzYzYld1aEJXY01kUFBRbE9oN3J4dS92dWhaakcvV2ZxNlJkL3dPY0FPTHQzbmNZNjd0NkN6MWhnbXJ6RWdBSlovQ1ViTzM5RDdwZUxQYUVpVlNZZWxPOHhGRVoyek9iOStMbG52MnhsMUdZMUpxSyt3d2dSYy9PZytJbTJmcXVYcXp2a3ZzZVlJMUVUZ0NpVUx3Rm9ONnpwOVNSU2ZsSmZFTjhoaE9BVEJNZEFFNEIvYVRYMEdzQXBIMklKSDE4OTVEb0NVRGttL2NBOE1Pd1haSS8vR1pVVEFDR1FCOHROVk1SQUNKZmdnVEF4U2pUY2tZaE43VUs5UTBVVGdBeUxWZ0FPQVZzMEhUMkJ4Uk9BSVpBTG8yMUNSb0EvbUNNYWduZEkrb21BS0R6VEpNNnJUVUpIZ0JYQ2RlNjRTbHlWWXNZVndncUowQ0dJWWhQZXcyaUJJQ2ZCYWhTcko2SU5nRjRLYVNmNWt1ZmpPcExvQXhERUY0cWV4NDFBQzZUbjBwQk5IQzUxN0V2aDZOUEFJWkFsNVNhSHhBUUFOY1lBbjlTM0ZzUkFYQjlKa2l4VUxHNTNsTUpaMzlBU0FBQWhrQ3lWSnNmRUJRQWdDR1FLT1htQnd3OEdqRXJvTFNObDg3S3lVUFVCQUQ4TmFxVmdycmdhNjhrbm9URUJRQmdDR0t5MVB3QVVEcS9hWXJZVnkvNGJGaXBCWW5GNmw2TG5BQVpueHZIYWZBZHE4MFBDSjhBR2QvTktyMUl2bkJmbFFRQUNIUEcxbEF3RjdpWDN4RjlDVFJjaUEyMWNGbkU1aitUbWdtUUNkbWttZ3A1TnR5emtha0xBQkQrVEsydHFCbnVVMjBxQXdERXUxeVJYbVR1U3o1cUF3REV2MmFYVW5UdVEzR3FBNUNKM1FDWlVJMWc3ZXYxS1lrQUFIS2FvbEtxTHdoSm9mbUJoQUlBeUcyVzFLVFMvRUJpQWNnd0NINmsxUGdaTlQ4SXl5UEZRc1dXNnA0bU9RR0c0elNvVDZxTm4wbHlBZ3lYZWdGOXNyQjN5VStBNFRnTlJzZEM0MmRNQlNERElGUm5xZkV6SmdPUVlSQytZYkh4TTZZRGtMRWFCTXVObjJFQUtxUWVCamI5bVJpQUVhUVdCRForZFF6QUtHZ05BNXUrTmdhZ0FLbUJZTVBueHdBNHdGOUMwWXNCOENpRmQyaWxqZ0VnMDVLL0Y0am9iQmdBTW8wQklOTVlBREtOQVNEVEdBQXlqUUVnMHhnQU1vMEJJTk1ZQURLTkFTRFRHQUF5alFFZzB4Z0FNbzBCSU5NWUFES05BU0RUR0FBeTdYK0hYa09oKzNkeVJnQUFBQUJKUlU1RXJrSmdnZz09IiwgInNpemVzIjogIjE5MngxOTIiLCAidHlwZSI6ICJpbWFnZS9wbmciLCAicHVycG9zZSI6ICJhbnkgbWFza2FibGUifSwgeyJzcmMiOiAiZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFnQUFBQUlBQ0FZQUFBRDBlTlQ2QUFBZGNrbEVRVlI0bk8zZGU5RGVaWGtuOFB0TlFrSU1KQ0NIY0JSaFFEd2dzb0FHU0t4MXJUTkkxOWE2TW11MXl5aTZpTEd6MjFsbmNNc1VrdURXcVhXbmR0czFJRkMwcTNWWFhHM3RpSzd1dG5ZbG5BOVpRU01EQzhvWmhIQU9JY2QzLzBDRjhEN0orenp2OHp5LyszQjlQdjh6WEgvYzEvZis1djY5YnpLeGFPSGl5UVFBaERJcjl3QUFRUGNVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSVNBRUFnSUFVQUFBSWFFN3VBWURoZldmMTZaMysvOTZ4L0d1ZC92K0EwWnRZdEhEeFpPNGhnS202dnRUSFJWbUFNaWtBa0ZFcmwveE1LUWVRandJQUhZaCswUTlLTVlEeFV3Qmd4RnoyNDZFVXdHZ3BBREFrRjM0ZUNnRU1Sd0dBQWJud3k2UVF3R0FVQUppR0M3OU9DZ0hzbWdJQVBiajAyNklNd0ZRS0FDUVhmalFLQVNnQUJPYlNKeVZsZ0xnVUFFSng2Yk1yeWdDUktBQ0U0T0puRUlvQUVTZ0FOTXVsenlnb0E3UktBYUFwTG4zR1NSbWdKUW9BVFhEeDB5VkZnQllvQUZUTnhVOU9pZ0ExVXdDb2prdWZFaWtEMUVZQm9Cb3VmbXFnQ0ZBTEJZRGl1Zmlwa1NKQTZSUUFpdVhpcHdXS0FLVlNBQ2lPaTU4V0tRS1VSZ0dnR0M1K0lsQUVLSVVDUUhZdWZpSlNCTWhOQVNBYkZ6OG9BdVNqQU5BNUZ6OU1wUWpRTlFXQXpyajRZWHFLQUYyWmxYc0FZbkQ1UTMvc0NsM3hBc0JZQ1RPWU9hOEJqSk1Dd0ZpNCtHRjBGQUhHd1NjQVJzN2xENk5scHhnSEx3Q01qSkNDOGZNYXdLZ29BQXpOeFEvZFV3UVlsazhBRE1YbEQzbllQWWJsQllBWkVUNVFEcThCeklRWEFBYm04b2V5MkVsbXdnc0FmUk15VUQ2dkFmVExDd0I5Y2ZsREhld3EvVklBbUpaQWdicllXZnJoRXdBN0pVU2dmajRKc0ROZUFPako1UTl0c012c2pCY0FwaEFZZGVycVQzck9SNTI4QlBCU0NnQy9JdGpMVlZ0NE8wdmxxdTBzTVQ0S0FDa2xnVjJLMXNQWk9TdEQ2K2VNL2lnQUNPVU1CUENPbk1IdU9ZTW9BSUVKM2U0STI4RTRtOTF4TnVOU0FJSVNzT01sVkVmTGVSMHY1elVtQlNBZ1lUcDZBclJienZEb09jUHhLQURCQ003UkVaaGxjS1pIeDVtT1JRRUlSRkFPVDBDV3pSa2Zuak1laHdJUWdGQWNqa0NzazNNL0hPZStmUXBBNDRUZ3pBaS90dGlEbWJFSGJWTUFHaWIwQmlmdzJtWW5CbWNuMnFVQU5FclE5VS9BeFdSSCttZEgycVFBTkVpdzlVZW9rWko5NlpkOWFZOEMwQmhoTmoxQlJpOTJaM3AycHkwS1FFTUUySzRKTC9waGozYk5IclZEQVdpRTBPcE5XREVNZTlXYnZXcURBdEFBSVRXVmdHS1U3TmhVZHF4K0NrRGxCTk9PaEJMalpOOTJaTi9xTml2M0FNeWNNTnFSTUdMY25MRWR5YUM2ZVFHb2xNVjdnVkFtQnp2NEFqdFlKd1dnUW9MbmVVS0hFdGpINTluSCtpZ0FsUkUyZ29ZeTJVMjdXUnMvQTFBUkFTTmdLSmV6S2FOcTR3V2dFdEVYUzdoU0UvdHFYMnVnQUZRZ2NwZ0lFbXBtZHltWlR3Q0ZFeUJRcjhobk9ISjIxY0lMUU1HaUxsRGswS1JkOXBuU2VBRW9sTENBdGtROTIxR3pyQVplQUFvVWNXR2loaU14MlhGSzRBV0E3QVFEMFRqemxFQUJLRXkwUHhrSVFxS0tkdmFqWlZzTmZBSW9TS1FGaVJaK3NDdDJueHk4QUJSQ0FFQmNrWFlpVXRhVlRnRW9RS1NGaUJSME1JaEl1eEVwODBybUUwQm1VUlloVXJqQnNPUUNYZkFDd05oWmNoaU1uYUVMQ2tCR0VWcStJSU9aaWJBN0VUS3daQXBBSmhFT2ZvUUFnM0dLc0VNUnNyQlVmZ1lnZzlZUGZJVFFncTdKRFViTkN3QWpaWWxoUE93V282WUFkS3psRmkrZ1lMeGEzckdXczdGVUNrQ0hXajdnTFFjVGxLVGxYV3M1STB1a0FIU2s1WVBkY2lCQmlWcmV1WmF6c2pRS0FFTnBPWWlnWkhhUFlTa0FIV2kxMFFvZ3lLdlZIV3cxTTB1akFJeFpxd2U1MWVDQjJyUzZpNjFtWjBrVWdERnE5UUMzR2poUXExWjNzdFVNTFlVQ3dFQmFEUnFvbmQxa1VBckFtTFRZWEFVTWxLM0ZIVzB4UzB1aEFJeEJpd2UyeFdDQkZyVzRxeTFtYWdrVUFLYlZZcUJBeSt3cy9WQUFScXkxcGlwSW9FNnQ3VzVyMlZvQ0JXQ0VXanVnclFVSVJOUGFEcmVXc2JrcEFQVFVXbkJBVkhhWm5WRUFScVNsWmlvd29DMHQ3WFJMV1p1YkFzQU9XZ29LNEFWMm01ZFNBRWFnbFVZcUlLQnRyZXg0SzVtYm13SXdKQWNSb0h1eWQzZ0tBQ21sZHY1a0FPeWFYZWVYRklBaHROSkFCUUxFMHNyT3Q1TEJ1U2dBd2JVU0JNQmc3RDRLd0F5MTBEd0ZBTVRXUWdhMGtNVzVLQUF6NE1BQmxFTW16NHdDRUZRTHpSOFluaXlJU3dFWVVBdE4wOElETDlaQ0pyU1F6VjFUQUlKcFlkR0IwWk1OOFNnQUE5QXdBY29sb3dlakFBU2k0UU83SWlOaVVRRDZWSHV6dE5oQVAyclBpdHF6dWtzS1FBQzFMelRRTFprUmd3TFFCNDBTb0I0eXV6OEtRT00wZVdBbVpFZjdGSUJwMU53a0xUQXdqSm96cE9iczdvb0NBQUFCS1FDN1VIT0RyTG01QStXb09VdHF6dkF1S0FBTnFubGhnZkxJbERZcEFEdWhPUUxVVDVidm5BTFFHRTBkR0FmWjBoNEZvQWVORWFBZE1yMDNCYUFoR2pvd1RqS21MUXJBUzlUYUZDMG0wSVZhczZiV2JCOG5CUUFBQWxJQUdsQnJJd2ZxSkhQYW9BQzhpQ2NpZ0hiSitCMHBBSlhUeElFY1pFLzlGSUJmMEF3QjJpZnJYNkFBVkV3REIzS1NRWFZUQUZLZGpkRGlBU1dvTVl0cXpQeHhVQUFBSUNBRm9FSTFObTZnWFRLcFR1RUxnS2NnZ0hoa3Z3SlFIVTBiS0pGc3FvOENBQUFCaFM0QW5vQUE0b3ArQjRRdUFMWHh4QWFVVEViVkpXd0JpTjc4QUloOUY0UXRBTFhScklFYXlLcDZLQUFBRU5ERW9vV0xKM01QMGJYYW5udzA2dEc1Wk1XcDZaREZlK1llWXdkcmIzczRuZmRmcmt6YnRyZTVpZ3YzbUplKytxZS9sWHVNYVgzaG03ZW15Nzk3Vys0eG1pRm55K2NGQURMN1o2OWVuSDcvZDAvSVBRWVFqQUpRdUlpdE5LSlRseDZlM3ZQMm8zT1BBU01qdThvWHJnRFU5aXhGSEdlKzY5aDB5bkVINXg0RFFvcDRONFFyQUZDcWlZbVV6dm5Ba25UVVlYdm5IZ1VJUUFFb21DZTBlT2JObloxV25yMHM3YmYzeTNLUEFrT1RZV1ZUQUtBd0wxKzBlMXExZkZtYXYvdWMzS01BRFF0VkFHcjZ4cU01eDNiNHdZdlNINTU1VXBvMWF5TDNLRENVbXJLc3BqdGlGRUlWQUtqSkc0ODVNSDNrUGNmbEhnTm9sQUlBQmZ1dFh6OHkvZlpiajhvOUJ0Q2dNSDhUWUUxUE96VTltVVZ5emdlV3BMZSs2UldkLzMrM2I1OU1xeTY2S2wzL293YzcvMytYNEcvLy9IZlM3blA3KzNtSWMvL2lCMm50YlErUGVTSm1RZ2FYeHdzQUZHN1dySW4wSHo1MFVqcmlrTDF5andJMFJBR0FDc3lmTnlldFdyNHN2WHpSN3JsSEFScWhBQlFteXRNVGc5dDNyL2xwNVVlWHBYbHpaK2NlQlFZbTI4b1RvZ0RVOU8wSmR1V29WK3lkUHZIQkpXbGl3cThId3JoRXVUTkNGQUJveWNsdk9EaDk2SGVPelQwR1VEa0ZvQ0NleU9qWHYveU5WNlYzTERzaTl4Z3dFQmxYRmdVQUt2V3g5eDZmam4vTjR0eGpBSlZxdmdCRStaWkRQTE5uVGFSelAzeHllc1dCQzNPUEFzMkpjSGMwWHdCcTRXbU1tVmd3ZjdkMHdmSmxhYTg5NStVZUJmb2k2OHFoQUVEbEZ1K3pJSzA0ZTJtYXU1dGZEd1Q2cHdCQUExNTkrRDdwNDJlOE1mbnRRS0JmVFJlQUNOOXc0SmQrN1lSRDB4bnZQQ2IzR05DTTF1K1FwZ3RBTFh3VFkxVGVlK3ByMG0rYzlNcmNZOEF1eWJ3eUtBRFFtSC8zdmhQUzY0L2FML2NZUU9FVUFHak1uRG16MG5sbm5aSU8zbi9QM0tNQUJWTUFvRUY3THBpYkx2allzclJ3d2R6Y293Q0ZhcllBMVBMREc3NkZNUzRIN2JkSE91OGpwNlE1YzVwZGN5cFdTL2JWY3BmTWhHU0FoaDF6NUg3cEQ5NS9ZdTR4Z0FJcEFOQzR0eTA1TEwzdnROZm1IZ01vakFJQUFmemViNzR1dmVYRVEzT1BBUlJFQWNpb2xtOWcxRzlpSXFXUG4vR205Tm9qOXNrOUN2eUtETXhMQVlBZ2Rwc3pLNTEvOXRKMHdMNExjbzhDRktESkF0RHlUMjFTaDNWM1BwcWUyN3cxOXhoVExOcGpYcnBnK2JLMFlQNXV1VWVCYXJSNnB6UlpBQ0Mzbnozd1ZQcVR2N291VFU1TzVoNWxpa01QV0pqKzZLeFQwdXhaL3VVZ2lFd0JnREc1N3RZSDBxWGZ1Q1gzR0QwZGQvVCs2ZmQvOTRUY1l3QVpLUUF3UnQvNGg5dlR0Nis4Sy9jWVBaMjY5UEIwK3R1UHpqMEdrSWtDa0ltZmZvMWo5VmR2VG10dmV6ajNHRDE5OEYzSHBsT09PemozR0FRbUMvTlJBR0RNdG0yZlRIOTh5VFhwM29lZXlqM0tGQk1US1ozemdTWHBxTVAyemowSzBERUZBRHF3WWVPV2RQN3FOZW5KWnpibEhtV0tlWE5ucDFVZlhaYjIyL3RsdVVjQk90UmNBV2oxMXpXbzMwT1Bia2dYZlA3cXRHWHI5dHlqVExIM3d0M1RxdVhMMHZ6ZDUrUWVCWXJVNHQzU1hBR0FrcTI3ODlIMDJTL2ZrSHVNbmc0L2VGRTY5ME1ucDFsK1BSQkNVQUNnWTkrLy9wNzBsVyt2eXoxR1R5ZSs3b0IwOXVuSDVSNEQ2SUFDa0lHZmV1VkwzL3B4K3FjYjc4azlSay92Zk11UjZiZmZlbFR1TVFoRUp1YWhBRUFtbi8zU2pla25kNjNQUFVaUEgzblBHOUtTMXgrWWV3eGdqQlFBeUdUemxtM3BnczlmbFI1ZXZ5SDNLRk5NVEV5a1Q1eDVVanJpa0wxeWp3S01pUUlBR1QzeDlLYTBZdldhOU94elczS1BNc1g4ZVhQU3F1WEwwajZMNXVjZUJSZ0RCUUF5dS92QnA5S25McjAyYmR0ZTNqOGN0TzllODlQSzVVdlR2TG16YzQ4Q2pKZ0NBQVc0YWQxRDZjTEwxK1llbzZjakQ5MDdmZUxNazlMRWhGOFBoSllvQUZDSUszNXdaL3E3NzkrUmU0eWVUajcyb1BUaGR4K2Jld3hnaEJRQUtNakYvK09INmJwYkg4dzlSay92ZnR1cjBtbHZQaUwzR01DSU5GVUFXdnlyR29sbGNuSXlmZnF5YTlOUDczOHk5eWc5TGY5WHg2ZmpYN000OXhpUVJXdDNURk1Gb0FiK3dndW1zM0hUMXJSaTlacjArRlBQNVI1bGl0bXpKdEs1SHo0NUhYYmd3dHlqMEJqWjJEMEZBQXIweU9QUHBwVVhYcFUyYjltV2U1UXBGc3pmTGExYXZpenR0ZWU4M0tNQVExQUFvRkMzMy8xWStzd1hyMCtUNWYxMllGcTh6NEswNHV5bGFlNXVmajBRYXFVQVFNSFdyTDB2ZmZIdmI4MDlSayt2UG55ZjlQRXozcGo4ZGlEVVNRR0F3bDMrM2R2Uy83cjJaN25INk9uWFRqZzBuZkhPWTNLUEFjeUFBZ0FWK0l1L3VTbmRlc2NqdWNmbzZiMm52aWE5L2FSWDVoNERHSkFDQUJYWXVtMTcrdVRGVjZmN2YvNU03bEY2K3JmdlB5RzkvcWo5Y284QkRFQUJnRW84dldGeldySDZ5dlQwaHMyNVI1bGl6dXhaNmJ5elRra0g3NzluN2xHQVBpa0FVSkg3Zi81TStvK1hYSjIyYnR1ZWU1UXA5bHd3TjEzd3NXVnA0WUs1dVVjQitxQUFRR1Z1dWYyUjlKZGZ1U24zR0QwZHROOGU2YnlQTEUxejVvZ1dLSjB0aFFwOTc1cWZwYTk5NzdiY1kvUjB6Skg3cGo5NC80bTV4d0Ntb1FCQXBiN3d6VnZUbXJYMzVSNmpwN2N0T1N5OTc3VFg1aDREMkFVRkFDbzFPWm5TZi9ycjY5TWRkeitlZTVTZS92Vy9lRjM2OVJOZmtYc01ZQ2NVQUtqWXBzM2Iwc3FMMXFSSEhuODI5eWc5L2ZzejNwaGVlOFErdWNjQWVsQUFvSEtQUGZsY1dubmhWV25qcHEyNVI1bGl0em16MHZsbkwwMEg3THNnOXlqQVN5Z0EwSUM3N25zaWZmcXlhOU5rZ2Y5eTBLSTk1cVVMbGk5TEMrYnZsbnNVNEVVVUFHakVkYmMrbUM3KytnOXpqOUhUb1Fjc1RIOTAxaWxwem15UkE2V3dqZENRdi92SE85SVZQN2d6OXhnOUhYZjAvdWxqN3owKzl4akFMeWdBMEpnTEwxK2JidjdKdzduSDZPblVwWWVuMDk5K2RPNHhnS1FBUUhPMmJaOU1uN3IwbW5UUGcwL2xIcVduRDc3cjJMVDB1SU56andIaEtRRFFvQTBidDZRVnE5ZWtKNS9abEh1VUtTWW1VanJuZzB2U3F3NTdlZTVSSURRRkFCcjEwUG9ONllLTHJrcGJ0cGIzRHdmTjNXMTJXdm5ScFduL2w3OHM5eWdRbGdJQURWdDMxL3IwWi8vMWh0eGo5TFQzd3QzVHF1WEwwdnpkNStRZUJVSlNBS0J4LzNUalBlbkxWL3c0OXhnOXZmS2dSZW5jRDUyY1pzMmF5RDBLaEtNQVFBQi9jOFc2OVAwYjdzazlSazhudnU2QWRQYnB4K1VlQThKUkFDQ0l6MzdwaHJUdXJ2VzV4K2pwblc4NU1yM3JyVWZsSGdOQ1VRQTY5cDNWcCtjZWdhQzJiTjJlTHJqb3F2VFErZzI1UitucHJQZThJUzE1L1lHNXh5QVQyZGk5cGdyQU81Wi9MZmNJVUxRbm45bVV6di9jbXJSaDQ1YmNvMHd4TVRHUlBuSG1TZW1JUS9iS1BRcjAxTm9kMDFRQkFLWjM3ME5QcFU5ZGVrM2F0cjI4Znpoby9ydzVhZFh5WldtZlJmTnpqd0xOVXdBZ29KdC84bkM2OEt0cmM0L1IwNzU3elU4cmx5OU51OC8xNjRFd1Rnb0FCSFhGbFhlbXYvM0gyM09QMGRPUmgrNmR6amx6U1pxWThPdUJNQzRLQUFSMnlkZHZTZGZkK2tEdU1YbzYrZGlEMG9mZmZXenVNYUJaQ2dBRU5qazVtVDU5MlhYcHJ2dWV5RDFLVCs5KzI2dDhDb0F4VVFBZ3VJMmJ0cVlWcTlla3g1NThMdmNvUUljVUFDQTkrc1RHdFBMQ05XblQ1bTI1UndFNm9nQms0Qys4b0VSMzNQTjQrc3dYcjB1VDVmMTJJSTJUaVhrb0FNQ3ZYUFYvNzA5ZitPYXR1Y2NBT3FBQUFEdjQydmR1UzkrNytxZTV4d0RHckxrQzBOcGYxUWc1L09WL3V6bmRjdnNqdWNlQVlyUjR0elJYQUlEaGJkMjJQWDN5NHF2VC9UOS9PdmNvd0pnb0FFQlB6enk3T1ozL3VUWHBxUTJiYzQ4Q2pJRUNrSW1mZXFVR0R6enlUUHJrNTY5T1c3ZHV6ejBLalpLRitTZ0F3Qzc5NlA4OWt2N3pWMjdLUFFZd1lnb0FNSzMvZmUzUDBsZS9lMXZ1TVlBUlVnQ0F2dnoxMzkrYTFxeTlML2NZd0lnMFdRQmEvSFVOeUcxeU1xWFBmUEg2ZFB2ZGorVWVCVHJWNnAzU1pBRUF4bVB6bG0xcDVZVlhwWjgvOW16dVVZQWhLUUFaK2VsWGF2VDRVOCtsbFJldVNSdWYyNXA3RkNvbkEvTlNBSUNCL2ZUK0o5T2ZYSFp0MnI3ZHZ4d0V0VklBZ0JtNS9rY1Bwb3UvL3NQY1l3QXpwQUFBTS9iTjc5K1J2dldETzNPUEFjeEFzd1dnbHAvYTlBMk0ybDE0K2RwMDA3cUhjbzlCWldySnZscnVrcGxvdGdBQTNkaStmVEo5NnRKcjA5MFBQcFY3RkdBQUNnQXd0R2VmMjVKV3JGNlRubmg2VSs1UmdENHBBTUJJUEx4K1ExcDEwVlZwODVadHVVY0IrcUFBRktDV2IyRXduZHQrdWo3OTJaZHVTSk4rTzVCZGtIbGxhTG9BdFB6REcxQ3EvM1BqdmVuTFYvdzQ5eGd3dE5idmtEbTVCNEF1WGJMaTFIVEk0ajNIL3Y4NTdjMUhwTlBlZk1TTS90dnJmL1JnV3JGNnpZZ242dFpYdnIwdUhiei9IdW1mdittdzNLTUFPOUgwQ3dDUXo1OS8rY2EwN3M1SGM0OEI3SVFDVUFqZnhHak5scTNiMDZyUFg1MGVlblJEN2xFb2lLd3JSL01Gb1BWdk9GQ3lwNTdabE01ZmZXWGFzSEZMN2xGZ0lCSHVqdVlMQUpEWHZRODluZjc0a212U052OXdFQlJGQVNpSXB6RmF0ZmEyaDlQbi92dk51Y2NnTXhsWEZnVUE2TVIzMXR5VnZ2RVB0K2NlQS9pRkVBVWd3cmNjcU1HbDM3Z2xYWHZMQTduSGdGMktjbWVFS0FBMThVUkd5eVluSjlPbkw3c3UzWG52RTdsSG9XT3lyVHdLQU5DcDV6WnZUU3N1WEpQV1A3a3g5eWdRbXI4SmtGRCt6YXIvbVhzRVVrcnJuOWlZZnU4UHY1VjdEQWd0ekF0QVRkOTBQSlVCTGFrcDAycTZLNFlWcGdBQUFDOVFBQUFnb0ZBRm9LYW5uWnFlekFCMnBxWXNxK21PR0lWUUJRQUFlSjRDVUxDYW1qUEFTOG13c2lrQUFCQlF1QUlRN1JzUEFOT0xlRGVFS3dDMThZUUcxRWgybFU4QkFJQ0FRaGFBMnA1Nk5HbWdKclZsVm0xM3dxaUVMQUFBRUowQ1VJbmFHalVRazZ5cVI5Z0NFUFhKQjRBWFJMNEx3aGFBR21uV1FNbGtWRjFDRjRESXpROGd1dWgzUU9nQ0FBQlJLUUNWOGNRR2xFZzIxU2Q4QVlqK0JBUVFrZXhYQUtxa2FRTWxrVWwxVWdBQUlDQUZJTlg1RktSeEF5V29NWXRxelB4eFVBQXFWdVBpQWUyUVFYVlRBSDVCSXdSb242eC9nUUpRT1EwY3lFSDIxRThCZUJITkVLQmRNbjVIQ2tBRE5IR2dTektuRFFvQUFBU2tBTHhFclU5RUdqblFoVnF6cHRac0h5Y0ZvQ0cxTGlaUUJ4blRGZ1dnQjAwUm9CMHl2VGNGb0RFYU9qQU9zcVU5Q3NCT2FJd0E5WlBsTzZjQU5FaFRCMFpKcHJSSkFkaUZtcHVqaFFWR29lWXNxVG5EdTZBQUFFQkFDc0EwYW02UU5UZDNJTCthTTZUbTdPNktBdEM0bWhjWXlFZDJ0RThCNklNbUNWQVBtZDBmQlNBQVRSNFloTXlJUVFIb1UrMk4wa0lEL2FnOUsyclA2aTRwQUlIVXZ0akFlTW1JV0JTQUFXaVdBT1dTMFlOUkFJTFI4SUZlWkVNOENzQ0FXbWlZRmgxNHNSWXlvWVZzN3BvQ0VGUUxDdzhNVHhiRXBRRE1nS1lKVUE2WlBETUt3QXkxY09BMGY0aXRoUXhvSVl0elVRQ0NheUVBZ01IWmZSU0FJYlRTUEFVQnhOTEt6cmVTd2Jrb0FLU1UyZ2tFWU5mc09yK2tBQXhKQXdYb251d2RuZ0l3QXEwY1JIOHlnTGExc3VPdFpHNXVDZ0E3YUNVZ2dCM1piVjVLQVJpUmxocXBvSUMydExUVExXVnRiZ29BUGJVVUdCQ1pYV1puRklBUmFxMlpDZzZvVzJzNzNGckc1cVlBakZockI3UzFBSUVvV3R2ZDFySzFCQW9BMDJvdFNLQjFkcForS0FCajBHSlRGU2hRaHhaM3RjVk1MWUVDTUNZdEh0Z1dnd1ZhMHVLT3RwaWxwVkFBR0VpTEFRTXRzSnNNU2dFWW8xYWJxNkNCc3JTNms2MW1hQ2tVZ0RGcjlRQzNHamhRbTFaM3NkWHNMSWtDMElGV0QzS3J3UU8xYUhVSFc4M00waWdBREtYVkFJTFMyVDJHcFFCMHBPVkdLNGlnV3kzdlhNdFpXUm9Gb0VNdEgreVdBd2xLMHZLdXRaeVJKVklBT3RieUFXODVtS0FFTGU5WXk5bFlLZ1dBa1dvNW9DQW51OFdvVFN4YXVIZ3k5eEFSUlZobWpSNkdKeXNZRnk4QW1VUTQ4QkdDQzhZcHdnNUZ5TUpTS1FBWlJUajRFUUlNeGlIQzdrVEl3SklwQUl4ZGhDQ0RVYkl6ZE1IUEFCUWcwckpyL0xCenNvQXVlUUVvUUtSRmlCUndNSWhJdXhFcDgwcW1BQlFpMGtKRUNqcm9SNlNkaUpSMXBmTUpvRENSZ2lBbFlVQnM5cDJjdkFBVUp0cUNSQXRBK0tWb1p6OWF0dFZBQVNDN2FFRUl6andsOEFtZ1VGRUR3cDhTYUptOXBpUmVBQW9WZFdHaUJpVHRpM3EybzJaWkRid0FGQzVxYUtRa09HaURIYVpVWGdBS0YzbUJJZ2NuYlloOGhpTm5WeTI4QUZRaWNwQ2tKRXlvaTMyMXJ6VlFBQ29TUFZSU0VpeVV6WTdhMFpyNEJGQVJpeVZnS1plekthTnE0d1dnUW9MbWVjS0dFdGpINTluSCtpZ0FsUkk2THhBODVHQUhYMkFINjZRQVZFd0E3VWdJMFFWN3R5TjdWeTgvQTFBeGk3Y2p3Y3k0T1dNN2trRjE4d0xRQUtFMGxXQmlsT3pZVkhhc2ZncEFJd1JVYjBLS1lkaXIzdXhWR3hTQWhnaXJYUk5hOU1NZTdabzlhb2NDMEJqaE5UMEJSaTkyWjNwMnB5MEtRSU1FV1grRUdTblpsMzdabC9Zb0FJMFNhdjBUYkRIWmtmN1prVFlwQUEwVGNJTVRkRzJ6RTRPekUrMVNBQm9uOEdaRzZMWEZIc3lNUFdpYkFoQ0E4QnVPRUt5VGN6OGM1NzU5Q2tBZ0FuRjRRckZzenZqd25QRTRGSUJnQk9Ub0NNb3lPTk9qNDB6SG9nQUVKREJIVDNCMnl4a2VQV2M0SGdVZ0tBRTZYc0owdEp6WDhYSmVZMUlBQWhPcTNSR3dnM0UydStOc3hxVUFJR3d6RUxvN2NnYTc1d3lpQUpCU0VzQ2xhRDJVbmJNeXRIN082SThDd0s4STUzTFZGdGpPVXJscU8wdU1qd0xBRk1LN1RsMEZ1L05SSnhjL0w2VUEwSk9RaDNhNC9PbGxWdTRCS0pQQWdEYllaWGJHQ3dEVDhob0E5WEh4TXgwdkFFeExrRUJkN0N6OVVBRG9pMENCT3RoVit1VVRBQVB6U1FESzQrSm5VRjRBR0ppZ2diTFlTV2JDQ3dCRDhSb0ErYmo0R1lZWEFJWWlnQ0FQdThld3ZBQXdNbDREWVB4Yy9JeUtBc0RJS1FJd2VpNStSczBuQUVaT1VNRm8yU25Hd1FzQVkrVTFBR2JPeGM4NEtRQjBRaEdBL3JuNDZZSlBBSFJDb0VGLzdBcGQ4UUpBNTd3R3dGUXVmcnFtQUpDTklnQXVmdkpSQU1oT0VTQWlGeis1S1FBVVF4RWdBaGMvcFZBQUtJNGlRSXRjL0pSR0FhQllpZ0F0Y1BGVEtnV0E0aWtDMU1qRlQra1VBS3FoQ0ZBREZ6KzFVQUNvamlKQWlWejgxRVlCb0dyS0FEbTU5S21aQWtBVEZBRzY1T0tuQlFvQVRWRUVHQ2NYUHkxUkFHaVdNc0FvdVBScGxRSkFDTW9BZzNEcEU0RUNRQ2lLQUx2aTRpY1NCWUN3bEFGU2N1a1Rsd0lBU1JtSXhxVVBDZ0QwcEJDMHhZVVBVeWtBTUExbG9FNHVmZGcxQlFBR3BCQ1V5WVVQZzFFQVlFZ0tRUjR1ZkJpT0FnQWpwaENNaHdzZlJrc0JnQTRvQllOeDJjUDRLUUNRVWZSaTRLS0hmQlFBS0ZRcjVjQWxEMlZTQUtBQlhaY0ZsenJVVHdFQWdJQm01UjRBQU9pZUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBU2tBQUJDUUFnQUFBZjEvckl4ZEJ1L0huUFlBQUFBQVNVVk9SSzVDWUlJPSIsICJzaXplcyI6ICI1MTJ4NTEyIiwgInR5cGUiOiAiaW1hZ2UvcG5nIiwgInB1cnBvc2UiOiAiYW55IG1hc2thYmxlIn1dfQ=="/>
+<link rel="apple-touch-icon" href="data:image/png;base64,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"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<title>Náthaly · Plano HOF</title>
+<style>
+:root {
+  --gold: #C6A46C;
+  --gold-light: #D4B882;
+  --gold-dim: rgba(198,164,108,0.18);
+  --gold-border: rgba(198,164,108,0.28);
+  --bg: #0f0e17;
+  --bg2: #16151f;
+  --bg3: #1e1d2a;
+  --bg4: #252433;
+  --text: #f0ede6;
+  --text2: #a09d96;
+  --text3: #6b6862;
+  --danger: #e05c5c;
+  --success: #5cba8a;
+  --radius: 14px;
+  --radius-sm: 8px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+
+html, body {
+  height: 100%; overflow: hidden;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Jost', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* APP SHELL */
+.app {
+  display: flex; flex-direction: column;
+  height: 100%;
+  padding-top: var(--safe-top);
+  padding-bottom: var(--safe-bottom);
+}
+
+/* HEADER */
+.topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 14px 20px 10px;
+  background: var(--bg);
+  border-bottom: 0.5px solid rgba(198,164,108,0.1);
+  flex-shrink: 0;
+}
+
+.topbar-left { display: flex; flex-direction: column; }
+.topbar-greeting { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--gold); }
+.topbar-name { font-family: 'Playfair Display', serif; font-size: 18px; color: var(--text); margin-top: 1px; }
+
+.notif-btn {
+  width: 40px; height: 40px; border-radius: 50%;
+  background: var(--bg3); border: 0.5px solid var(--gold-border);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; position: relative;
+  font-size: 18px;
+}
+.notif-dot {
+  position: absolute; top: 7px; right: 7px;
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--gold); border: 2px solid var(--bg);
+}
+
+/* SCROLL AREA */
+.scroll {
+  flex: 1; overflow-y: auto; overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 100px;
+}
+
+/* BOTTOM NAV */
+.nav {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  padding-bottom: var(--safe-bottom);
+  background: var(--bg2);
+  border-top: 0.5px solid rgba(198,164,108,0.12);
+  display: flex;
+  z-index: 100;
+}
+
+.nav-item {
+  flex: 1; display: flex; flex-direction: column;
+  align-items: center; gap: 3px;
+  padding: 10px 2px 8px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.nav-icon { font-size: 20px; }
+.nav-label { font-size: 9px; letter-spacing: 0.2px; text-transform: uppercase; color: var(--text3); }
+.nav-item.active .nav-icon { filter: drop-shadow(0 0 4px var(--gold)); }
+.nav-item.active .nav-label { color: var(--gold); }
+
+/* PAGES */
+.page { display: none; padding: 0; }
+.page.active { display: block; }
+
+/* ============ HOME PAGE ============ */
+.hero {
+  background: linear-gradient(160deg, #1a1828 0%, #0f0e17 60%);
+  padding: 20px 20px 16px;
+  border-bottom: 0.5px solid rgba(198,164,108,0.1);
+  position: relative; overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute; top: -40px; right: -40px;
+  width: 180px; height: 180px;
+  border-radius: 50%;
+  border: 1px solid rgba(198,164,108,0.08);
+}
+
+.hero::after {
+  content: '';
+  position: absolute; top: -10px; right: -10px;
+  width: 100px; height: 100px;
+  border-radius: 50%;
+  border: 1px solid rgba(198,164,108,0.06);
+}
+
+.hero-date { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text3); margin-bottom: 6px; }
+.hero-title { font-family: 'Playfair Display', serif; font-size: 20px; color: var(--text); line-height: 1.3; }
+.hero-title span { color: var(--gold); font-style: italic; }
+
+.progress-wrap { margin-top: 16px; }
+.progress-label { display: flex; justify-content: space-between; margin-bottom: 6px; font-size: 12px; color: var(--text3); }
+.progress-bar { height: 4px; background: var(--bg4); border-radius: 2px; overflow: hidden; }
+.progress-fill { height: 100%; background: linear-gradient(90deg, var(--gold), var(--gold-light)); border-radius: 2px; transition: width 0.5s ease; }
+
+/* Alert banner */
+.alert-banner {
+  margin: 16px 16px 0;
+  background: rgba(198,164,108,0.08);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  display: flex; gap: 10px; align-items: flex-start;
+}
+
+.alert-icon { font-size: 18px; flex-shrink: 0; margin-top: 1px; }
+.alert-text { font-size: 13px; line-height: 1.6; color: var(--text2); }
+.alert-text strong { color: var(--gold); font-weight: 500; }
+
+/* Section header */
+.sec-hd {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 20px 16px 10px;
+}
+
+.sec-title { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--text3); }
+.sec-link { font-size: 12px; color: var(--gold); cursor: pointer; }
+
+/* Daily tasks */
+.task-list { padding: 0 16px; display: flex; flex-direction: column; gap: 8px; }
+
+.task-item {
+  display: flex; gap: 12px; align-items: flex-start;
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius-sm);
+  padding: 13px 14px;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.task-item:active { background: var(--bg3); }
+
+.task-check {
+  width: 22px; height: 22px; border-radius: 50%;
+  border: 1.5px solid var(--text3);
+  flex-shrink: 0; margin-top: 1px;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.2s;
+  font-size: 12px;
+}
+
+.task-item.done .task-check {
+  background: var(--gold); border-color: var(--gold);
+  color: var(--bg);
+}
+
+.task-item.done { opacity: 0.5; }
+
+.task-body { flex: 1; }
+.task-cat { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: var(--gold); margin-bottom: 2px; }
+.task-txt { font-size: 14px; color: var(--text); line-height: 1.4; }
+.task-item.done .task-txt { text-decoration: line-through; color: var(--text3); }
+
+/* Stats row */
+.stats-row {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 8px; padding: 0 16px;
+}
+
+.stat-card {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius-sm);
+  padding: 13px 10px;
+  text-align: center;
+}
+
+.stat-val { font-family: 'Playfair Display', serif; font-size: 22px; color: var(--gold); }
+.stat-lbl { font-size: 10px; color: var(--text3); margin-top: 2px; line-height: 1.3; }
+
+/* ============ DIAGNÓSTICO PAGE ============ */
+.page-pad { padding: 16px; }
+
+.diag-header {
+  background: linear-gradient(135deg, #1a1828, #0f1a2e);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin-bottom: 14px;
+  border: 0.5px solid var(--gold-border);
+}
+
+.diag-tag { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); margin-bottom: 6px; }
+.diag-title { font-family: 'Playfair Display', serif; font-size: 18px; color: var(--text); margin-bottom: 10px; }
+
+.badge-row { display: flex; gap: 6px; flex-wrap: wrap; }
+.badge {
+  background: var(--gold-dim);
+  border: 1px solid var(--gold-border);
+  border-radius: 20px; padding: 4px 12px;
+  font-size: 11px; color: var(--gold);
+}
+
+.card-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 14px; }
+
+.info-card {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius-sm);
+  padding: 13px;
+}
+
+.info-card.full { grid-column: 1/-1; }
+.info-card.highlight { border-left: 2.5px solid var(--gold); }
+
+.info-lbl { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: var(--text3); margin-bottom: 5px; }
+.info-val { font-size: 13px; color: var(--text); line-height: 1.5; }
+.info-val.gold { color: var(--gold); font-weight: 500; }
+
+.insight-box {
+  background: rgba(198,164,108,0.06);
+  border: 1px solid var(--gold-border);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  margin-bottom: 14px;
+}
+
+.insight-title { font-size: 12px; letter-spacing: 1px; text-transform: uppercase; color: var(--gold); margin-bottom: 8px; }
+.insight-text { font-size: 14px; color: var(--text2); line-height: 1.7; }
+.insight-text em { color: var(--gold); font-style: normal; font-weight: 500; }
+
+/* ============ FLUXOGRAMA PAGE ============ */
+.fluxo-container {
+  padding: 16px;
+  overflow-x: auto;
+}
+
+.fluxo-card {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius);
+  padding: 16px;
+  min-width: 300px;
+}
+
+/* Flowchart vertical */
+.flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.flow-step {
+  width: 100%;
+  max-width: 320px;
+  background: var(--bg3);
+  border: 0.5px solid rgba(255,255,255,0.07);
+  border-radius: var(--radius-sm);
+  padding: 13px 16px;
+  position: relative;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.flow-step:active { border-color: var(--gold); }
+.flow-step.active-step { border-color: var(--gold); background: rgba(198,164,108,0.07); }
+
+.flow-num { font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--gold); margin-bottom: 3px; }
+.flow-title { font-size: 14px; font-weight: 500; color: var(--text); }
+.flow-sub { font-size: 12px; color: var(--text3); margin-top: 2px; line-height: 1.4; }
+
+.flow-arrow {
+  width: 1px; height: 28px;
+  background: rgba(198,164,108,0.3);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.flow-arrow::after {
+  content: '▾';
+  position: absolute; bottom: -3px; left: 50%; transform: translateX(-50%);
+  color: var(--gold); font-size: 10px;
+}
+
+/* Split arrow */
+.flow-split {
+  display: flex;
+  width: 100%;
+  max-width: 320px;
+  gap: 10px;
+}
+
+.flow-branch {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.flow-branch-line {
+  width: 1px; height: 20px;
+  background: rgba(198,164,108,0.3);
+  position: relative;
+  flex-shrink: 0;
+}
+
+.flow-step.green { border-color: rgba(92,186,138,0.3); }
+.flow-step.green .flow-num { color: var(--success); }
+
+.flow-step.red { border-color: rgba(224,92,92,0.3); }
+.flow-step.red .flow-num { color: var(--danger); }
+
+.flow-split-bar {
+  width: 100%;
+  max-width: 320px;
+  height: 1px;
+  background: rgba(198,164,108,0.3);
+  position: relative;
+}
+
+/* ============ PLANO PAGE ============ */
+.plano-pad { padding: 16px; }
+
+.plano-item {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.plano-header {
+  display: flex; gap: 12px; align-items: center;
+  padding: 14px 16px;
+  cursor: pointer;
+}
+
+.plano-num {
+  width: 34px; height: 34px; border-radius: 50%;
+  background: var(--bg4);
+  border: 1px solid var(--gold-border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 500; color: var(--gold);
+  flex-shrink: 0;
+}
+
+.plano-meta { flex: 1; }
+.plano-prazo { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: var(--gold); margin-bottom: 2px; }
+.plano-title { font-size: 14px; font-weight: 500; color: var(--text); }
+
+.plano-chevron { font-size: 12px; color: var(--text3); transition: transform 0.2s; }
+.plano-item.open .plano-chevron { transform: rotate(180deg); }
+
+.plano-body {
+  display: none;
+  padding: 0 16px 14px;
+  border-top: 0.5px solid rgba(255,255,255,0.04);
+}
+
+.plano-item.open .plano-body { display: block; }
+
+.plano-desc { font-size: 13px; color: var(--text2); line-height: 1.6; margin: 10px 0 12px; }
+
+.plano-actions { display: flex; flex-direction: column; gap: 7px; }
+
+.plano-action {
+  display: flex; gap: 8px; align-items: flex-start;
+  font-size: 13px; color: var(--text2); line-height: 1.5;
+}
+
+.plano-action::before {
+  content: '→';
+  color: var(--gold); font-size: 11px; flex-shrink: 0; margin-top: 2px;
+}
+
+/* ============ SCRIPTS PAGE ============ */
+.script-pad { padding: 16px; }
+
+.script-item {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.05);
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.script-header {
+  padding: 14px 16px;
+  cursor: pointer;
+  display: flex; gap: 12px; align-items: flex-start;
+}
+
+.script-tag-wrap { flex-shrink: 0; margin-top: 2px; }
+.script-tag {
+  background: var(--gold-dim);
+  border: 1px solid var(--gold-border);
+  border-radius: 20px; padding: 3px 10px;
+  font-size: 10px; color: var(--gold);
+}
+
+.script-meta { flex: 1; }
+.script-objecao { font-size: 13px; font-weight: 500; color: var(--text); margin-bottom: 2px; line-height: 1.4; }
+.script-preview { font-size: 12px; color: var(--text3); }
+
+.script-body {
+  display: none;
+  padding: 0 16px 16px;
+  border-top: 0.5px solid rgba(255,255,255,0.04);
+}
+
+.script-item.open .script-body { display: block; }
+
+.script-label { font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: var(--text3); margin: 12px 0 6px; }
+
+.script-text {
+  background: rgba(198,164,108,0.05);
+  border-left: 2px solid var(--gold);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 12px;
+  font-size: 13px; color: var(--text); line-height: 1.7;
+  font-style: italic;
+}
+
+.copy-btn {
+  display: flex; align-items: center; gap: 6px;
+  margin-top: 10px;
+  background: var(--gold-dim); border: 1px solid var(--gold-border);
+  border-radius: var(--radius-sm);
+  padding: 8px 14px;
+  font-size: 12px; color: var(--gold);
+  cursor: pointer; width: 100%; justify-content: center;
+  transition: background 0.2s;
+}
+
+.copy-btn:active { background: rgba(198,164,108,0.3); }
+
+/* ============ NOTIFICATION SETUP ============ */
+.notif-panel {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(15,14,23,0.95);
+  z-index: 999;
+  display: none;
+  flex-direction: column;
+  padding: 40px 20px 20px;
+}
+
+.notif-panel.open { display: flex; }
+
+.notif-close {
+  position: absolute; top: 16px; right: 20px;
+  font-size: 24px; color: var(--text2);
+  cursor: pointer;
+  padding: 8px;
+}
+
+.notif-title { font-family: 'Playfair Display', serif; font-size: 22px; color: var(--text); margin-bottom: 6px; }
+.notif-sub { font-size: 13px; color: var(--text2); margin-bottom: 30px; line-height: 1.6; }
+
+.notif-time-label { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--text3); margin-bottom: 10px; }
+
+.time-presets { display: grid; grid-template-columns: repeat(2,1fr); gap: 8px; margin-bottom: 20px; }
+
+.time-preset {
+  background: var(--bg2);
+  border: 0.5px solid rgba(255,255,255,0.07);
+  border-radius: var(--radius-sm);
+  padding: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.time-preset:active,
+.time-preset.selected { border-color: var(--gold); background: var(--gold-dim); }
+
+.time-val { font-family: 'Playfair Display', serif; font-size: 20px; color: var(--gold); }
+.time-lbl { font-size: 11px; color: var(--text3); margin-top: 2px; }
+
+.notif-btn-activate {
+  background: var(--gold);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  font-family: 'Jost', sans-serif;
+  font-size: 14px; font-weight: 500;
+  color: var(--bg);
+  cursor: pointer;
+  width: 100%;
+  margin-top: auto;
+  letter-spacing: 0.5px;
+}
+
+/* Toast */
+.toast {
+  position: fixed; bottom: 90px; left: 50%; transform: translateX(-50%);
+  background: var(--bg3); border: 1px solid var(--gold-border);
+  border-radius: 20px; padding: 10px 20px;
+  font-size: 13px; color: var(--gold);
+  z-index: 9999;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.3s;
+  white-space: nowrap;
+}
+
+.toast.show { opacity: 1; }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 2px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--text3); border-radius: 1px; }
+
+/* Animations */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.page.active > * { animation: fadeUp 0.3s ease forwards; }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="topbar-left">
+      <div class="topbar-greeting" id="greeting">Bom dia</div>
+      <div class="topbar-name">Náthaly Alves</div>
+    </div>
+    <div class="notif-btn" onclick="openNotif()">
+      🔔
+      <div class="notif-dot" id="notif-dot"></div>
+    </div>
+  </div>
+
+  <!-- SCROLL AREA -->
+  <div class="scroll" id="scroll">
+
+    <!-- HOME -->
+    <div class="page active" id="page-home">
+      <div class="hero">
+        <div class="hero-date" id="hero-date"></div>
+        <div class="hero-title">Seu <span>plano HOF</span><br/>de hoje</div>
+        <div class="progress-wrap">
+          <div class="progress-label">
+            <span>Tarefas concluídas</span>
+            <span id="progress-pct">0%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="alert-banner">
+        <div class="alert-icon">⚠️</div>
+        <div class="alert-text">
+          <strong>Gargalo identificado:</strong> Seu perfil é bonito, mas genérico. Você parece "mais uma" excelente profissional. Falta um posicionamento que te torne A escolha óbvia — e gestão comercial pra converter.
+        </div>
+      </div>
+
+      <div class="sec-hd">
+        <div class="sec-title">Tarefas de hoje</div>
+        <div class="sec-link" onclick="resetTasks()">Reiniciar</div>
+      </div>
+
+      <div class="task-list" id="task-list"></div>
+
+      <div class="sec-hd" style="margin-top:10px">
+        <div class="sec-title">Suas metas</div>
+      </div>
+
+      <div class="stats-row">
+        <div class="stat-card">
+          <div class="stat-val">↑</div>
+          <div class="stat-lbl">Constância de posts/stories</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">↑</div>
+          <div class="stat-lbl">Orçamentos acompanhados</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">↑</div>
+          <div class="stat-lbl">Pacientes reativados</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DIAGNÓSTICO -->
+    <div class="page" id="page-diag">
+      <div class="page-pad">
+        <div class="diag-header">
+          <div class="diag-tag">Diagnóstico · Clínica &amp; Vendas</div>
+          <div class="diag-title">Onde está o erro real</div>
+          <div class="badge-row">
+            <span class="badge">Posicionamento &amp; Gestão</span>
+            <span class="badge">Prioridade: Alta</span>
+          </div>
+        </div>
+
+        <div class="insight-box">
+          <div class="insight-title">⚡ Insight principal</div>
+          <div class="insight-text">
+            A Náthaly não tem problema de técnica, segurança ou presença — ela tem problema de <em>diferenciação e gestão comercial</em>. O perfil é bonito, mas genérico: ela parece "mais uma" excelente profissional. Sem um posicionamento que a torne <em>a escolha óbvia</em>, o seguidor admira mas não vira paciente — e quando vira, hesita. Admiração não é desejo de compra. Falta transformar "perfil bonito" em <em>máquina de posicionamento + conversão</em>.
+          </div>
+        </div>
+
+        <div class="card-grid">
+          <div class="info-card highlight">
+            <div class="info-lbl">Objetivos</div>
+            <div class="info-val">Faturamento + pacientes + conversão + processo</div>
+          </div>
+          <div class="info-card highlight">
+            <div class="info-lbl">Gargalo real</div>
+            <div class="info-val gold">Diferenciação + gestão comercial</div>
+          </div>
+          <div class="info-card">
+            <div class="info-lbl">Dificuldades</div>
+            <div class="info-val">Objeções + Fechamento + Pós-venda</div>
+          </div>
+          <div class="info-card">
+            <div class="info-lbl">Contexto</div>
+            <div class="info-val">Nova em Uberlândia, atende em 2 cidades, ótima técnica</div>
+          </div>
+          <div class="info-card full">
+            <div class="info-lbl">Objeção dominante</div>
+            <div class="info-val">"Valor alto / preciso pensar" — falta de desejo construído antes da consulta</div>
+          </div>
+        </div>
+
+        <div class="sec-hd" style="padding: 4px 0 12px">
+          <div class="sec-title">Os 3 erros críticos</div>
+        </div>
+
+        <div class="insight-box" style="margin-bottom:8px">
+          <div class="insight-title">01 · Posicionamento genérico</div>
+          <div class="insight-text">Feed bonito mas sem diferencial claro. Ela parece "mais uma" boa profissional. Sem um motivo pra escolher ELA, o seguidor admira mas não agenda — e hesita no investimento.</div>
+        </div>
+        <div class="insight-box" style="margin-bottom:8px">
+          <div class="insight-title">02 · Falta constância e visibilidade local</div>
+          <div class="insight-text">Posts e stories irregulares, e nova numa cidade onde poucos a conhecem. Sem constância e visibilidade local, o reconhecimento não acontece e o fluxo de pacientes não cresce.</div>
+        </div>
+        <div class="insight-box" style="margin-bottom:14px">
+          <div class="insight-title">03 · Sem gestão comercial</div>
+          <div class="insight-text">Orçamentos em aberto que esfriam, pacientes antigos esquecidos, "vou pensar" sem follow-up. A venda escapa depois da consulta por falta de um processo comercial que capture.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FLUXOGRAMA -->
+    <div class="page" id="page-fluxo">
+      <div class="fluxo-container">
+        <div style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--text3); margin-bottom:14px;">De perfil bonito a máquina comercial</div>
+
+        <div class="flow">
+
+          <div class="flow-step active-step" onclick="showFlowDetail(0)">
+            <div class="flow-num">01 · Base</div>
+            <div class="flow-title">Posicionamento único</div>
+            <div class="flow-sub">O que te torna A escolha, não mais uma?</div>
+          </div>
+
+          <div class="flow-arrow"></div>
+
+          <div class="flow-step" onclick="showFlowDetail(1)">
+            <div class="flow-num">02 · Presença</div>
+            <div class="flow-title">Constância estratégica</div>
+            <div class="flow-sub">Aparecer sempre, com intenção</div>
+          </div>
+
+          <div class="flow-arrow"></div>
+
+          <div class="flow-step" onclick="showFlowDetail(2)">
+            <div class="flow-num">03 · Reconhecimento</div>
+            <div class="flow-title">Visibilidade local</div>
+            <div class="flow-sub">Parcerias e presença nas 2 cidades</div>
+          </div>
+
+          <div class="flow-arrow"></div>
+
+          <div class="flow-step" onclick="showFlowDetail(3)">
+            <div class="flow-num">04 · Converter</div>
+            <div class="flow-title">Gestão comercial</div>
+            <div class="flow-sub">Acompanhar orçamentos e reativar pacientes</div>
+          </div>
+
+          <div class="flow-arrow" style="height:16px;"></div>
+
+          <!-- Split -->
+          <div class="flow-split-bar"></div>
+          <div class="flow-split">
+            <div class="flow-branch">
+              <div class="flow-branch-line"></div>
+              <div class="flow-step green">
+                <div class="flow-num">✓ DESEJA</div>
+                <div class="flow-title">Fecha</div>
+                <div class="flow-sub">Desejo construído converte</div>
+              </div>
+            </div>
+            <div class="flow-branch">
+              <div class="flow-branch-line"></div>
+              <div class="flow-step red" onclick="showFlowDetail(4)">
+                <div class="flow-num">⚠ "Vou pensar"</div>
+                <div class="flow-title">Construir desejo</div>
+                <div class="flow-sub">+ follow-up — toque</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flow-arrow"></div>
+
+          <div class="flow-step" onclick="showFlowDetail(5)">
+            <div class="flow-num">05 · Reter</div>
+            <div class="flow-title">Fidelizar e reter</div>
+            <div class="flow-sub">Base recorrente = viver da harmonização</div>
+          </div>
+
+        </div>
+
+        <!-- Flow detail -->
+        <div id="flow-detail" style="display:none; margin-top:16px; background:var(--gold-dim); border:1px solid var(--gold-border); border-radius:var(--radius-sm); padding:14px;">
+          <div style="font-size:10px; letter-spacing:1.5px; text-transform:uppercase; color:var(--gold); margin-bottom:6px;" id="fd-title"></div>
+          <div style="font-size:13px; color:var(--text); line-height:1.7;" id="fd-text"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PLANO 30 DIAS -->
+    <div class="page" id="page-plano">
+      <div class="plano-pad">
+        <div style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--text3); margin-bottom:14px;">Plano de ação · 30 dias</div>
+
+        <div class="plano-item" id="pi-0">
+          <div class="plano-header" onclick="togglePlano(0)">
+            <div class="plano-num">1</div>
+            <div class="plano-meta">
+              <div class="plano-prazo">Semana 1 · Fundamental</div>
+              <div class="plano-title">Definir seu posicionamento único</div>
+            </div>
+            <div class="plano-chevron">▾</div>
+          </div>
+          <div class="plano-body">
+            <div class="plano-desc">Você já tem técnica e bom conteúdo. Falta o diferencial que te separa das outras e te torna A escolha.</div>
+            <div class="plano-actions">
+              <div class="plano-action">Responder: o que só EU faço/penso/entrego diferente? Qual meu olhar único?</div>
+              <div class="plano-action">Escolher um nicho ou assinatura visual que te diferencie do "genérico bonito"</div>
+              <div class="plano-action">Reescrever a bio e os destaques para comunicar esse diferencial claramente</div>
+              <div class="plano-action">Trazer sua personalidade e opinião para o conteúdo — pessoas seguem pessoas, não catálogos</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="plano-item" id="pi-1">
+          <div class="plano-header" onclick="togglePlano(1)">
+            <div class="plano-num">2</div>
+            <div class="plano-meta">
+              <div class="plano-prazo">Semana 1–2 · Crítico</div>
+              <div class="plano-title">Criar constância com calendário</div>
+            </div>
+            <div class="plano-chevron">▾</div>
+          </div>
+          <div class="plano-body">
+            <div class="plano-desc">O talento isolado não vence a constância. Um calendário de conteúdo tira você do "posto quando lembro".</div>
+            <div class="plano-actions">
+              <div class="plano-action">Montar um calendário semanal simples: o que postar em cada dia (feed e stories)</div>
+              <div class="plano-action">Definir pilares de conteúdo: autoridade, bastidores, resultados, conexão</div>
+              <div class="plano-action">Aparecer nos stories TODOS os dias — presença mantém você na mente do paciente</div>
+              <div class="plano-action">Gravar conteúdo em lote para garantir constância mesmo nos dias corridos</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="plano-item" id="pi-2">
+          <div class="plano-header" onclick="togglePlano(2)">
+            <div class="plano-num">3</div>
+            <div class="plano-meta">
+              <div class="plano-prazo">Semana 2 · Alta prioridade</div>
+              <div class="plano-title">Ganhar visibilidade local</div>
+            </div>
+            <div class="plano-chevron">▾</div>
+          </div>
+          <div class="plano-body">
+            <div class="plano-desc">Você é nova em Uberlândia. Precisa que mais pessoas te conheçam — e parceria local acelera isso.</div>
+            <div class="plano-actions">
+              <div class="plano-action">Fechar parcerias com profissionais complementares (salões, dermato, estética, fotógrafos)</div>
+              <div class="plano-action">Fazer permutas/colaborações com microinfluencers locais das 2 cidades</div>
+              <div class="plano-action">Marcar presença em eventos locais e marcar a localização nos posts</div>
+              <div class="plano-action">Pedir indicação ativa aos pacientes atuais — boca a boca é forte em cidade nova</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="plano-item" id="pi-3">
+          <div class="plano-header" onclick="togglePlano(3)">
+            <div class="plano-num">4</div>
+            <div class="plano-meta">
+              <div class="plano-prazo">Semana 2–3 · Importante</div>
+              <div class="plano-title">Implementar gestão comercial</div>
+            </div>
+            <div class="plano-chevron">▾</div>
+          </div>
+          <div class="plano-body">
+            <div class="plano-desc">A venda escapa depois da consulta. Um processo comercial simples captura o que hoje está esfriando.</div>
+            <div class="plano-actions">
+              <div class="plano-action">Criar uma lista/planilha de orçamentos em aberto e acompanhar cada um</div>
+              <div class="plano-action">Definir um follow-up: contato em 24-48h após o "vou pensar"</div>
+              <div class="plano-action">Reativar pacientes antigos com mensagens pessoais (ver scripts)</div>
+              <div class="plano-action">Trabalhar o DESEJO no conteúdo — paciente que deseja se organiza pra investir</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="plano-item" id="pi-4">
+          <div class="plano-header" onclick="togglePlano(4)">
+            <div class="plano-num">5</div>
+            <div class="plano-meta">
+              <div class="plano-prazo">Semana 3–4 · Estrutural</div>
+              <div class="plano-title">Construir base recorrente (pós-venda)</div>
+            </div>
+            <div class="plano-chevron">▾</div>
+          </div>
+          <div class="plano-body">
+            <div class="plano-desc">O sonho de viver só da harmonização se realiza com pacientes que VOLTAM. Pós-venda é o que constrói essa base.</div>
+            <div class="plano-actions">
+              <div class="plano-action">Contato 7 dias após o procedimento: resultado, foto, feedback</div>
+              <div class="plano-action">Criar um plano de manutenção/retorno para cada paciente</div>
+              <div class="plano-action">Protocolo de indicação — paciente fiel é sua melhor propaganda na cidade nova</div>
+              <div class="plano-action">Grupo VIP ou lista de transmissão para pacientes recorrentes</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <div class="page" id="page-scripts">
+      <div class="script-pad">
+        <div style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--text3); margin-bottom:14px;">Scripts prontos para usar</div>
+
+        <div class="script-item" id="si-0">
+          <div class="script-header" onclick="toggleScript(0)">
+            <div class="script-tag-wrap"><div class="script-tag">Objeção 01</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">"Preciso pensar / me organizar"</div>
+              <div class="script-preview">Toque para ver o script completo</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-label">Como responder</div>
+            <div class="script-text">"Eu entendo totalmente — é um investimento e faz sentido você querer se organizar. Deixa eu te ajudar com isso: a gente pode pensar juntas na melhor forma de você começar dentro do seu momento. Me diz, se a questão for organização financeira, prefere que eu te mostre as opções de parcelamento? Assim você já se planeja com tranquilidade."</div>
+            <button class="copy-btn" onclick="copyScript(0)">📋 Copiar script</button>
+          </div>
+        </div>
+
+        <div class="script-item" id="si-1">
+          <div class="script-header" onclick="toggleScript(1)">
+            <div class="script-tag-wrap"><div class="script-tag">Objeção 02</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">"Vou pensar" (descobrir o motivo)</div>
+              <div class="script-preview">Toque para ver o script completo</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-label">Como responder</div>
+            <div class="script-text">"Claro, pode pensar! Só me deixa entender uma coisa: você tem alguma dúvida sobre o tratamento em si, ou é mais a parte do investimento? Pergunto porque às vezes consigo te ajudar a enxergar o melhor caminho agora, pra você não adiar um resultado que você merece."</div>
+            <button class="copy-btn" onclick="copyScript(1)">📋 Copiar script</button>
+          </div>
+        </div>
+
+        <div class="script-item" id="si-2">
+          <div class="script-header" onclick="toggleScript(2)">
+            <div class="script-tag-wrap"><div class="script-tag">Objeção 03</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">"Valor alto" (ancorar no resultado)</div>
+              <div class="script-preview">Toque para ver o script completo</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-label">Como responder</div>
+            <div class="script-text">"Eu sei que parece um valor alto à primeira vista. Mas pensa comigo: é um resultado que você vai ver e sentir todos os dias, por muito tempo. Não é um gasto, é um investimento em você. E eu vou estar com você em cada etapa. Vamos encontrar um jeito de fazer isso caber no seu momento?"</div>
+            <button class="copy-btn" onclick="copyScript(2)">📋 Copiar script</button>
+          </div>
+        </div>
+
+        <div class="script-item" id="si-3">
+          <div class="script-header" onclick="toggleScript(3)">
+            <div class="script-tag-wrap"><div class="script-tag">Reativação</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">Reativar paciente antigo</div>
+              <div class="script-preview">Toque para ver o script completo</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-label">Como enviar</div>
+            <div class="script-text">"Oi [nome]! Que saudade de você por aqui 🤍 Passando pra saber como você está e te lembrar que sua beleza merece esse cuidado contínuo. Tenho um horário especial essa semana — quer que eu reserve um pra gente colocar seu tratamento em dia?"</div>
+            <button class="copy-btn" onclick="copyScript(3)">📋 Copiar script</button>
+          </div>
+        </div>
+
+        <div style="background: var(--bg2); border-radius: var(--radius); padding: 16px; margin-top: 6px; border: 0.5px solid rgba(255,255,255,0.05);">
+          <div style="font-size:12px; color:var(--gold); font-weight:500; margin-bottom:8px;">💡 Regra de ouro</div>
+          <div style="font-size:13px; color:var(--text2); line-height:1.7;">
+            Você já tem técnica e talento. O que falta é <strong style="color:var(--text)">posicionamento</strong> que te diferencie e <strong style="color:var(--text)">gestão comercial</strong> que converta. Pare de ser "mais uma boa profissional" e vire A referência — com constância, diferencial e follow-up.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- IMAGEM & POSICIONAMENTO -->
+    <div class="page" id="page-imagem">
+      <div class="script-pad">
+        <div style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:var(--text3); margin-bottom:14px;">Imagem &amp; Posicionamento</div>
+
+        <div class="insight-box" style="margin-bottom:14px">
+          <div class="insight-title">✨ A direção em uma frase</div>
+          <div class="insight-text">Menos "influenciadora bonita", mais <em>"médica de referência que você confia no seu rosto"</em>. Sua imagem pessoal é parte do posicionamento — autoridade visual reduz o "preciso pensar".</div>
+        </div>
+
+        <div style="background: rgba(92,186,138,0.06); border: 1px solid rgba(92,186,138,0.25); border-radius: var(--radius); padding: 14px; margin-bottom: 14px;">
+          <div style="font-size:12px; letter-spacing:1px; text-transform:uppercase; color:var(--success); margin-bottom:8px;">✓ O que já funciona muito bem</div>
+          <div style="font-size:13px; color:var(--text2); line-height:1.7;">Você tem ótima desenvoltura na câmera, presença elegante e produção de alto padrão. O blazer de cor forte é uma peça de autoridade — estrutura e presença. Acessórios dourados sofisticados. A base é excelente: o ajuste é fino, não é reforma.</div>
+        </div>
+
+        <div class="insight-box" style="margin-bottom:14px">
+          <div class="insight-title">🎭 Seus dois "modos" hoje</div>
+          <div class="insight-text">Você tem o <em>modo produção</em> (blazer, vídeos gravados — autoridade, ótimo) e o <em>modo bastidores casual</em> (selfies do dia a dia — muito jovem). Hoje o casual está predominando e definindo como te percebem. A direção não é abandonar o leve — é <em>elevar o casual</em> para que, em qualquer foto, você comunique autoridade.</div>
+        </div>
+
+        <div style="font-size:11px; letter-spacing:1.5px; text-transform:uppercase; color:var(--text3); margin: 18px 0 10px;">O que pode amadurecer</div>
+
+        <div class="script-item" id="img-0">
+          <div class="script-header" onclick="toggleImg(0)">
+            <div class="script-tag-wrap"><div class="script-tag">Acessórios</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">Colares: menos é mais</div>
+              <div class="script-preview">Toque para ver a diretriz</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-text" style="font-style:normal;">Sobrepor vários colares finos tem um ar mais jovem e casual. Para autoridade, prefira <strong style="color:var(--text)">um único colar com mais peso</strong> ou uma peça statement sozinha. Menos pontos de atenção = mais sofisticação.</div>
+          </div>
+        </div>
+
+        <div class="script-item" id="img-1">
+          <div class="script-header" onclick="toggleImg(1)">
+            <div class="script-tag-wrap"><div class="script-tag">Decotes</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">Tomara-que-caia → corte estruturado</div>
+              <div class="script-preview">Toque para ver a diretriz</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-text" style="font-style:normal;">Blusas tomara-que-caia sob o blazer puxam para um registro mais jovem. Troque por <strong style="color:var(--text)">camisa de seda, body de gola ou decote em V estruturado</strong> — mantém a elegância com mais maturidade.</div>
+          </div>
+        </div>
+
+        <div class="script-item" id="img-2">
+          <div class="script-header" onclick="toggleImg(2)">
+            <div class="script-tag-wrap"><div class="script-tag">Peças</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">Evitar laços e alcinhas juvenis</div>
+              <div class="script-preview">Toque para ver a diretriz</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-text" style="font-style:normal;">Tops de alcinha com laço no ombro são a peça mais "menina". Prefira <strong style="color:var(--text)">cortes limpos e tecidos encorpados</strong>: alfaiataria leve, sedas, malhas de toque premium. O caimento estruturado comunica autoridade.</div>
+          </div>
+        </div>
+
+        <div class="script-item" id="img-3">
+          <div class="script-header" onclick="toggleImg(3)">
+            <div class="script-tag-wrap"><div class="script-tag">Cabelo</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">Variar além do solto e longo</div>
+              <div class="script-preview">Toque para ver a diretriz</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-text" style="font-style:normal;">Cabelo sempre solto, muito longo e com ondas transmite juventude. <strong style="color:var(--text)">Varie</strong>: um preso elegante, um meio-preso ou um liso mais polido em alguns conteúdos traz contraste de maturidade e sofisticação.</div>
+          </div>
+        </div>
+
+        <div class="script-item" id="img-4">
+          <div class="script-header" onclick="toggleImg(4)">
+            <div class="script-tag-wrap"><div class="script-tag">Calçados</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">Tênis → calçado refinado</div>
+              <div class="script-preview">Toque para ver a diretriz</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-text" style="font-style:normal;">O tênis esportivo branco é o item que mais puxa o look para o casual/juvenil. Num consultório de alto padrão, troque por <strong style="color:var(--text)">mocassim, mule de salto baixo, sapatilha refinada ou scarpin baixo</strong>. O calçado é o detalhe que mais rápido eleva (ou derruba) um look.</div>
+          </div>
+        </div>
+
+        <div class="script-item" id="img-5">
+          <div class="script-header" onclick="toggleImg(5)">
+            <div class="script-tag-wrap"><div class="script-tag">Alfaiataria</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">Estampas amplas → alfaiataria lisa</div>
+              <div class="script-preview">Toque para ver a diretriz</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-text" style="font-style:normal;">Calças de estampa grande (xadrez amplo) têm ar despojado/estudantil. <strong style="color:var(--text)">Alfaiataria lisa</strong> em preto, off-white, camel ou navy comunica muito mais senioridade e ainda valoriza a silhueta. Deixe a estampa para momentos pontuais, não para o dia a dia de atendimento.</div>
+          </div>
+        </div>
+
+        <div class="script-item" id="img-6">
+          <div class="script-header" onclick="toggleImg(6)">
+            <div class="script-tag-wrap"><div class="script-tag">Fotos</div></div>
+            <div class="script-meta">
+              <div class="script-objecao">Menos selfie de espelho</div>
+              <div class="script-preview">Toque para ver a diretriz</div>
+            </div>
+          </div>
+          <div class="script-body">
+            <div class="script-text" style="font-style:normal;">A selfie no espelho com celular é um formato informal por natureza. Intercale com <strong style="color:var(--text)">fotos feitas por terceiros</strong>, mais produzidas — você atendendo, posando com presença, em momentos da rotina clínica. Imagem produzida comunica autoridade; selfie comunica proximidade. Você precisa das duas, mas hoje falta a primeira.</div>
+          </div>
+        </div>
+
+        <div style="background: var(--bg2); border-radius: var(--radius); padding: 16px; margin-top: 14px; border: 0.5px solid rgba(255,255,255,0.05);">
+          <div style="font-size:12px; color:var(--gold); font-weight:500; margin-bottom:8px;">🎨 Sua paleta de autoridade</div>
+          <div style="font-size:13px; color:var(--text2); line-height:1.7; margin-bottom:12px;">
+            Migre para uma paleta mais sóbria e atemporal, mantendo um toque de cor forte como assinatura — não como regra.
+          </div>
+          <div style="display:flex; gap:8px; flex-wrap:wrap;">
+            <div style="text-align:center;"><div style="width:38px;height:38px;border-radius:50%;background:#F2EDE4;border:0.5px solid rgba(255,255,255,0.15);"></div><div style="font-size:9px;color:var(--text3);margin-top:4px;">Off-white</div></div>
+            <div style="text-align:center;"><div style="width:38px;height:38px;border-radius:50%;background:#C19A6B;"></div><div style="font-size:9px;color:var(--text3);margin-top:4px;">Camel</div></div>
+            <div style="text-align:center;"><div style="width:38px;height:38px;border-radius:50%;background:#B5651D;"></div><div style="font-size:9px;color:var(--text3);margin-top:4px;">Terracota</div></div>
+            <div style="text-align:center;"><div style="width:38px;height:38px;border-radius:50%;background:#6E1423;"></div><div style="font-size:9px;color:var(--text3);margin-top:4px;">Vinho</div></div>
+            <div style="text-align:center;"><div style="width:38px;height:38px;border-radius:50%;background:#1a1a2e;border:0.5px solid rgba(255,255,255,0.15);"></div><div style="font-size:9px;color:var(--text3);margin-top:4px;">Preto</div></div>
+            <div style="text-align:center;"><div style="width:38px;height:38px;border-radius:50%;background:#1F2A44;"></div><div style="font-size:9px;color:var(--text3);margin-top:4px;">Navy</div></div>
+          </div>
+        </div>
+
+        <div style="background: rgba(198,164,108,0.06); border: 1px solid var(--gold-border); border-radius: var(--radius); padding: 16px; margin-top: 12px;">
+          <div style="font-size:12px; color:var(--gold); font-weight:500; margin-bottom:8px;">💡 Regra de ouro da imagem</div>
+          <div style="font-size:13px; color:var(--text2); line-height:1.7;">
+            Antes de gravar ou atender, pergunte: <strong style="color:var(--text)">"essa imagem comunica a médica de referência que cuida do rosto de quem investe alto?"</strong>. Se a resposta for "parece mais uma influenciadora", ajuste. Autoridade visual é venda silenciosa.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /scroll -->
+
+  <!-- BOTTOM NAV -->
+  <div class="nav">
+    <div class="nav-item active" id="nav-home" onclick="goPage('home')">
+      <div class="nav-icon">🏠</div>
+      <div class="nav-label">Início</div>
+    </div>
+    <div class="nav-item" id="nav-diag" onclick="goPage('diag')">
+      <div class="nav-icon">🔍</div>
+      <div class="nav-label">Diagnóstico</div>
+    </div>
+    <div class="nav-item" id="nav-fluxo" onclick="goPage('fluxo')">
+      <div class="nav-icon">🗺️</div>
+      <div class="nav-label">Fluxo</div>
+    </div>
+    <div class="nav-item" id="nav-plano" onclick="goPage('plano')">
+      <div class="nav-icon">📋</div>
+      <div class="nav-label">Plano</div>
+    </div>
+    <div class="nav-item" id="nav-scripts" onclick="goPage('scripts')">
+      <div class="nav-icon">💬</div>
+      <div class="nav-label">Scripts</div>
+    </div>
+    <div class="nav-item" id="nav-imagem" onclick="goPage('imagem')">
+      <div class="nav-icon">👗</div>
+      <div class="nav-label">Imagem</div>
+    </div>
+  </div>
+</div>
+
+<!-- NOTIFICATION PANEL -->
+<div class="notif-panel" id="notif-panel">
+  <div class="notif-close" onclick="closeNotif()">✕</div>
+  <div class="notif-title">Lembrete diário 🔔</div>
+  <div class="notif-sub">Escolha o horário para ser lembrada de revisar seu plano e tarefas do dia.</div>
+
+  <div class="notif-time-label">Selecione o horário</div>
+  <div class="time-presets">
+    <div class="time-preset" onclick="selectTime('07:00', this)">
+      <div class="time-val">07:00</div>
+      <div class="time-lbl">Manhã cedo</div>
+    </div>
+    <div class="time-preset" onclick="selectTime('08:30', this)">
+      <div class="time-val">08:30</div>
+      <div class="time-lbl">Antes do consultório</div>
+    </div>
+    <div class="time-preset selected" onclick="selectTime('09:00', this)">
+      <div class="time-val">09:00</div>
+      <div class="time-lbl">Início do dia</div>
+    </div>
+    <div class="time-preset" onclick="selectTime('12:00', this)">
+      <div class="time-val">12:00</div>
+      <div class="time-lbl">Intervalo do almoço</div>
+    </div>
+  </div>
+
+  <div id="notif-status" style="font-size:13px; color:var(--text2); margin-bottom:16px; line-height:1.6; min-height:40px;"></div>
+
+  <button class="notif-btn-activate" onclick="activateNotif()">
+    Ativar lembretes diários
+  </button>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ============ DATA ============
+const TASKS_KEY = 'nathaly_tasks_' + new Date().toDateString();
+const NOTIF_KEY = 'nathaly_notif_time';
+
+const DAILY_TASKS = [
+  { cat: 'Posicionamento', txt: 'Postar conteúdo com a SUA marca/opinião — não genérico. O que só você diria?' },
+  { cat: 'Constância', txt: 'Cumprir o calendário de posts/stories do dia — constância vence talento isolado' },
+  { cat: 'Gestão', txt: 'Reativar 3 pacientes antigos com uma mensagem pessoal e calorosa' },
+  { cat: 'Conversão', txt: 'Acompanhar 1 orçamento em aberto — não deixar o "vou pensar" esfriar' },
+  { cat: 'Cidade', txt: 'Fazer 1 ação de visibilidade local (parceria, marcação, presença)' },
+  { cat: 'Script', txt: 'Treinar o script "preciso pensar / valor alto" em voz alta' },
+];
+
+const FLOW_DETAILS = [
+  { t: '01 · Posicionamento único', d: 'O ponto de partida. Você já tem técnica e bom conteúdo — falta o DIFERENCIAL. O que te torna A escolha, não mais uma? Pode ser seu olhar, sua especialidade, seu jeito, seu público específico. Posicionamento claro é o que separa "perfil bonito" de "autoridade desejada".' },
+  { t: '02 · Constância estratégica', d: 'Postar com constância e com intenção. Não é volume, é consistência alinhada ao posicionamento. Calendário de conteúdo definido, presença diária nos stories, aparecer sempre. Quem sai da mente do paciente, sai da escolha. Constância mantém você presente.' },
+  { t: '03 · Visibilidade local', d: 'Você é nova em Uberlândia e atende em duas cidades. Precisa que mais pessoas te conheçam: parcerias locais, marcações, presença em eventos, colaborações com outros profissionais. Visibilidade local acelera o reconhecimento que o orgânico sozinho levaria meses.' },
+  { t: '04 · Gestão comercial', d: 'Transformar interesse em paciente. Acompanhar orçamentos em aberto, reativar pacientes antigos, ter um processo de follow-up. A venda não termina na consulta — a gestão comercial é o que captura o que hoje está escapando.' },
+  { t: '⚠ "Preciso pensar / valor alto"', d: 'No seu caso, isso raramente é falta de fechamento (você tem segurança). É falta de DESEJO construído antes. Quando o paciente te deseja de verdade, ele se organiza pra investir. Trabalhe o desejo no conteúdo e acompanhe o "vou pensar". Veja os scripts na aba Scripts.' },
+  { t: '05 · Fidelizar e reter', d: 'Você marcou dificuldade no pós-venda — e é aí que mora o ouro. Paciente fidelizado volta, indica e vira sua propaganda. Pós-venda ativo, relacionamento e acompanhamento constroem a base recorrente que te faz viver só da harmonização.' },
+];
+
+// ============ INIT ============
+window.addEventListener('load', () => {
+  setGreeting();
+  setDate();
+  loadTasks();
+  updateProgress();
+  registerSW();
+});
+
+function setGreeting() {
+  const h = new Date().getHours();
+  const el = document.getElementById('greeting');
+  if (h < 12) el.textContent = 'Bom dia';
+  else if (h < 18) el.textContent = 'Boa tarde';
+  else el.textContent = 'Boa noite';
+}
+
+function setDate() {
+  const d = new Date();
+  const opts = { weekday:'long', day:'numeric', month:'long' };
+  document.getElementById('hero-date').textContent = d.toLocaleDateString('pt-BR', opts);
+}
+
+// ============ TASKS ============
+function loadTasks() {
+  const saved = JSON.parse(localStorage.getItem(TASKS_KEY) || '[]');
+  const list = document.getElementById('task-list');
+  list.innerHTML = '';
+  DAILY_TASKS.forEach((t, i) => {
+    const done = saved.includes(i);
+    const el = document.createElement('div');
+    el.className = 'task-item' + (done ? ' done' : '');
+    el.id = 'task-' + i;
+    el.onclick = () => toggleTask(i);
+    el.innerHTML = `
+      <div class="task-check">${done ? '✓' : ''}</div>
+      <div class="task-body">
+        <div class="task-cat">${t.cat}</div>
+        <div class="task-txt">${t.txt}</div>
+      </div>
+    `;
+    list.appendChild(el);
+  });
+}
+
+function toggleTask(i) {
+  const saved = JSON.parse(localStorage.getItem(TASKS_KEY) || '[]');
+  const idx = saved.indexOf(i);
+  if (idx === -1) saved.push(i);
+  else saved.splice(idx, 1);
+  localStorage.setItem(TASKS_KEY, JSON.stringify(saved));
+  loadTasks();
+  updateProgress();
+}
+
+function resetTasks() {
+  localStorage.removeItem(TASKS_KEY);
+  loadTasks();
+  updateProgress();
+  showToast('Tarefas reiniciadas ✓');
+}
+
+function updateProgress() {
+  const saved = JSON.parse(localStorage.getItem(TASKS_KEY) || '[]');
+  const pct = Math.round((saved.length / DAILY_TASKS.length) * 100);
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('progress-pct').textContent = pct + '%';
+}
+
+// ============ NAVIGATION ============
+function goPage(id) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  document.getElementById('page-' + id).classList.add('active');
+  document.getElementById('nav-' + id).classList.add('active');
+  document.getElementById('scroll').scrollTop = 0;
+}
+
+// ============ ACCORDIONS ============
+function togglePlano(i) {
+  const el = document.getElementById('pi-' + i);
+  el.classList.toggle('open');
+}
+
+function toggleScript(i) {
+  const el = document.getElementById('si-' + i);
+  el.classList.toggle('open');
+}
+
+function toggleImg(i) {
+  const el = document.getElementById('img-' + i);
+  el.classList.toggle('open');
+}
+
+// ============ FLOW DETAIL ============
+function showFlowDetail(i) {
+  const d = FLOW_DETAILS[i];
+  document.getElementById('fd-title').textContent = d.t;
+  document.getElementById('fd-text').textContent = d.d;
+  const box = document.getElementById('flow-detail');
+  box.style.display = 'block';
+  box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+// ============ COPY SCRIPTS ============
+const SCRIPTS = [
+  '"Eu entendo totalmente — é um investimento e faz sentido você querer se organizar. Deixa eu te ajudar com isso: a gente pode pensar juntas na melhor forma de você começar dentro do seu momento. Me diz, se a questão for organização financeira, prefere que eu te mostre as opções de parcelamento? Assim você já se planeja com tranquilidade."',
+  '"Claro, pode pensar! Só me deixa entender uma coisa: você tem alguma dúvida sobre o tratamento em si, ou é mais a parte do investimento? Pergunto porque às vezes consigo te ajudar a enxergar o melhor caminho agora, pra você não adiar um resultado que você merece."',
+  '"Eu sei que parece um valor alto à primeira vista. Mas pensa comigo: é um resultado que você vai ver e sentir todos os dias, por muito tempo. Não é um gasto, é um investimento em você. E eu vou estar com você em cada etapa. Vamos encontrar um jeito de fazer isso caber no seu momento?"',
+  '"Oi [nome]! Que saudade de você por aqui 🤍 Passando pra saber como você está e te lembrar que sua beleza merece esse cuidado contínuo. Tenho um horário especial essa semana — quer que eu reserve um pra gente colocar seu tratamento em dia?"',
+];
+
+function copyScript(i) {
+  navigator.clipboard.writeText(SCRIPTS[i]).then(() => {
+    showToast('Script copiado! ✓');
+  }).catch(() => {
+    showToast('Copie manualmente o texto acima');
+  });
+}
+
+// ============ NOTIFICATIONS ============
+let selectedTime = '09:00';
+
+function openNotif() {
+  document.getElementById('notif-panel').classList.add('open');
+  const saved = localStorage.getItem(NOTIF_KEY);
+  if (saved) {
+    document.getElementById('notif-status').textContent = '✅ Lembretes ativos para ' + saved + ' todos os dias.';
+    selectedTime = saved;
+  }
+}
+
+function closeNotif() {
+  document.getElementById('notif-panel').classList.remove('open');
+}
+
+function selectTime(t, el) {
+  selectedTime = t;
+  document.querySelectorAll('.time-preset').forEach(p => p.classList.remove('selected'));
+  el.classList.add('selected');
+}
+
+async function activateNotif() {
+  if (!('Notification' in window)) {
+    document.getElementById('notif-status').textContent = '⚠️ Seu navegador não suporta notificações. Adicione o app à tela inicial para ativar.';
+    return;
+  }
+
+  const perm = await Notification.requestPermission();
+
+  if (perm === 'granted') {
+    localStorage.setItem(NOTIF_KEY, selectedTime);
+    document.getElementById('notif-dot').style.display = 'block';
+    document.getElementById('notif-status').textContent = '✅ Lembretes ativados para ' + selectedTime + ' todos os dias!';
+    scheduleDaily(selectedTime);
+    showToast('Lembrete ativado para ' + selectedTime + ' ✓');
+    setTimeout(closeNotif, 1500);
+  } else {
+    document.getElementById('notif-status').textContent = '⚠️ Permissão negada. Ative as notificações nas configurações do celular.';
+  }
+}
+
+function scheduleDaily(timeStr) {
+  if (!navigator.serviceWorker.controller) return;
+  const [h, m] = timeStr.split(':').map(Number);
+  const now = new Date();
+  const target = new Date();
+  target.setHours(h, m, 0, 0);
+  if (target <= now) target.setDate(target.getDate() + 1);
+  const delay = target - now;
+
+  navigator.serviceWorker.controller.postMessage({
+    type: 'SCHEDULE_NOTIFICATION',
+    title: '✨ Seu plano HOF te espera',
+    body: 'Bom dia, Náthaly! Revise suas tarefas e scripts de hoje.',
+    delay
+  });
+}
+
+// ============ SERVICE WORKER ============
+
+const swCode = `
+self.addEventListener('install', e => self.skipWaiting());
+self.addEventListener('activate', e => self.clients.claim());
+self.addEventListener('notificationclick', e => {
+  e.notification.close();
+  e.waitUntil(clients.matchAll({type:'window'}).then(cl => {
+    for (const c of cl) { if ('focus' in c) return c.focus(); }
+    if (clients.openWindow) return clients.openWindow('./');
+  }));
+});
+self.addEventListener('message', e => {
+  if (e.data && e.data.type === 'SCHEDULE_NOTIFICATION') {
+    const { title, body, delay } = e.data;
+    setTimeout(() => {
+      self.registration.showNotification(title, { body, vibrate:[200,100,200], tag:'nathaly-daily', renotify:true });
+    }, delay || 0);
+  }
+});
+`;
+
+function registerSW() {
+  if ('serviceWorker' in navigator) {
+    const blob = new Blob([swCode], {type:'application/javascript'});
+    const url = URL.createObjectURL(blob);
+    navigator.serviceWorker.register(url).then(reg => {
+      const saved = localStorage.getItem(NOTIF_KEY);
+      if (saved && Notification.permission === 'granted') {
+        document.getElementById('notif-dot').style.display = 'block';
+      }
+    }).catch(err => console.log('SW error', err));
+  }
+}
+
+// ============ TOAST ============
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+</script>
+</body>
+</html>
